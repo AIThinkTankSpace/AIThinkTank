@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/ai-for-corporates/[slug]/page": "app/ai-for-corporates/[slug]/page.js",
+  "/ai-for-corporates/page": "app/ai-for-corporates/page.js",
+  "/ai-for-kids/[slug]/page": "app/ai-for-kids/[slug]/page.js",
+  "/ai-for-kids/page": "app/ai-for-kids/page.js",
+  "/ai-for-teens/[slug]/page": "app/ai-for-teens/[slug]/page.js",
+  "/ai-for-teens/page": "app/ai-for-teens/page.js",
+  "/page": "app/page.js"
+}

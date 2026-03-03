@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/ai-for-teens/layout,_N_T_/ai-for-teens/[slug]/layout,_N_T_/ai-for-teens/[slug]/page,_N_T_/ai-for-teens/learning-from-mistakes-like-ai"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/ai-for-teens/$d$slug/__PAGE__",
+    "/ai-for-teens/$d$slug",
+    "/ai-for-teens",
+    "/_index",
+    "/_head"
+  ]
+}

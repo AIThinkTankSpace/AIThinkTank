@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/ai-for-corporates/[slug]/page": "/ai-for-corporates/[slug]",
+  "/ai-for-corporates/page": "/ai-for-corporates",
+  "/ai-for-kids/[slug]/page": "/ai-for-kids/[slug]",
+  "/ai-for-kids/page": "/ai-for-kids",
+  "/ai-for-teens/[slug]/page": "/ai-for-teens/[slug]",
+  "/ai-for-teens/page": "/ai-for-teens",
+  "/page": "/"
+}

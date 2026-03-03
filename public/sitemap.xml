@@ -32,7 +32,7 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- AI for Kids Articles -->
+  <!-- AI for Kids Articles (12 articles) -->
   <url>
     <loc>https://www.aithinktank.space/ai-for-kids/what-is-ai-and-how-kids-use-it-everyday</loc>
     <lastmod>2025-03-01</lastmod>
@@ -75,8 +75,38 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-kids/how-to-explain-ai-to-a-10-year-old</loc>
+    <lastmod>2025-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-kids/best-free-ai-tools-for-kids-2025</loc>
+    <lastmod>2025-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-kids/ai-and-screen-time-finding-the-balance</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-kids/what-is-generative-ai-explained-for-kids</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-kids/teaching-kids-ai-ethics-right-and-wrong</loc>
+    <lastmod>2025-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-  <!-- AI for Teens Articles -->
+  <!-- AI for Teens Articles (12 articles) -->
   <url>
     <loc>https://www.aithinktank.space/ai-for-teens/why-ai-skills-matter-for-students</loc>
     <lastmod>2025-03-01</lastmod>
@@ -119,8 +149,38 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-teens/how-to-use-chatgpt-for-studying</loc>
+    <lastmod>2025-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-teens/what-is-prompt-engineering-for-teens</loc>
+    <lastmod>2025-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-teens/ai-tools-for-creative-projects</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-teens/ai-vs-human-intelligence-whats-the-difference</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-teens/build-your-first-ai-project-beginner-guide</loc>
+    <lastmod>2025-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-  <!-- AI for Corporates Articles -->
+  <!-- AI for Corporates Articles (12 articles) -->
   <url>
     <loc>https://www.aithinktank.space/ai-for-corporates/ai-roi-reality-check</loc>
     <lastmod>2025-03-01</lastmod>
@@ -160,6 +220,36 @@
   <url>
     <loc>https://www.aithinktank.space/ai-for-corporates/ai-glossary-in-plain-english</loc>
     <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-corporates/chatgpt-at-work-practical-guide-for-professionals</loc>
+    <lastmod>2025-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-corporates/ai-agents-explained-what-business-leaders-need-to-know</loc>
+    <lastmod>2025-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-corporates/how-to-write-an-ai-strategy-for-your-company</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-corporates/ai-and-jobs-what-will-actually-change</loc>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.aithinktank.space/ai-for-corporates/ai-mistakes-companies-make-and-how-to-avoid-them</loc>
+    <lastmod>2025-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

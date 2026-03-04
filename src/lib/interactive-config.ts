@@ -5,7 +5,7 @@ export interface InteractiveItem {
   title: string;
   description: string;
   category: Category;
-  type: "quiz" | "game" | "tool" | "explainer" | "assessment";
+  type: "quiz" | "game" | "tool" | "explainer" | "assessment" | "infographic";
   icon: string;
   duration: string;
   color: string;
@@ -46,6 +46,61 @@ export const interactiveContent: Record<Category, InteractiveItem[]> = {
       duration: "4 min",
       color: "amber",
     },
+    {
+      slug: "infographic-homework-help",
+      title: "AI Homework Help — Visual Guide",
+      description:
+        "A colorful guide to how AI can help with homework the right way. See the do's, don'ts, and best tools at a glance!",
+      category: "ai-for-kids",
+      type: "infographic",
+      icon: "📚",
+      duration: "3 min",
+      color: "amber",
+    },
+    {
+      slug: "infographic-learning-apps",
+      title: "Best AI Learning Apps for Kids",
+      description:
+        "Discover the top AI-powered learning apps of 2026 in this visual guide — with ratings, age groups, and parent tips.",
+      category: "ai-for-kids",
+      type: "infographic",
+      icon: "📱",
+      duration: "3 min",
+      color: "amber",
+    },
+    {
+      slug: "infographic-coding-for-kids",
+      title: "How Kids Can Learn Coding with AI",
+      description:
+        "A step-by-step visual journey showing how AI makes learning to code fun, easy, and age-appropriate.",
+      category: "ai-for-kids",
+      type: "infographic",
+      icon: "💻",
+      duration: "3 min",
+      color: "amber",
+    },
+    {
+      slug: "infographic-parental-controls",
+      title: "Parental Controls for AI Apps",
+      description:
+        "Your visual checklist for keeping AI apps safe for kids — platform-by-platform setup guides and safety tiers.",
+      category: "ai-for-kids",
+      type: "infographic",
+      icon: "🛡️",
+      duration: "3 min",
+      color: "amber",
+    },
+    {
+      slug: "infographic-voice-assistants",
+      title: "Should Kids Use Voice Assistants?",
+      description:
+        "Alexa, Siri, Google — are they safe for kids? See the benefits, risks, and smart setup tips in this visual guide.",
+      category: "ai-for-kids",
+      type: "infographic",
+      icon: "🗣️",
+      duration: "3 min",
+      color: "amber",
+    },
   ],
   "ai-for-teens": [
     {
@@ -81,6 +136,61 @@ export const interactiveContent: Record<Category, InteractiveItem[]> = {
       duration: "4 min",
       color: "blue",
     },
+    {
+      slug: "infographic-college-apps",
+      title: "AI for College Applications",
+      description:
+        "How to use AI in your college essays without getting flagged. Red flags, smart prompts, and a 5-week writing roadmap.",
+      category: "ai-for-teens",
+      type: "infographic",
+      icon: "🎓",
+      duration: "4 min",
+      color: "blue",
+    },
+    {
+      slug: "infographic-ai-portfolio",
+      title: "Build Your AI Portfolio",
+      description:
+        "A visual guide to building a portfolio that impresses colleges and recruiters — with project ideas and a 3-month timeline.",
+      category: "ai-for-teens",
+      type: "infographic",
+      icon: "📁",
+      duration: "4 min",
+      color: "blue",
+    },
+    {
+      slug: "infographic-internships",
+      title: "AI Internships & Competitions",
+      description:
+        "Real paid opportunities and competitions for high schoolers — with India-specific platforms, earnings, and action plans.",
+      category: "ai-for-teens",
+      type: "infographic",
+      icon: "💰",
+      duration: "4 min",
+      color: "blue",
+    },
+    {
+      slug: "infographic-ai-bias",
+      title: "Understanding AI Bias",
+      description:
+        "Why all AI systems are biased, how to spot it, and what you can do about it — with real-world examples that matter to teens.",
+      category: "ai-for-teens",
+      type: "infographic",
+      icon: "⚖️",
+      duration: "4 min",
+      color: "blue",
+    },
+    {
+      slug: "infographic-board-exams",
+      title: "AI Tools for Board Exam Prep",
+      description:
+        "A visual study plan using AI tools for CBSE, ICSE, and state boards — subject-by-subject strategies and a 3-month roadmap.",
+      category: "ai-for-teens",
+      type: "infographic",
+      icon: "📝",
+      duration: "4 min",
+      color: "blue",
+    },
   ],
   "ai-for-corporates": [
     {
@@ -113,6 +223,61 @@ export const interactiveContent: Record<Category, InteractiveItem[]> = {
       category: "ai-for-corporates",
       type: "tool",
       icon: "🎯",
+      duration: "4 min",
+      color: "slate",
+    },
+    {
+      slug: "infographic-hr-recruitment",
+      title: "AI in HR & Recruitment",
+      description:
+        "Where AI works in hiring, critical mistakes to avoid, and an ethical framework — in one visual executive brief.",
+      category: "ai-for-corporates",
+      type: "infographic",
+      icon: "👥",
+      duration: "4 min",
+      color: "slate",
+    },
+    {
+      slug: "infographic-governance",
+      title: "AI Governance Framework",
+      description:
+        "The four pillars of AI governance for small businesses — classification, approvals, data standards, and monitoring.",
+      category: "ai-for-corporates",
+      type: "infographic",
+      icon: "⚖️",
+      duration: "4 min",
+      color: "slate",
+    },
+    {
+      slug: "infographic-security-privacy",
+      title: "AI Security & Data Privacy",
+      description:
+        "Five real risks, a privacy framework, and actionable checklists for business leaders — in executive brief format.",
+      category: "ai-for-corporates",
+      type: "infographic",
+      icon: "🔒",
+      duration: "4 min",
+      color: "slate",
+    },
+    {
+      slug: "infographic-ai-culture",
+      title: "Building an AI-First Culture",
+      description:
+        "Three phases from activation to normalization — with a 90-day culture roadmap and common concerns addressed.",
+      category: "ai-for-corporates",
+      type: "infographic",
+      icon: "🌱",
+      duration: "4 min",
+      color: "slate",
+    },
+    {
+      slug: "infographic-measuring-success",
+      title: "Measuring AI Success",
+      description:
+        "A three-layer measurement framework — adoption, quality, and business impact — with timelines and common mistakes.",
+      category: "ai-for-corporates",
+      type: "infographic",
+      icon: "📈",
       duration: "4 min",
       color: "slate",
     },

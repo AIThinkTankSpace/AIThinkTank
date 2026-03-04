@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getArticleBySlug, getArticlesByCategory } from "@/lib/articles";
 import { hubConfigs } from "@/lib/hub-config";
 import NewsletterCTA from "@/components/NewsletterCTA";
+import ShareButton from "@/components/ShareButton";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 
 const CATEGORY = "ai-for-kids" as const;
@@ -90,9 +91,15 @@ export default async function ArticlePage({
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
             {article.title}
           </h1>
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-lg text-gray-600 leading-relaxed mb-4">
             {article.description}
           </p>
+          <ShareButton
+            title={article.title}
+            description={article.description}
+            url={`https://www.aithinktank.space/${CATEGORY}/${article.slug}`}
+            variant="kids"
+          />
         </div>
 
         {/* Article Content */}

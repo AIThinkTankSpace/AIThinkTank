@@ -7,6 +7,7 @@ const typeLabels: Record<InteractiveItem["type"], string> = {
   tool: "Interactive Tool",
   explainer: "Explainer",
   assessment: "Assessment",
+  infographic: "Infographic",
 };
 
 const colorMap: Record<string, { border: string; bg: string; badge: string; button: string; accent: string }> = {

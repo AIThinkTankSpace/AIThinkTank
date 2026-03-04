@@ -1,18 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-gray-950 text-gray-400">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <h3 className="text-white text-lg font-bold mb-3">
-              AI<span className="text-blue-400">Think</span>Tank
-            </h3>
-            <p className="text-sm text-gray-400 leading-relaxed">
+            <Image src="/logo.svg" alt="AI Think Tank" width={140} height={32} className="mb-4 brightness-110" />
+            <p className="text-sm text-gray-500 leading-relaxed">
               Making AI accessible for everyone — kids, teens, and professionals.
               Free, practical, and jargon-free.
             </p>
@@ -20,36 +19,36 @@ export default function Footer() {
 
           {/* Hubs */}
           <div>
-            <h4 className="text-white text-sm font-semibold mb-3 uppercase tracking-wider">Explore</h4>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/ai-for-kids" className="hover:text-amber-400 transition-colors">AI for Kids</Link></li>
-              <li><Link href="/ai-for-teens" className="hover:text-blue-400 transition-colors">AI for Teens</Link></li>
-              <li><Link href="/ai-for-corporates" className="hover:text-green-400 transition-colors">AI for Corporates</Link></li>
+            <h4 className="text-teal-400 text-xs font-semibold mb-4 uppercase tracking-widest">Explore</h4>
+            <ul className="space-y-2.5 text-sm">
+              <li><Link href="/ai-for-kids" className="hover:text-teal-300 transition-colors">AI for Kids</Link></li>
+              <li><Link href="/ai-for-teens" className="hover:text-teal-300 transition-colors">AI for Teens</Link></li>
+              <li><Link href="/ai-for-corporates" className="hover:text-teal-300 transition-colors">AI for Corporates</Link></li>
             </ul>
           </div>
 
           {/* Resources */}
           <div>
-            <h4 className="text-white text-sm font-semibold mb-3 uppercase tracking-wider">Resources</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="text-teal-400 text-xs font-semibold mb-4 uppercase tracking-widest">Resources</h4>
+            <ul className="space-y-2.5 text-sm">
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><a href="https://youtube.com/@aithinktank" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">YouTube Channel</a></li>
+              <li><a href="https://youtube.com/@aithinktank" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></li>
             </ul>
           </div>
 
           {/* Newsletter */}
           <div>
-            <h4 className="text-white text-sm font-semibold mb-3 uppercase tracking-wider">Stay Updated</h4>
-            <p className="text-sm text-gray-400 mb-3">Get one good AI insight per week. No spam, ever.</p>
+            <h4 className="text-teal-400 text-xs font-semibold mb-4 uppercase tracking-widest">Stay Updated</h4>
+            <p className="text-sm text-gray-500 mb-3">Get one good AI insight per week. No spam, ever.</p>
             <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
               <input
                 type="email"
                 placeholder="your@email.com"
-                className="flex-1 px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-sm text-white placeholder-gray-500 focus:outline-none focus:border-blue-500"
+                className="flex-1 px-3 py-2 bg-gray-900 border border-gray-800 rounded-lg text-sm text-white placeholder-gray-600 focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500/20 transition-colors"
               />
               <button
                 type="submit"
-                className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-4 py-2 bg-teal-600 text-white text-sm font-medium rounded-lg hover:bg-teal-500 transition-colors"
               >
                 Join
               </button>
@@ -57,8 +56,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} AI Think Tank. All rights reserved. | <Link href="https://www.aithinktank.space" className="hover:text-white">www.aithinktank.space</Link></p>
+        <div className="border-t border-gray-800/50 mt-12 pt-6 text-center text-sm text-gray-600">
+          <p>&copy; {new Date().getFullYear()} AI Think Tank. All rights reserved. | <Link href="https://www.aithinktank.space" className="hover:text-teal-400 transition-colors">www.aithinktank.space</Link></p>
         </div>
       </div>
     </footer>

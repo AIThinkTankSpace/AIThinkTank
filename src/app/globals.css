@@ -1,30 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  /* Shared brand */
-  --color-brand-dark: #1a1a2e;
-  --color-brand-light: #f8f9fa;
+  /* ===== UNIFIED BRAND PALETTE (from logo teal) ===== */
+  --color-brand-teal: #14B8A6;
+  --color-brand-teal-light: #5EEAD4;
+  --color-brand-teal-dark: #0D9488;
+  --color-brand-dark: #0B1120;
+  --color-brand-navy: #111827;
+  --color-brand-surface: #F0FDFA;
+  --color-brand-white: #FAFFFE;
 
-  /* Kids Hub - Warm, curious, National Geographic Kids feel */
-  --color-kids-primary: #f59e0b;
-  --color-kids-secondary: #fbbf24;
-  --color-kids-accent: #f97316;
-  --color-kids-bg: #fffbeb;
-  --color-kids-text: #78350f;
-
-  /* Teens Hub - Sleek, modern, aspirational */
-  --color-teens-primary: #3b82f6;
-  --color-teens-secondary: #60a5fa;
-  --color-teens-accent: #8b5cf6;
-  --color-teens-bg: #eff6ff;
-  --color-teens-text: #1e3a5f;
-
-  /* Corporate Hub - Clean, professional, trustworthy */
-  --color-corp-primary: #0f4c81;
-  --color-corp-secondary: #1e6bb8;
-  --color-corp-accent: #059669;
-  --color-corp-bg: #f0f4f8;
-  --color-corp-text: #1a202c;
+  /* Hub accents (subtle differentiation within teal family) */
+  --color-kids-accent: #F59E0B;
+  --color-teens-accent: #6366F1;
+  --color-corp-accent: #0EA5E9;
 
   --font-heading: "Inter", "Segoe UI", sans-serif;
   --font-body: "Inter", "Segoe UI", sans-serif;
@@ -38,15 +27,17 @@ body {
   font-family: var(--font-body);
   color: #1a1a2e;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Article content styling */
+/* ===== ARTICLE CONTENT STYLING ===== */
 .article-content h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 1rem;
   line-height: 1.3;
+  color: #0F172A;
 }
 
 .article-content h3 {
@@ -54,11 +45,13 @@ body {
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
+  color: #1E293B;
 }
 
 .article-content p {
   margin-bottom: 1.25rem;
   line-height: 1.8;
+  color: #475569;
 }
 
 .article-content ul,
@@ -70,6 +63,7 @@ body {
 .article-content li {
   margin-bottom: 0.5rem;
   line-height: 1.7;
+  color: #475569;
 }
 
 .article-content ul li {
@@ -82,17 +76,31 @@ body {
 
 .article-content strong {
   font-weight: 700;
+  color: #1E293B;
 }
 
 .article-content blockquote {
-  border-left: 4px solid #e5e7eb;
-  padding-left: 1rem;
+  border-left: 3px solid #14B8A6;
+  padding-left: 1.25rem;
   margin: 1.5rem 0;
-  color: #6b7280;
+  color: #64748B;
   font-style: italic;
+  background: #F0FDFA;
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
 }
 
-/* Hub-specific article styles */
-.hub-kids .article-content h2 { color: #b45309; }
-.hub-teens .article-content h2 { color: #1d4ed8; }
-.hub-corp .article-content h2 { color: #0f4c81; }
+.article-content a {
+  color: #0D9488;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.article-content a:hover {
+  color: #14B8A6;
+}
+
+/* Hub-specific heading accents */
+.hub-kids .article-content h2 { color: #0F172A; border-left: 3px solid #F59E0B; padding-left: 0.75rem; }
+.hub-teens .article-content h2 { color: #0F172A; border-left: 3px solid #6366F1; padding-left: 0.75rem; }
+.hub-corp .article-content h2 { color: #0F172A; border-left: 3px solid #0EA5E9; padding-left: 0.75rem; }

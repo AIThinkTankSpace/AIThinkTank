@@ -13,6 +13,7 @@ export interface HubConfig {
   badgeClass: string;
   buttonClass: string;
   icon: string;
+  accentColor: string;
 }
 
 export const hubConfigs: Record<Category, HubConfig> = {
@@ -24,13 +25,14 @@ export const hubConfigs: Record<Category, HubConfig> = {
       "Give your child a head start in an AI world. Fun, safe, and educational AI content designed for parents and kids to explore together.",
     heroDescription:
       "Discover the world of Artificial Intelligence through fun activities, interactive explainers, and engaging stories. Built for curious families who want to understand AI together.",
-    colorClass: "text-amber-600",
-    bgClass: "bg-amber-50",
-    textClass: "text-amber-900",
-    borderClass: "border-amber-200",
+    colorClass: "text-teal-600",
+    bgClass: "bg-teal-50/50",
+    textClass: "text-gray-900",
+    borderClass: "border-teal-200",
     badgeClass: "bg-amber-100 text-amber-700",
-    buttonClass: "bg-amber-500 hover:bg-amber-600 text-white",
+    buttonClass: "bg-teal-500 hover:bg-teal-600 text-white",
     icon: "🔭",
+    accentColor: "#F59E0B",
   },
   "ai-for-teens": {
     category: "ai-for-teens",
@@ -40,13 +42,14 @@ export const hubConfigs: Record<Category, HubConfig> = {
       "The skills your school isn't teaching you — yet. AI tools, study hacks, and career insights for the next generation of innovators.",
     heroDescription:
       "Master AI tools that boost your grades, explore careers of the future, and build skills that top employers want. Your competitive edge starts here.",
-    colorClass: "text-blue-600",
-    bgClass: "bg-blue-50",
-    textClass: "text-blue-900",
-    borderClass: "border-blue-200",
-    badgeClass: "bg-blue-100 text-blue-700",
-    buttonClass: "bg-blue-500 hover:bg-blue-600 text-white",
+    colorClass: "text-teal-600",
+    bgClass: "bg-teal-50/50",
+    textClass: "text-gray-900",
+    borderClass: "border-teal-200",
+    badgeClass: "bg-indigo-100 text-indigo-700",
+    buttonClass: "bg-teal-500 hover:bg-teal-600 text-white",
     icon: "🚀",
+    accentColor: "#6366F1",
   },
   "ai-for-corporates": {
     category: "ai-for-corporates",
@@ -56,12 +59,13 @@ export const hubConfigs: Record<Category, HubConfig> = {
       "Understand AI in plain English. Use it at work this week. Practical AI guidance for non-technical professionals.",
     heroDescription:
       "Cut through the hype. Real frameworks, real case studies, and real results for business leaders who want AI to actually deliver ROI.",
-    colorClass: "text-slate-700",
-    bgClass: "bg-slate-50",
-    textClass: "text-slate-900",
-    borderClass: "border-slate-200",
-    badgeClass: "bg-slate-100 text-slate-700",
-    buttonClass: "bg-slate-700 hover:bg-slate-800 text-white",
+    colorClass: "text-teal-700",
+    bgClass: "bg-teal-50/50",
+    textClass: "text-gray-900",
+    borderClass: "border-teal-200",
+    badgeClass: "bg-sky-100 text-sky-700",
+    buttonClass: "bg-teal-600 hover:bg-teal-700 text-white",
     icon: "📊",
+    accentColor: "#0EA5E9",
   },
 };

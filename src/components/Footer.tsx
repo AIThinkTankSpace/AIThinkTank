@@ -10,7 +10,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Image src="/logo.svg" alt="AI Think Tank" width={140} height={32} className="mb-4 brightness-110" />
+            <div className="flex items-center gap-2.5 mb-4">
+              <Image src="/logo.png" alt="AI Think Tank" width={40} height={40} className="rounded-lg brightness-110" />
+              <span className="text-white font-bold text-lg tracking-tight">AI Think Tank</span>
+            </div>
             <p className="text-sm text-gray-500 leading-relaxed">
               Making AI accessible for everyone — kids, teens, and professionals.
               Free, practical, and jargon-free.

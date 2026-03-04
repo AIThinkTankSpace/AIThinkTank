@@ -13,7 +13,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5">
-            <Image src="/logo.svg" alt="AI Think Tank" width={160} height={36} priority />
+            <Image src="/logo.png" alt="AI Think Tank" width={44} height={44} className="rounded-lg" priority />
+            <span className="text-lg font-bold text-gray-900 tracking-tight">AI Think Tank</span>
           </Link>
 
           {/* Desktop nav */}

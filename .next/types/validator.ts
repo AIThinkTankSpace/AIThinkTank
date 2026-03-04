@@ -54,6 +54,33 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../src/app/ai-for-corporates/explore/ai-readiness-assessment/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-corporates/explore/ai-readiness-assessment">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-corporates/explore/ai-readiness-assessment/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-corporates/explore/jargon-decoder/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-corporates/explore/jargon-decoder">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-corporates/explore/jargon-decoder/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-corporates/explore/use-case-finder/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-corporates/explore/use-case-finder">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-corporates/explore/use-case-finder/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/ai-for-corporates/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/ai-for-corporates">> = Specific
@@ -72,6 +99,33 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../src/app/ai-for-kids/explore/ai-explorer-quiz/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-kids/explore/ai-explorer-quiz">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-kids/explore/ai-explorer-quiz/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-kids/explore/how-ai-learns/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-kids/explore/how-ai-learns">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-kids/explore/how-ai-learns/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-kids/explore/spot-the-ai/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-kids/explore/spot-the-ai">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-kids/explore/spot-the-ai/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/ai-for-kids/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/ai-for-kids">> = Specific
@@ -85,6 +139,33 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/ai-for-teens/[slug]">> = Specific
   const handler = {} as typeof import("../../src/app/ai-for-teens/[slug]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-teens/explore/ai-readiness-quiz/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-teens/explore/ai-readiness-quiz">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-teens/explore/ai-readiness-quiz/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-teens/explore/career-explorer/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-teens/explore/career-explorer">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-teens/explore/career-explorer/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/ai-for-teens/explore/prompt-playground/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/ai-for-teens/explore/prompt-playground">> = Specific
+  const handler = {} as typeof import("../../src/app/ai-for-teens/explore/prompt-playground/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

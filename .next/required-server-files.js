@@ -67,7 +67,7 @@ self.__SERVER_FILES_MANIFEST={
       "qualities": [
         75
       ],
-      "unoptimized": true
+      "unoptimized": false
     },
     "devIndicators": {
       "position": "bottom-left"
@@ -92,7 +92,6 @@ self.__SERVER_FILES_MANIFEST={
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
-    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -101,7 +100,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/sessions/modest-busy-edison/aithinktank-site",
+    "outputFileTracingRoot": "/sessions/modest-busy-edison/mnt/AiThinkTank/aithinktank-site",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -294,11 +293,11 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/sessions/modest-busy-edison/aithinktank-site"
+      "root": "/sessions/modest-busy-edison/mnt/AiThinkTank/aithinktank-site"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/sessions/modest-busy-edison/aithinktank-site",
+  "appDir": "/sessions/modest-busy-edison/mnt/AiThinkTank/aithinktank-site",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

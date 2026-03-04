@@ -74,6 +74,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-corporates/ai-agents-explained-what-business-leaders-need-to-know": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/ai-agents-explained-what-business-leaders-need-to-know.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/ai-and-jobs-what-will-actually-change": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/ai-and-jobs-what-will-actually-change.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/ai-for-hr-recruitment-and-talent-management": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/ai-for-hr-recruitment-and-talent-management.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-corporates/ai-glossary-in-plain-english": {
       "experimentalBypassFor": [
         {
@@ -89,6 +161,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-corporates/[slug]",
       "dataRoute": "/ai-for-corporates/ai-glossary-in-plain-english.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/ai-governance-framework-for-small-businesses": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/ai-governance-framework-for-small-businesses.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/ai-mistakes-companies-make-and-how-to-avoid-them": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/ai-mistakes-companies-make-and-how-to-avoid-them.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -122,6 +242,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-corporates/ai-security-and-data-privacy-for-business-leaders": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/ai-security-and-data-privacy-for-business-leaders.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-corporates/ai-tools-any-manager-can-use-today": {
       "experimentalBypassFor": [
         {
@@ -146,6 +290,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-corporates/building-an-ai-first-culture-in-your-company": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/building-an-ai-first-culture-in-your-company.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/chatgpt-at-work-practical-guide-for-professionals": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/chatgpt-at-work-practical-guide-for-professionals.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-corporates/data-foundation-for-ai-success": {
       "experimentalBypassFor": [
         {
@@ -161,6 +353,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-corporates/[slug]",
       "dataRoute": "/ai-for-corporates/data-foundation-for-ai-success.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/how-to-measure-ai-success-in-your-organization": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/how-to-measure-ai-success-in-your-organization.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/how-to-write-an-ai-strategy-for-your-company": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/[slug]",
+      "dataRoute": "/ai-for-corporates/how-to-write-an-ai-strategy-for-your-company.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -242,6 +482,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-corporates/explore/ai-readiness-assessment": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/explore/ai-readiness-assessment",
+      "dataRoute": "/ai-for-corporates/explore/ai-readiness-assessment.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/explore/jargon-decoder": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/explore/jargon-decoder",
+      "dataRoute": "/ai-for-corporates/explore/jargon-decoder.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-corporates/explore/use-case-finder": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-corporates/explore/use-case-finder",
+      "dataRoute": "/ai-for-corporates/explore/use-case-finder.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-corporates": {
       "experimentalBypassFor": [
         {
@@ -257,6 +569,78 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-corporates",
       "dataRoute": "/ai-for-corporates.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/ai-and-screen-time-finding-the-balance": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/ai-and-screen-time-finding-the-balance.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/ai-homework-help-for-elementary-students": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/ai-homework-help-for-elementary-students.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/ai-powered-learning-apps-for-kids-2026": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/ai-powered-learning-apps-for-kids-2026.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -305,6 +689,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-kids/[slug]",
       "dataRoute": "/ai-for-kids/ai-projects-kids-can-try-at-home.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/best-free-ai-tools-for-kids-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/best-free-ai-tools-for-kids-2025.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -386,6 +794,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-kids/how-kids-can-use-ai-to-learn-coding": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/how-kids-can-use-ai-to-learn-coding.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/how-to-explain-ai-to-a-10-year-old": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/how-to-explain-ai-to-a-10-year-old.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-kids/is-chatgpt-safe-for-children": {
       "experimentalBypassFor": [
         {
@@ -410,6 +866,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-kids/parental-controls-for-ai-apps": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/parental-controls-for-ai-apps.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/should-kids-use-voice-assistants-like-alexa": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/should-kids-use-voice-assistants-like-alexa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/teaching-kids-ai-ethics-right-and-wrong": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/teaching-kids-ai-ethics-right-and-wrong.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-kids/what-is-ai-and-how-kids-use-it-everyday": {
       "experimentalBypassFor": [
         {
@@ -425,6 +953,102 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-kids/[slug]",
       "dataRoute": "/ai-for-kids/what-is-ai-and-how-kids-use-it-everyday.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/what-is-generative-ai-explained-for-kids": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/[slug]",
+      "dataRoute": "/ai-for-kids/what-is-generative-ai-explained-for-kids.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/explore/ai-explorer-quiz": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/explore/ai-explorer-quiz",
+      "dataRoute": "/ai-for-kids/explore/ai-explorer-quiz.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/explore/how-ai-learns": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/explore/how-ai-learns",
+      "dataRoute": "/ai-for-kids/explore/how-ai-learns.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-kids/explore/spot-the-ai": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-kids/explore/spot-the-ai",
+      "dataRoute": "/ai-for-kids/explore/spot-the-ai.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -482,6 +1106,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-teens/ai-for-college-applications-and-essays": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/ai-for-college-applications-and-essays.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-teens/ai-for-homework-without-cheating": {
       "experimentalBypassFor": [
         {
@@ -497,6 +1145,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-teens/[slug]",
       "dataRoute": "/ai-for-teens/ai-for-homework-without-cheating.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/ai-internships-and-competitions-for-teens": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/ai-internships-and-competitions-for-teens.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -530,6 +1202,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-teens/ai-tools-for-board-exam-preparation": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/ai-tools-for-board-exam-preparation.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/ai-tools-for-creative-projects": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/ai-tools-for-creative-projects.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/ai-vs-human-intelligence-whats-the-difference": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/ai-vs-human-intelligence-whats-the-difference.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-teens/best-ai-study-tools-for-students": {
       "experimentalBypassFor": [
         {
@@ -545,6 +1289,78 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-teens/[slug]",
       "dataRoute": "/ai-for-teens/best-ai-study-tools-for-students.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/build-your-first-ai-project-beginner-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/build-your-first-ai-project-beginner-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/how-to-build-an-ai-portfolio-for-college": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/how-to-build-an-ai-portfolio-for-college.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/how-to-use-chatgpt-for-studying": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/how-to-use-chatgpt-for-studying.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -602,6 +1418,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ai-for-teens/understanding-ai-bias-a-teen-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/understanding-ai-bias-a-teen-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/what-is-prompt-engineering-for-teens": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/[slug]",
+      "dataRoute": "/ai-for-teens/what-is-prompt-engineering-for-teens.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ai-for-teens/why-ai-skills-matter-for-students": {
       "experimentalBypassFor": [
         {
@@ -617,6 +1481,78 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/ai-for-teens/[slug]",
       "dataRoute": "/ai-for-teens/why-ai-skills-matter-for-students.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/explore/ai-readiness-quiz": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/explore/ai-readiness-quiz",
+      "dataRoute": "/ai-for-teens/explore/ai-readiness-quiz.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/explore/career-explorer": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/explore/career-explorer",
+      "dataRoute": "/ai-for-teens/explore/career-explorer.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ai-for-teens/explore/prompt-playground": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-for-teens/explore/prompt-playground",
+      "dataRoute": "/ai-for-teens/explore/prompt-playground.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",

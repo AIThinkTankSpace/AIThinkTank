@@ -34,6 +34,7 @@ export default function Footer() {
           <div>
             <h4 className="text-teal-400 text-xs font-semibold mb-4 uppercase tracking-widest">Resources</h4>
             <ul className="space-y-2.5 text-sm">
+              <li><Link href="/downloads" className="hover:text-teal-300 transition-colors">Free Downloads</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
               <li><a href="https://youtube.com/@aithinktank" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></li>
             </ul>

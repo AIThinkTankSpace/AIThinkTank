@@ -85,7 +85,7 @@ export default function AboutPage() {
 
             <p className="leading-relaxed text-gray-500">
               Follow us on{" "}
-              <a href="https://youtube.com/@aithinktank" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 underline underline-offset-2">
+              <a href="https://www.youtube.com/@AI-Think-Tank-Space" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 underline underline-offset-2">
                 YouTube
               </a>{" "}
               for video content, or explore our hubs to start learning today.

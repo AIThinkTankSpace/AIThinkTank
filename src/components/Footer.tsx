@@ -35,7 +35,7 @@ export default function Footer() {
             <h4 className="text-teal-400 text-xs font-semibold mb-4 uppercase tracking-widest">Resources</h4>
             <ul className="space-y-2.5 text-sm">
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><a href="https://youtube.com/@aithinktank" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></li>
+              <li><a href="https://www.youtube.com/@AI-Think-Tank-Space" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></li>
             </ul>
           </div>
 

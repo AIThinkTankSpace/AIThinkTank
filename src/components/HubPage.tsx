@@ -5,6 +5,7 @@ import { getInteractivesByCategory } from "@/lib/interactive-config";
 import ArticleCard from "./ArticleCard";
 import InteractiveCard from "./InteractiveCard";
 import NewsletterCTA from "./NewsletterCTA";
+import CrossPromoStrip from "./CrossPromoStrip";
 
 const sectionLabels: Record<Category, { interactive: string; articles: string }> = {
   "ai-for-kids": {
@@ -72,10 +73,10 @@ export default function HubPage({ category }: { category: Category }) {
         </section>
       )}
 
-      {/* Divider */}
-      {interactives.length > 0 && articles.length > 0 && (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <hr className="border-gray-100" />
+      {/* Cross-promo strip between sections */}
+      {interactives.length > 0 && (
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+          <CrossPromoStrip index={0} />
         </div>
       )}
 
@@ -109,6 +110,11 @@ export default function HubPage({ category }: { category: Category }) {
           )}
         </div>
       </section>
+
+      {/* Second cross-promo strip */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+        <CrossPromoStrip index={1} />
+      </div>
 
       {/* Newsletter */}
       <section className="py-12">

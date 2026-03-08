@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingPromoBar from "@/components/FloatingPromoBar";
 import { WebsiteJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
@@ -52,6 +53,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <FloatingPromoBar />
       </body>
     </html>
   );

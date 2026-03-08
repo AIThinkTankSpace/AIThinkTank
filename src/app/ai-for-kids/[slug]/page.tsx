@@ -5,6 +5,7 @@ import { getArticleBySlug, getArticlesByCategory } from "@/lib/articles";
 import { hubConfigs } from "@/lib/hub-config";
 import NewsletterCTA from "@/components/NewsletterCTA";
 import ShareButton from "@/components/ShareButton";
+import CrossPromoStrip from "@/components/CrossPromoStrip";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 
 const CATEGORY = "ai-for-kids" as const;
@@ -110,6 +111,11 @@ export default async function ArticlePage({
           />
         </div>
       </article>
+
+      {/* Cross-promo */}
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6">
+        <CrossPromoStrip index={0} />
+      </div>
 
       {/* Newsletter */}
       <section className="py-12 bg-gray-50">

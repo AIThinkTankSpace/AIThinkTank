@@ -104,3 +104,12 @@ body {
 .hub-kids .article-content h2 { color: #0F172A; border-left: 3px solid #F59E0B; padding-left: 0.75rem; }
 .hub-teens .article-content h2 { color: #0F172A; border-left: 3px solid #6366F1; padding-left: 0.75rem; }
 .hub-corp .article-content h2 { color: #0F172A; border-left: 3px solid #0EA5E9; padding-left: 0.75rem; }
+
+/* ===== CROSS-PROMO ANIMATIONS ===== */
+@keyframes slide-up {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-slide-up {
+  animation: slide-up 0.4s ease-out forwards;
+}

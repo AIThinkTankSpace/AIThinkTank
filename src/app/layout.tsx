@@ -40,6 +40,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: "https://www.aithinktank.space",
+  },
+  metadataBase: new URL("https://www.aithinktank.space"),
 };
 
 export default function RootLayout({

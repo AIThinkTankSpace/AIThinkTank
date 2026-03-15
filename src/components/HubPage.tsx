@@ -7,6 +7,7 @@ import InteractiveCard from "./InteractiveCard";
 import NewsletterCTA from "./NewsletterCTA";
 import CrossPromoStrip from "./CrossPromoStrip";
 import BookmarkPrompt from "./BookmarkPrompt";
+import NewsDigest from "./NewsDigest";
 
 const sectionLabels: Record<Category, { interactive: string; articles: string }> = {
   "ai-for-kids": {
@@ -29,7 +30,9 @@ export default function HubPage({ category }: { category: Category }) {
   const interactives = getInteractivesByCategory(category);
   const labels = sectionLabels[category];
 
-  const formattedDate = new Date(hub.lastUpdated + "T00:00:00").toLocaleDateString("en-US", {
+  // Use build-time date so it auto-updates on every deploy
+  const buildDate = new Date();
+  const formattedDate = buildDate.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -61,6 +64,9 @@ export default function HubPage({ category }: { category: Category }) {
           <BookmarkPrompt updateFrequency={hub.updateFrequency} formattedDate={formattedDate} />
         </div>
       </section>
+
+      {/* AI News Digest */}
+      <NewsDigest category={category} />
 
       {/* Interactive Content Section */}
       {interactives.length > 0 && (

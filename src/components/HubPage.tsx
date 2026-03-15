@@ -28,6 +28,12 @@ export default function HubPage({ category }: { category: Category }) {
   const interactives = getInteractivesByCategory(category);
   const labels = sectionLabels[category];
 
+  const formattedDate = new Date(hub.lastUpdated + "T00:00:00").toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   return (
     <>
       {/* Hero */}
@@ -49,6 +55,23 @@ export default function HubPage({ category }: { category: Category }) {
           <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
             {hub.heroDescription}
           </p>
+
+          {/* Last updated + Bookmark prompt */}
+          <div className="mt-6 inline-flex flex-col sm:flex-row items-center gap-2 sm:gap-4 bg-white/80 backdrop-blur-sm border border-teal-100 rounded-xl px-5 py-3 shadow-sm">
+            <span className="flex items-center gap-1.5 text-xs text-gray-500">
+              <svg className="w-3.5 h-3.5 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Updated {formattedDate}
+            </span>
+            <span className="hidden sm:inline text-gray-300">|</span>
+            <span className="flex items-center gap-1.5 text-xs text-gray-600 font-medium">
+              <svg className="w-3.5 h-3.5 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M5 2h14a1 1 0 011 1v19.143a.5.5 0 01-.766.424L12 18.03l-7.234 4.536A.5.5 0 014 22.143V3a1 1 0 011-1z" />
+              </svg>
+              We update this page {hub.updateFrequency} — bookmark it so you never miss out!
+            </span>
+          </div>
         </div>
       </section>
 

@@ -14,6 +14,8 @@ export interface HubConfig {
   buttonClass: string;
   icon: string;
   accentColor: string;
+  lastUpdated: string; // e.g. "2026-03-15"
+  updateFrequency: string; // e.g. "every few days"
 }
 
 export const hubConfigs: Record<Category, HubConfig> = {
@@ -33,6 +35,8 @@ export const hubConfigs: Record<Category, HubConfig> = {
     buttonClass: "bg-teal-500 hover:bg-teal-600 text-white",
     icon: "🔭",
     accentColor: "#F59E0B",
+    lastUpdated: "2026-03-15",
+    updateFrequency: "every few days",
   },
   "ai-for-teens": {
     category: "ai-for-teens",
@@ -50,6 +54,8 @@ export const hubConfigs: Record<Category, HubConfig> = {
     buttonClass: "bg-teal-500 hover:bg-teal-600 text-white",
     icon: "🚀",
     accentColor: "#6366F1",
+    lastUpdated: "2026-03-15",
+    updateFrequency: "every few days",
   },
   "ai-for-corporates": {
     category: "ai-for-corporates",
@@ -67,5 +73,7 @@ export const hubConfigs: Record<Category, HubConfig> = {
     buttonClass: "bg-teal-600 hover:bg-teal-700 text-white",
     icon: "📊",
     accentColor: "#0EA5E9",
+    lastUpdated: "2026-03-15",
+    updateFrequency: "every few days",
   },
 };

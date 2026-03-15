@@ -5,7 +5,6 @@ import { getInteractivesByCategory } from "@/lib/interactive-config";
 import ArticleCard from "./ArticleCard";
 import InteractiveCard from "./InteractiveCard";
 import NewsletterCTA from "./NewsletterCTA";
-import CrossPromoStrip from "./CrossPromoStrip";
 import BookmarkPrompt from "./BookmarkPrompt";
 import NewsDigest from "./NewsDigest";
 
@@ -90,13 +89,6 @@ export default function HubPage({ category }: { category: Category }) {
         </section>
       )}
 
-      {/* Cross-promo strip between sections */}
-      {interactives.length > 0 && (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
-          <CrossPromoStrip index={0} />
-        </div>
-      )}
-
       {/* Articles Grid */}
       <section className="py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -127,11 +119,6 @@ export default function HubPage({ category }: { category: Category }) {
           )}
         </div>
       </section>
-
-      {/* Second cross-promo strip */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
-        <CrossPromoStrip index={1} />
-      </div>
 
       {/* Newsletter */}
       <section className="py-12">

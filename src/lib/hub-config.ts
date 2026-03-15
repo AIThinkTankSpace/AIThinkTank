@@ -36,7 +36,7 @@ export const hubConfigs: Record<Category, HubConfig> = {
     icon: "🔭",
     accentColor: "#F59E0B",
     lastUpdated: "2026-03-15",
-    updateFrequency: "every few days",
+    updateFrequency: "daily",
   },
   "ai-for-teens": {
     category: "ai-for-teens",
@@ -55,7 +55,7 @@ export const hubConfigs: Record<Category, HubConfig> = {
     icon: "🚀",
     accentColor: "#6366F1",
     lastUpdated: "2026-03-15",
-    updateFrequency: "every few days",
+    updateFrequency: "daily",
   },
   "ai-for-corporates": {
     category: "ai-for-corporates",
@@ -74,6 +74,6 @@ export const hubConfigs: Record<Category, HubConfig> = {
     icon: "📊",
     accentColor: "#0EA5E9",
     lastUpdated: "2026-03-15",
-    updateFrequency: "every few days",
+    updateFrequency: "daily",
   },
 };

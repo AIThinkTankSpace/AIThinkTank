@@ -25,7 +25,7 @@ export default function BookmarkPrompt({ updateFrequency, formattedDate }: Bookm
       {/* Persuasive tagline */}
       <p className="text-sm text-gray-600 flex items-center gap-2">
         <span className="text-base">🔔</span>
-        This page updates with fresh AI news {updateFrequency} — bookmark to stay ahead
+        Fresh AI news added daily — bookmark this page so you never miss an update
       </p>
 
       {/* Bold bookmark CTA */}

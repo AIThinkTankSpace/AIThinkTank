@@ -1,6 +1,23 @@
 import type { Category } from "@/lib/articles";
 import { getNewsForCategory } from "@/lib/news-digest";
 
+function ExternalLinkIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      fill="currentColor"
+      className="inline-block w-3 h-3 ml-1 opacity-40 group-hover:opacity-70 transition-opacity shrink-0 mt-0.5"
+    >
+      <path
+        fillRule="evenodd"
+        d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+}
+
 export default function NewsDigest({ category }: { category: Category }) {
   const news = getNewsForCategory(category, 5);
 
@@ -38,9 +55,12 @@ export default function NewsDigest({ category }: { category: Category }) {
                       href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-gray-700 hover:text-teal-700 transition-colors leading-snug"
+                      className="group text-sm text-gray-700 hover:text-teal-700 transition-colors leading-snug flex items-start"
                     >
-                      {item.headline}
+                      <span className="underline decoration-gray-300 underline-offset-2 group-hover:decoration-teal-400">
+                        {item.headline}
+                      </span>
+                      <ExternalLinkIcon />
                     </a>
                   ) : (
                     <span className="text-sm text-gray-700 leading-snug">

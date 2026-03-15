@@ -30,8 +30,9 @@ export default function HubPage({ category }: { category: Category }) {
   const interactives = getInteractivesByCategory(category);
   const labels = sectionLabels[category];
 
-  // Use build-time date so it auto-updates on every deploy
+  // Capture build timestamp — used for "Updated X min ago" and formatted date
   const buildDate = new Date();
+  const buildTime = buildDate.toISOString();
   const formattedDate = buildDate.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
@@ -66,7 +67,7 @@ export default function HubPage({ category }: { category: Category }) {
       </section>
 
       {/* AI News Digest */}
-      <NewsDigest category={category} />
+      <NewsDigest category={category} buildTime={buildTime} />
 
       {/* Interactive Content Section */}
       {interactives.length > 0 && (

@@ -1,5 +1,6 @@
 import type { Category } from "@/lib/articles";
 import { getNewsForCategory } from "@/lib/news-digest";
+import LiveTimestamp from "./LiveTimestamp";
 
 function ExternalLinkIcon() {
   return (
@@ -18,7 +19,12 @@ function ExternalLinkIcon() {
   );
 }
 
-export default function NewsDigest({ category }: { category: Category }) {
+interface NewsDigestProps {
+  category: Category;
+  buildTime: string;
+}
+
+export default function NewsDigest({ category, buildTime }: NewsDigestProps) {
   const news = getNewsForCategory(category, 5);
 
   if (news.length === 0) return null;
@@ -32,8 +38,8 @@ export default function NewsDigest({ category }: { category: Category }) {
             <h2 className="text-base font-bold text-gray-900">
               What&apos;s New in AI
             </h2>
-            <span className="text-xs text-gray-400 ml-auto">
-              Latest updates
+            <span className="ml-auto">
+              <LiveTimestamp buildTime={buildTime} />
             </span>
           </div>
 

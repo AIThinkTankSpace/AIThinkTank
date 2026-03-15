@@ -1,6 +1,8 @@
 import type { Category } from "@/lib/articles";
 import { getNewsForCategory } from "@/lib/news-digest";
+import { hubConfigs } from "@/lib/hub-config";
 import LiveTimestamp from "./LiveTimestamp";
+import ShareBar from "./ShareBar";
 
 function ExternalLinkIcon() {
   return (
@@ -24,8 +26,15 @@ interface NewsDigestProps {
   buildTime: string;
 }
 
+const shareMessages: Record<Category, string> = {
+  "ai-for-kids": "Check out the latest AI news for kids and families — updated daily!",
+  "ai-for-teens": "Daily AI updates for students and teens — tools, careers, and more!",
+  "ai-for-corporates": "Stay ahead with daily AI news for business professionals!",
+};
+
 export default function NewsDigest({ category, buildTime }: NewsDigestProps) {
   const news = getNewsForCategory(category, 5);
+  const hub = hubConfigs[category];
 
   if (news.length === 0) return null;
 
@@ -77,6 +86,14 @@ export default function NewsDigest({ category, buildTime }: NewsDigestProps) {
               );
             })}
           </ul>
+
+          {/* Share bar */}
+          <div className="mt-4 pt-4 border-t border-teal-100/60">
+            <ShareBar
+              shareText={shareMessages[category]}
+              shareTitle={`What's New in AI — ${hub.title} | AI Think Tank`}
+            />
+          </div>
         </div>
       </div>
     </section>

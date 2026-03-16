@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-03-16",
+    headline: "NVIDIA GTC 2026 kicks off today — Jensen Huang keynote covers the full AI stack",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://blogs.nvidia.com/blog/gtc-2026-news/",
+  },
+  {
+    date: "2026-03-16",
+    headline: "US Senate introduces NSF AI Education Act — creating AI Centers of Excellence at colleges",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://www.commerce.senate.gov/2026/3/cantwell-moran-introduce-bill-to-boost-ai-education",
+  },
+  {
+    date: "2026-03-16",
+    headline: "NVIDIA report: 86% of companies increasing AI budgets in 2026",
+    audiences: ["ai-for-corporates"],
+    link: "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
+  },
+  {
+    date: "2026-03-16",
+    headline: "NPR: 85% of college students now using AI for coursework — brainstorming, outlining, studying",
+    audiences: ["ai-for-teens"],
+    link: "https://www.npr.org/2026/03/03/nx-s1-5716176/ai-college-students-professors",
+  },
+  {
     date: "2026-03-15",
     headline: "Microsoft announces Copilot Wave 3 — agentic AI features for Word, Excel & PowerPoint",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -28,15 +52,15 @@ export const newsItems: NewsItem[] = [
   },
   {
     date: "2026-03-13",
-    headline: "McKinsey: 88% of companies now using AI, but only 6% are seeing real financial impact",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    headline: "OECD report: GenAI can support learning when guided, but risks no real gains without it",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
   },
   {
     date: "2026-03-12",
-    headline: "MIT RAISE Playground lets kids build AI games using Scratch — free and hands-on",
-    audiences: ["ai-for-kids"],
-    link: "https://playground.raise.mit.edu/",
+    headline: "Agentic AI market booming — projected to grow from $9B to $139B by 2034",
+    audiences: ["ai-for-corporates"],
+    link: "https://bostoninstituteofanalytics.org/blog/agentic-ai-news-roundup-7-13-march-2026-market-growth-enterprise-adoption-new-ai-agents/",
   },
   {
     date: "2026-03-11",
@@ -46,33 +70,21 @@ export const newsItems: NewsItem[] = [
   },
   {
     date: "2026-03-10",
-    headline: "Duolingo creates 148 new language courses in under a year using generative AI",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://techcrunch.com/2025/04/30/duolingo-launches-148-courses-created-with-ai-after-sharing-plans-to-replace-contractors-with-ai/",
+    headline: "ChatGPT now has 900 million weekly active users — over 10% of the global population",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
   },
   {
     date: "2026-03-09",
-    headline: "OpenAI plans to bring Sora video generator into ChatGPT for 900M+ users",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://openai.com/index/sora-2/",
+    headline: "Google launches unified enterprise AI platform at $30/month to rival Microsoft and Amazon",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.therundown.ai/p/googles-new-enterprise-ai-play",
   },
   {
     date: "2026-03-08",
-    headline: "UNESCO releases AI competency frameworks for students and teachers worldwide",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.unesco.org/en/articles/ai-competency-framework-students",
-  },
-  {
-    date: "2026-03-07",
-    headline: "Google releases Gemini 3.1 Pro — its latest reasoning and coding model",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
-  },
-  {
-    date: "2026-03-06",
-    headline: "AWS offers 600+ free AI courses and certifications for business professionals",
-    audiences: ["ai-for-corporates"],
-    link: "https://aws.amazon.com/ai/learn/",
+    headline: "MIT RAISE Playground lets kids build AI games using Scratch — free and hands-on",
+    audiences: ["ai-for-kids"],
+    link: "https://playground.raise.mit.edu/",
   },
 ];
 

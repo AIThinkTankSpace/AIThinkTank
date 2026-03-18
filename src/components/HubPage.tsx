@@ -100,7 +100,7 @@ export default function HubPage({ category }: { category: Category }) {
                   Interactive
                 </span>
               </div>
-              <p className="text-sm text-gray-500 max-w-2xl">
+              <p className="text-sm text-gray-500">
                 {labels.interactiveDesc}
               </p>
               <p className="text-xs text-teal-600 font-medium mt-1.5 flex items-center gap-1.5">
@@ -129,7 +129,7 @@ export default function HubPage({ category }: { category: Category }) {
                     ({articles.length} {articles.length === 1 ? "article" : "articles"})
                   </span>
                 </h2>
-                <p className="text-sm text-gray-500 max-w-2xl">
+                <p className="text-sm text-gray-500">
                   {labels.articlesDesc}
                 </p>
                 <p className="text-xs text-teal-600 font-medium mt-1.5 flex items-center gap-1.5">

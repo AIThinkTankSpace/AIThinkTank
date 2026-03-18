@@ -19,26 +19,26 @@ const sectionLabels: Record<Category, {
   "ai-for-kids": {
     interactive: "Explore & Play",
     interactiveDesc: "Fun quizzes, visual explainers, and hands-on activities to help kids understand AI — no coding needed.",
-    interactiveFresh: "New games and quizzes added regularly — check back often!",
+    interactiveFresh: "We add and refresh these every week — the AI world moves fast, and so do we.",
     articles: "Read & Learn",
     articlesDesc: "Simple, engaging articles that break down AI concepts for curious young minds and families.",
-    articlesFresh: "New articles published frequently — stay curious!",
+    articlesFresh: "New articles drop regularly — miss one and you miss what every other kid already knows.",
   },
   "ai-for-teens": {
     interactive: "Interactive Tools",
     interactiveDesc: "Try AI quizzes, career explorers, and prompt challenges built for students who want a competitive edge.",
-    interactiveFresh: "We add new tools and challenges regularly — don\u0027t fall behind!",
+    interactiveFresh: "New tools and challenges added every week — your classmates are already using these.",
     articles: "Articles & Guides",
     articlesDesc: "In-depth guides on AI tools, study hacks, career paths, and skills that top employers want.",
-    articlesFresh: "Fresh guides added often — bookmark to stay ahead!",
+    articlesFresh: "New guides published regularly — the students reading these today have tomorrow\u0027s advantage.",
   },
   "ai-for-corporates": {
     interactive: "Assess & Discover",
     interactiveDesc: "Quick assessments, readiness scorecards, and visual frameworks to gauge your AI maturity.",
-    interactiveFresh: "Updated regularly with new frameworks — revisit to track your progress.",
+    interactiveFresh: "Updated frequently — your competitors are benchmarking themselves here. Are you?",
     articles: "Insights & Frameworks",
     articlesDesc: "Practical case studies, ROI frameworks, and implementation playbooks for business leaders.",
-    articlesFresh: "New insights published regularly — stay informed!",
+    articlesFresh: "New insights published regularly — the leaders reading these are already one step ahead.",
   },
 };
 

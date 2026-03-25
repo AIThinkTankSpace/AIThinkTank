@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "aithinktank.space" }],
+      "destination": "https://www.aithinktank.space/$1",
+      "permanent": true
+    }
+  ]
+}

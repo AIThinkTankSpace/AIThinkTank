@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-03-25",
+    headline: "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+  },
+  {
+    date: "2026-03-24",
+    headline: "OpenAI’s Sora was the creepiest app on your phone &#8212; now it&#8217;s shutting down",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+  },
+  {
+    date: "2026-03-24",
+    headline: "Anthropic hands Claude Code more control, but keeps it on a leash",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
+  },
+  {
+    date: "2026-03-24",
+    headline: "Spotify tests new tool to stop AI slop from being attributed to real artists",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
+  },
+  {
+    date: "2026-03-24",
+    headline: "Databricks bought two startups to underpin its new AI security product",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+  },
+  {
+    date: "2026-03-25",
     headline: "US passes AI Accountability Act — companies must publish bias audits for AI in hiring and lending",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Common Sense Media: 52% of parents say AI in schoolwork is unethical — 52% of teens call it innovative",
     audiences: ["ai-for-kids", "ai-for-teens"],
     link: "https://www.marketingprofs.com/opinions/2026/54448/ai-update-march-20-2026-ai-news-and-views-from-the-past-week",
-  },
-  {
-    date: "2026-03-18",
-    headline: "Snowflake launches Project SnowWork — autonomous AI platform for business users",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.snowflake.com/en/news/press-releases/snowflake-launches-project-snowwork-bringing-outcome-driven-ai-to-every-business-user/",
-  },
-  {
-    date: "2026-03-16",
-    headline: "NVIDIA GTC 2026 — Jensen Huang envisions 100 AI agents per employee by 2036",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://nvidianews.nvidia.com/news/ai-agents",
-  },
-  {
-    date: "2026-03-16",
-    headline: "US Senate introduces NSF AI Education Act — creating AI Centers of Excellence at colleges",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.commerce.senate.gov/2026/3/cantwell-moran-introduce-bill-to-boost-ai-education",
-  },
-  {
-    date: "2026-03-15",
-    headline: "Apple reimagines Siri with Google Gemini AI — context-aware assistant coming in iOS 26.4",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techstartups.com/2026/03/24/top-tech-news-today-march-24-2026/",
-  },
-  {
-    date: "2026-03-14",
-    headline: "India to launch AI & Computational Thinking curriculum from Class 3 onwards in 2026-27",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184211",
   },
 ];
 

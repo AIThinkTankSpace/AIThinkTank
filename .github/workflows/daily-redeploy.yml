@@ -1,4 +1,4 @@
-name: Daily Redeploy
+name: Daily News Update & Redeploy
 
 on:
   schedule:
@@ -7,8 +7,41 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 jobs:
-  trigger-vercel-deploy:
+  update-news-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch latest AI news
+        run: node scripts/fetch-ai-news.mjs
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet src/lib/news-digest.ts; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No news changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "News digest updated!"
+          fi
+
+      - name: Commit and push news update
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "AI Think Tank Bot"
+          git config user.email "bot@aithinktank.space"
+          git add src/lib/news-digest.ts
+          git commit -m "Update AI news digest — $(date -u +%Y-%m-%d)"
+          git push
+
       - name: Trigger Vercel Deploy Hook
         run: curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"

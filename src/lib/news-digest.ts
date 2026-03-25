@@ -15,10 +15,58 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
-    date: "2026-03-16",
-    headline: "NVIDIA GTC 2026 kicks off today — Jensen Huang keynote covers the full AI stack",
+    date: "2026-03-25",
+    headline: "US passes AI Accountability Act — companies must publish bias audits for AI in hiring and lending",
     audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://blogs.nvidia.com/blog/gtc-2026-news/",
+    link: "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
+  },
+  {
+    date: "2026-03-25",
+    headline: "OpenAI unveils GPT-5.4 with 1M token context — scores above human baseline on autonomous tasks",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+  },
+  {
+    date: "2026-03-25",
+    headline: "National AI Training Academy launches — aims to train 400,000 teachers on AI in the classroom",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://www.aiforeducation.io/blog/ai-education-weekly-update-mar162026",
+  },
+  {
+    date: "2026-03-24",
+    headline: "Stanford review of 800+ AI-in-education studies finds only 20 are high-quality — more research needed",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://fordhaminstitute.org/national/commentary/some-predictions-about-ai-education-2026",
+  },
+  {
+    date: "2026-03-24",
+    headline: "IBM completes acquisition of Confluent — real-time data becomes the engine of enterprise AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents",
+  },
+  {
+    date: "2026-03-22",
+    headline: "Snowflake research: 77% of orgs report AI-driven job creation outpaces job losses",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.snowflake.com/en/news/press-releases/snowflake-research-reveals-ai-driven-job-creation-outpaces-job-loss-with-77-percent-reporting-workforce-gains/",
+  },
+  {
+    date: "2026-03-20",
+    headline: "Common Sense Media: 52% of parents say AI in schoolwork is unethical — 52% of teens call it innovative",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://www.marketingprofs.com/opinions/2026/54448/ai-update-march-20-2026-ai-news-and-views-from-the-past-week",
+  },
+  {
+    date: "2026-03-18",
+    headline: "Snowflake launches Project SnowWork — autonomous AI platform for business users",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.snowflake.com/en/news/press-releases/snowflake-launches-project-snowwork-bringing-outcome-driven-ai-to-every-business-user/",
+  },
+  {
+    date: "2026-03-16",
+    headline: "NVIDIA GTC 2026 — Jensen Huang envisions 100 AI agents per employee by 2036",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://nvidianews.nvidia.com/news/ai-agents",
   },
   {
     date: "2026-03-16",
@@ -27,64 +75,16 @@ export const newsItems: NewsItem[] = [
     link: "https://www.commerce.senate.gov/2026/3/cantwell-moran-introduce-bill-to-boost-ai-education",
   },
   {
-    date: "2026-03-16",
-    headline: "NVIDIA report: 86% of companies increasing AI budgets in 2026",
-    audiences: ["ai-for-corporates"],
-    link: "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
-  },
-  {
-    date: "2026-03-16",
-    headline: "NPR: 85% of college students now using AI for coursework — brainstorming, outlining, studying",
-    audiences: ["ai-for-teens"],
-    link: "https://www.npr.org/2026/03/03/nx-s1-5716176/ai-college-students-professors",
-  },
-  {
     date: "2026-03-15",
-    headline: "Microsoft announces Copilot Wave 3 — agentic AI features for Word, Excel & PowerPoint",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.neowin.net/news/microsoft-365-copilot-wave-3-announced-new-agentic-features-for-word-excel-and-outlook/",
+    headline: "Apple reimagines Siri with Google Gemini AI — context-aware assistant coming in iOS 26.4",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techstartups.com/2026/03/24/top-tech-news-today-march-24-2026/",
   },
   {
     date: "2026-03-14",
     headline: "India to launch AI & Computational Thinking curriculum from Class 3 onwards in 2026-27",
     audiences: ["ai-for-kids", "ai-for-teens"],
     link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184211",
-  },
-  {
-    date: "2026-03-13",
-    headline: "OECD report: GenAI can support learning when guided, but risks no real gains without it",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
-  },
-  {
-    date: "2026-03-12",
-    headline: "Agentic AI market booming — projected to grow from $9B to $139B by 2034",
-    audiences: ["ai-for-corporates"],
-    link: "https://bostoninstituteofanalytics.org/blog/agentic-ai-news-roundup-7-13-march-2026-market-growth-enterprise-adoption-new-ai-agents/",
-  },
-  {
-    date: "2026-03-11",
-    headline: "Anthropic expands Claude for Education — Teach For All partnership reaches 100K+ teachers",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.anthropic.com/news/advancing-claude-for-education",
-  },
-  {
-    date: "2026-03-10",
-    headline: "ChatGPT now has 900 million weekly active users — over 10% of the global population",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
-  },
-  {
-    date: "2026-03-09",
-    headline: "Google launches unified enterprise AI platform at $30/month to rival Microsoft and Amazon",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.therundown.ai/p/googles-new-enterprise-ai-play",
-  },
-  {
-    date: "2026-03-08",
-    headline: "MIT RAISE Playground lets kids build AI games using Scratch — free and hands-on",
-    audiences: ["ai-for-kids"],
-    link: "https://playground.raise.mit.edu/",
   },
 ];
 

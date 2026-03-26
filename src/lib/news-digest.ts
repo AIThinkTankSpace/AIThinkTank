@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-03-26",
+    headline: "Mercor competitor Deccan AI raises $25M, sources experts from India",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
+  },
+  {
+    date: "2026-03-25",
+    headline: "The AI skills gap is here, says AI company, and power users are pulling ahead",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+  },
+  {
+    date: "2026-03-25",
+    headline: "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+  },
+  {
+    date: "2026-03-25",
+    headline: "Melania Trump wants a robot to homeschool your child",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
+  },
+  {
+    date: "2026-03-25",
+    headline: "Google launches Lyria 3 Pro music generation model",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
+  },
+  {
     date: "2026-03-25",
     headline: "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI unveils GPT-5.4 with 1M token context — scores above human baseline on autonomous tasks",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-  },
-  {
-    date: "2026-03-25",
-    headline: "National AI Training Academy launches — aims to train 400,000 teachers on AI in the classroom",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.aiforeducation.io/blog/ai-education-weekly-update-mar162026",
-  },
-  {
-    date: "2026-03-24",
-    headline: "Stanford review of 800+ AI-in-education studies finds only 20 are high-quality — more research needed",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://fordhaminstitute.org/national/commentary/some-predictions-about-ai-education-2026",
-  },
-  {
-    date: "2026-03-24",
-    headline: "IBM completes acquisition of Confluent — real-time data becomes the engine of enterprise AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents",
-  },
-  {
-    date: "2026-03-22",
-    headline: "Snowflake research: 77% of orgs report AI-driven job creation outpaces job losses",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.snowflake.com/en/news/press-releases/snowflake-research-reveals-ai-driven-job-creation-outpaces-job-loss-with-77-percent-reporting-workforce-gains/",
-  },
-  {
-    date: "2026-03-20",
-    headline: "Common Sense Media: 52% of parents say AI in schoolwork is unethical — 52% of teens call it innovative",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://www.marketingprofs.com/opinions/2026/54448/ai-update-march-20-2026-ai-news-and-views-from-the-past-week",
   },
 ];
 

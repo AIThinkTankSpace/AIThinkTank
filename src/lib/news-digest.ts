@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-03-27",
+    headline: "Anthropic wins injunction against Trump administration over Defense Department saga",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+  },
+  {
+    date: "2026-03-26",
+    headline: "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+  },
+  {
+    date: "2026-03-26",
+    headline: "Wikipedia cracks down on the use of AI in article writing",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+  },
+  {
+    date: "2026-03-26",
+    headline: "OpenAI abandons yet another side quest: ChatGPT&#8217;s erotic mode",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+  },
+  {
+    date: "2026-03-26",
+    headline: "ByteDance&#8217;s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+  },
+  {
     date: "2026-03-26",
     headline: "Mercor competitor Deccan AI raises $25M, sources experts from India",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI’s Sora was the creepiest app on your phone &#8212; now it&#8217;s shutting down",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
-  },
-  {
-    date: "2026-03-24",
-    headline: "Anthropic hands Claude Code more control, but keeps it on a leash",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
-  },
-  {
-    date: "2026-03-24",
-    headline: "Spotify tests new tool to stop AI slop from being attributed to real artists",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
-  },
-  {
-    date: "2026-03-24",
-    headline: "Databricks bought two startups to underpin its new AI security product",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "US passes AI Accountability Act — companies must publish bias audits for AI in hiring and lending",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.insightfulpost.com/what-is-artificial-intelligence-news-2026/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "OpenAI unveils GPT-5.4 with 1M token context — scores above human baseline on autonomous tasks",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.crescendo.ai/news/latest-ai-news-and-updates",
   },
 ];
 

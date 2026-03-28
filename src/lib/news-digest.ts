@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-03-27",
+    headline: "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+  },
+  {
+    date: "2026-03-27",
+    headline: "VCs are betting billions on AI&#8217;s next wave, so why is OpenAI killing Sora?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+  },
+  {
+    date: "2026-03-27",
+    headline: "OpenAI shuts down Sora while Meta gets shut out in court",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
+  },
+  {
+    date: "2026-03-27",
+    headline: "David Sacks is done as AI czar &#8212; here&#8217;s what he&#8217;s doing instead",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+  },
+  {
+    date: "2026-03-27",
+    headline: "The Download: the internet’s best weather app, and why people freeze their brains",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/03/27/1134755/the-download-best-weather-forecasting-app-why-people-freeze-brains/",
+  },
+  {
+    date: "2026-03-27",
     headline: "Anthropic wins injunction against Trump administration over Defense Department saga",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The AI skills gap is here, says AI company, and power users are pulling ahead",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "Melania Trump wants a robot to homeschool your child",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "Google launches Lyria 3 Pro music generation model",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
-  },
-  {
-    date: "2026-03-24",
-    headline: "OpenAI’s Sora was the creepiest app on your phone &#8212; now it&#8217;s shutting down",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
   },
 ];
 

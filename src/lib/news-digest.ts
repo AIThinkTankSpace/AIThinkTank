@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-03-28",
+    headline: "Bluesky leans into AI with Attie, an app for building custom feeds",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+  },
+  {
+    date: "2026-03-28",
+    headline: "Stanford study outlines dangers of asking AI chatbots for personal advice",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+  },
+  {
+    date: "2026-03-28",
+    headline: "Elon Musk’s last co-founder reportedly leaves xAI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+  },
+  {
+    date: "2026-03-28",
+    headline: "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+  },
+  {
+    date: "2026-03-27",
+    headline: "Here&#8217;s why some people choose cryonics to store their bodies and brains after death",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/03/27/1134705/cryonics-store-bodies-brains-after-death/",
+  },
+  {
     date: "2026-03-27",
     headline: "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "You can now transfer your chats and personal information from other chatbots directly into Gemini",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
-  },
-  {
-    date: "2026-03-26",
-    headline: "Wikipedia cracks down on the use of AI in article writing",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
-  },
-  {
-    date: "2026-03-26",
-    headline: "OpenAI abandons yet another side quest: ChatGPT&#8217;s erotic mode",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-  },
-  {
-    date: "2026-03-26",
-    headline: "ByteDance&#8217;s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
-  },
-  {
-    date: "2026-03-26",
-    headline: "Mercor competitor Deccan AI raises $25M, sources experts from India",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
-  },
-  {
-    date: "2026-03-25",
-    headline: "The AI skills gap is here, says AI company, and power users are pulling ahead",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
   },
 ];
 

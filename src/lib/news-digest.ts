@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-03-30",
+    headline: "Why OpenAI really shut down Sora",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+  },
+  {
+    date: "2026-03-29",
+    headline: "Sora’s shutdown could be a reality check moment for AI video",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+  },
+  {
+    date: "2026-03-30",
+    headline: "Inside the stealthy startup that pitched brainless human clones",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/03/30/1134780/r3-bio-brainless-human-clones-full-body-replacement-john-schloendorn-aging-longevity/",
+  },
+  {
+    date: "2026-03-30",
+    headline: "All the latest in AI &#8216;music&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
+  },
+  {
+    date: "2026-03-30",
+    headline: "Bluesky’s new app is an AI for customizing your feed",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
+  },
+  {
     date: "2026-03-28",
     headline: "Bluesky leans into AI with Attie, an app for building custom feeds",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "VCs are betting billions on AI&#8217;s next wave, so why is OpenAI killing Sora?",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
-  },
-  {
-    date: "2026-03-27",
-    headline: "OpenAI shuts down Sora while Meta gets shut out in court",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
-  },
-  {
-    date: "2026-03-27",
-    headline: "David Sacks is done as AI czar &#8212; here&#8217;s what he&#8217;s doing instead",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
-  },
-  {
-    date: "2026-03-27",
-    headline: "The Download: the internet’s best weather app, and why people freeze their brains",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/03/27/1134755/the-download-best-weather-forecasting-app-why-people-freeze-brains/",
-  },
-  {
-    date: "2026-03-27",
-    headline: "Anthropic wins injunction against Trump administration over Defense Department saga",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-  },
-  {
-    date: "2026-03-26",
-    headline: "You can now transfer your chats and personal information from other chatbots directly into Gemini",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
   },
 ];
 

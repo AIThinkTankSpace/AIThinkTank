@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-01",
+    headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+  },
+  {
+    date: "2026-03-31",
+    headline: "Anthropic is having a month",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
+  },
+  {
+    date: "2026-03-31",
+    headline: "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+  },
+  {
+    date: "2026-03-31",
+    headline: "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+  },
+  {
+    date: "2026-03-31",
+    headline: "Yupp shuts down after raising $33M from a16z crypto&#8217;s Chris Dixon",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
+  },
+  {
     date: "2026-03-30",
     headline: "15% of Americans say they&#8217;d be willing to work for an AI boss, according to new poll",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Sora’s shutdown could be a reality check moment for AI video",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "Inside the stealthy startup that pitched brainless human clones",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/03/30/1134780/r3-bio-brainless-human-clones-full-body-replacement-john-schloendorn-aging-longevity/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "All the latest in AI &#8216;music&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
-  },
-  {
-    date: "2026-03-30",
-    headline: "Bluesky’s new app is an AI for customizing your feed",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
-  },
-  {
-    date: "2026-03-28",
-    headline: "Bluesky leans into AI with Attie, an app for building custom feeds",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-  },
-  {
-    date: "2026-03-28",
-    headline: "Stanford study outlines dangers of asking AI chatbots for personal advice",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
   },
 ];
 

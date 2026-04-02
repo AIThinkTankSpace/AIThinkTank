@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-04-01",
+    headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
+  },
+  {
+    date: "2026-04-01",
+    headline: "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+  },
+  {
+    date: "2026-04-01",
+    headline: "The Download: gig workers training humanoids, and better AI benchmarks",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/",
+  },
+  {
+    date: "2026-04-01",
+    headline: "The gig workers who are training humanoid robots at home",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
+  },
+  {
+    date: "2026-03-31",
+    headline: "Shifting to AI model customization is an architectural imperative",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
+  },
+  {
+    date: "2026-04-01",
     headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "As more Americans adopt AI tools, fewer say they can trust the results",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "Mantis Biotech is making &#8216;digital twins&#8217; of humans to help solve medicine&#8217;s…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "ScaleOps raises $130M to improve computing efficiency amid AI demand",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "Why OpenAI really shut down Sora",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-  },
-  {
-    date: "2026-03-29",
-    headline: "Sora’s shutdown could be a reality check moment for AI video",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
   },
 ];
 

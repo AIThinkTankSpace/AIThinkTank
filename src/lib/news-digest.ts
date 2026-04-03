@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-02",
+    headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+  },
+  {
+    date: "2026-04-02",
+    headline: "Microsoft takes on AI rivals with three new foundational models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
+  },
+  {
+    date: "2026-04-02",
+    headline: "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+  },
+  {
+    date: "2026-04-02",
+    headline: "OpenAI just bought TBPN",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn",
+  },
+  {
+    date: "2026-04-02",
+    headline: "It’s not easy to get depression-detecting AI through the FDA",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
+  },
+  {
     date: "2026-04-01",
     headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic is having a month",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
-  },
-  {
-    date: "2026-03-31",
-    headline: "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-  },
-  {
-    date: "2026-03-31",
-    headline: "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-  },
-  {
-    date: "2026-03-31",
-    headline: "Yupp shuts down after raising $33M from a16z crypto&#8217;s Chris Dixon",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "15% of Americans say they&#8217;d be willing to work for an AI boss, according to new poll",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
-  },
-  {
-    date: "2026-03-30",
-    headline: "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
   },
 ];
 

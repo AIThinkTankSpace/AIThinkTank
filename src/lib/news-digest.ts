@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-04",
+    headline: "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+  },
+  {
+    date: "2026-04-03",
+    headline: "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+  },
+  {
+    date: "2026-04-03",
+    headline: "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+  },
+  {
+    date: "2026-04-03",
+    headline: "Anthropic ramps up its political activities with a new PAC",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+  },
+  {
+    date: "2026-04-03",
+    headline: "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+  },
+  {
     date: "2026-04-02",
     headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
-  },
-  {
-    date: "2026-04-01",
-    headline: "The Download: gig workers training humanoids, and better AI benchmarks",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/",
-  },
-  {
-    date: "2026-04-01",
-    headline: "The gig workers who are training humanoid robots at home",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
-  },
-  {
-    date: "2026-03-31",
-    headline: "Shifting to AI model customization is an architectural imperative",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
-  },
-  {
-    date: "2026-04-01",
-    headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
-  },
-  {
-    date: "2026-03-31",
-    headline: "Anthropic is having a month",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
   },
 ];
 

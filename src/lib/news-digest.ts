@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-04-04",
+    headline: "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+  },
+  {
+    date: "2026-04-04",
+    headline: "A folk musician became a target for AI fakes and a copyright troll",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+  },
+  {
+    date: "2026-04-04",
+    headline: "Really, you made this without AI? Prove it",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+  },
+  {
+    date: "2026-04-04",
+    headline: "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+  },
+  {
+    date: "2026-04-03",
+    headline: "OpenAI’s AGI boss is taking a leave of absence",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
+  },
+  {
+    date: "2026-04-04",
     headline: "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Microsoft takes on AI rivals with three new foundational models",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-  },
-  {
-    date: "2026-04-02",
-    headline: "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
-  },
-  {
-    date: "2026-04-02",
-    headline: "OpenAI just bought TBPN",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn",
-  },
-  {
-    date: "2026-04-02",
-    headline: "It’s not easy to get depression-detecting AI through the FDA",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
-  },
-  {
-    date: "2026-04-01",
-    headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
-  },
-  {
-    date: "2026-04-01",
-    headline: "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
   },
 ];
 

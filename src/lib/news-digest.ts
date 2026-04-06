@@ -15,6 +15,18 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-05",
+    headline: "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+  },
+  {
+    date: "2026-04-05",
+    headline: "In Japan, the robot isn&#8217;t coming for your job; it&#8217;s filling the one nobody wants",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+  },
+  {
     date: "2026-04-04",
     headline: "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
     audiences: ["ai-for-corporates"],
@@ -73,18 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-  },
-  {
-    date: "2026-04-02",
-    headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
-  },
-  {
-    date: "2026-04-02",
-    headline: "Microsoft takes on AI rivals with three new foundational models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
   },
 ];
 

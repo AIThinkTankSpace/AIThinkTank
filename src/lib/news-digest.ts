@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-07",
+    headline: "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+  },
+  {
+    date: "2026-04-06",
+    headline: "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+  },
+  {
+    date: "2026-04-06",
+    headline: "Google quietly launched an AI dictation app that works offline",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+  },
+  {
+    date: "2026-04-06",
+    headline: "Iran threatens &#8216;Stargate&#8217; AI data centers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+  },
+  {
+    date: "2026-04-06",
+    headline: "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+  },
+  {
     date: "2026-04-05",
     headline: "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI’s AGI boss is taking a leave of absence",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
-  },
-  {
-    date: "2026-04-04",
-    headline: "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
-  },
-  {
-    date: "2026-04-03",
-    headline: "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-  },
-  {
-    date: "2026-04-03",
-    headline: "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
-  },
-  {
-    date: "2026-04-03",
-    headline: "Anthropic ramps up its political activities with a new PAC",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
-  },
-  {
-    date: "2026-04-03",
-    headline: "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
   },
 ];
 

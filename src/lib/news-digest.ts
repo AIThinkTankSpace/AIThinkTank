@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-08",
+    headline: "Poke makes using AI agents as easy as sending a text",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+  },
+  {
+    date: "2026-04-08",
+    headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+  },
+  {
+    date: "2026-04-08",
+    headline: "Tubi is the first streamer to launch a native app within ChatGPT",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+  },
+  {
+    date: "2026-04-08",
+    headline: "Astropad&#8217;s Workbench reimagines remote desktop for AI agents, not IT support",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+  },
+  {
+    date: "2026-04-08",
+    headline: "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+  },
+  {
     date: "2026-04-07",
     headline: "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI alums have been quietly investing from a new, potentially $100M fund",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-  },
-  {
-    date: "2026-04-06",
-    headline: "Google quietly launched an AI dictation app that works offline",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-  },
-  {
-    date: "2026-04-06",
-    headline: "Iran threatens &#8216;Stargate&#8217; AI data centers",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-  },
-  {
-    date: "2026-04-06",
-    headline: "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-  },
-  {
-    date: "2026-04-05",
-    headline: "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
-  },
-  {
-    date: "2026-04-05",
-    headline: "In Japan, the robot isn&#8217;t coming for your job; it&#8217;s filling the one nobody wants",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
   },
 ];
 

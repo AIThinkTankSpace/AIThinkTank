@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-09",
+    headline: "ChatGPT finally offers $100/month Pro plan",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+  },
+  {
+    date: "2026-04-09",
+    headline: "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+  },
+  {
+    date: "2026-04-09",
+    headline: "Meta AI app climbs to No. 5 on the App Store after Muse Spark launch",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
+  },
+  {
+    date: "2026-04-09",
+    headline: "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
+  },
+  {
+    date: "2026-04-09",
+    headline: "Google and Intel deepen AI infrastructure partnership",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
+  },
+  {
     date: "2026-04-08",
     headline: "Poke makes using AI agents as easy as sending a text",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-  },
-  {
-    date: "2026-04-07",
-    headline: "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-  },
-  {
-    date: "2026-04-07",
-    headline: "Uber is the latest to be won over by Amazon&#8217;s AI chips",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
-  },
-  {
-    date: "2026-04-07",
-    headline: "The Download: AI&#8217;s impact on jobs, and data centres in space",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/07/1135208/the-download-ai-impact-jobs-data-centres-space/",
-  },
-  {
-    date: "2026-04-07",
-    headline: "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
-  },
-  {
-    date: "2026-04-06",
-    headline: "OpenAI alums have been quietly investing from a new, potentially $100M fund",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
   },
 ];
 

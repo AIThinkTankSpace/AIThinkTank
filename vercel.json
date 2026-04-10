@@ -5,6 +5,21 @@
       "has": [{ "type": "host", "value": "aithinktank.space" }],
       "destination": "https://www.aithinktank.space/$1",
       "permanent": true
+    },
+    {
+      "source": "/aiteens",
+      "destination": "/ai-for-teens",
+      "permanent": true
+    },
+    {
+      "source": "/theplaybookdrivingresults",
+      "destination": "/ai-for-corporates",
+      "permanent": true
+    },
+    {
+      "source": "/thankyou",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }

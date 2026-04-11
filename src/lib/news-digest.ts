@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-10",
+    headline: "Anthropic temporarily banned OpenClaw&#8217;s creator from accessing Claude",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
+  },
+  {
+    date: "2026-04-10",
+    headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser&#8217;s delusions and ignored her…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+  },
+  {
+    date: "2026-04-10",
+    headline: "The Download: an exclusive Jeff VanderMeer story and AI models too scary to release",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
+  },
+  {
+    date: "2026-04-09",
+    headline: "The Download: AstroTurf wars and exponential AI growth",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/09/1135514/the-download-astroturf-wars-exponential-ai-growth-desalination-numbers/",
+  },
+  {
+    date: "2026-04-10",
+    headline: "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
+  },
+  {
     date: "2026-04-09",
     headline: "ChatGPT finally offers $100/month Pro plan",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-  },
-  {
-    date: "2026-04-08",
-    headline: "Tubi is the first streamer to launch a native app within ChatGPT",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
-  },
-  {
-    date: "2026-04-08",
-    headline: "Astropad&#8217;s Workbench reimagines remote desktop for AI agents, not IT support",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-  },
-  {
-    date: "2026-04-08",
-    headline: "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
-  },
-  {
-    date: "2026-04-07",
-    headline: "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-  },
-  {
-    date: "2026-04-07",
-    headline: "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
   },
 ];
 

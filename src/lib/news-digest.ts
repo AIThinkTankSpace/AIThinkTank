@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-11",
+    headline: "Your article about AI doesn’t need AI art",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
+  },
+  {
+    date: "2026-04-10",
+    headline: "The Iranian Lego AI video creators credit their virality to &#8216;heart&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/909948/explosive-media-lego-iran-war-trump-netanyahu",
+  },
+  {
+    date: "2026-04-10",
+    headline: "Fear and loathing at OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast",
+  },
+  {
+    date: "2026-04-10",
+    headline: "Gen Z’s love-hate relationship with AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup",
+  },
+  {
     date: "2026-04-10",
     headline: "Anthropic temporarily banned OpenClaw&#8217;s creator from accessing Claude",
     audiences: ["ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meta AI app climbs to No. 5 on the App Store after Muse Spark launch",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
-  },
-  {
-    date: "2026-04-09",
-    headline: "Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
-  },
-  {
-    date: "2026-04-09",
-    headline: "Google and Intel deepen AI infrastructure partnership",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
-  },
-  {
-    date: "2026-04-08",
-    headline: "Poke makes using AI agents as easy as sending a text",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-  },
-  {
-    date: "2026-04-08",
-    headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
   },
 ];
 

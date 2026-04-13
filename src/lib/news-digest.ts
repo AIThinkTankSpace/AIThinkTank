@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-12",
+    headline: "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+  },
+  {
+    date: "2026-04-12",
+    headline: "From LLMs to hallucinations, here&#8217;s a simple guide to common AI terms",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+  },
+  {
+    date: "2026-04-12",
+    headline: "At the HumanX conference, everyone was talking about Claude",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+  },
+  {
     date: "2026-04-11",
     headline: "Your article about AI doesn’t need AI art",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
-  },
-  {
-    date: "2026-04-09",
-    headline: "ChatGPT finally offers $100/month Pro plan",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
-  },
-  {
-    date: "2026-04-09",
-    headline: "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
-  },
-  {
-    date: "2026-04-09",
-    headline: "Meta AI app climbs to No. 5 on the App Store after Muse Spark launch",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
   },
 ];
 

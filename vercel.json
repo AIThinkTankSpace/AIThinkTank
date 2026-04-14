@@ -1,6 +1,36 @@
 {
   "redirects": [
     {
+      "source": "/aiteens",
+      "has": [{ "type": "host", "value": "aithinktank.space" }],
+      "destination": "https://www.aithinktank.space/ai-for-teens",
+      "permanent": true
+    },
+    {
+      "source": "/theplaybookdrivingresults",
+      "has": [{ "type": "host", "value": "aithinktank.space" }],
+      "destination": "https://www.aithinktank.space/ai-for-corporates",
+      "permanent": true
+    },
+    {
+      "source": "/thankyou",
+      "has": [{ "type": "host", "value": "aithinktank.space" }],
+      "destination": "https://www.aithinktank.space/",
+      "permanent": true
+    },
+    {
+      "source": "/thankyou1",
+      "has": [{ "type": "host", "value": "aithinktank.space" }],
+      "destination": "https://www.aithinktank.space/",
+      "permanent": true
+    },
+    {
+      "source": "/thenewmanagementchallenge",
+      "has": [{ "type": "host", "value": "aithinktank.space" }],
+      "destination": "https://www.aithinktank.space/ai-for-corporates",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "aithinktank.space" }],
       "destination": "https://www.aithinktank.space/$1",
@@ -19,6 +49,16 @@
     {
       "source": "/thankyou",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/thankyou1",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/thenewmanagementchallenge",
+      "destination": "/ai-for-corporates",
       "permanent": true
     }
   ]

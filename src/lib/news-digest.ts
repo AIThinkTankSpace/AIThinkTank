@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-14",
+    headline: "OpenAI has bought AI personal finance startup Hiro",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+  },
+  {
+    date: "2026-04-13",
+    headline: "Stanford report highlights growing disconnect between AI insiders and everyone else",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+  },
+  {
+    date: "2026-04-13",
+    headline: "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+  },
+  {
+    date: "2026-04-13",
+    headline: "Why opinion on AI is so divided",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/13/1135720/why-opinion-on-ai-is-so-divided/",
+  },
+  {
+    date: "2026-04-13",
+    headline: "Want to understand the current state of AI? Check out these charts.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+  },
+  {
     date: "2026-04-12",
     headline: "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Gen Z’s love-hate relationship with AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup",
-  },
-  {
-    date: "2026-04-10",
-    headline: "Anthropic temporarily banned OpenClaw&#8217;s creator from accessing Claude",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
-  },
-  {
-    date: "2026-04-10",
-    headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser&#8217;s delusions and ignored her…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
-  },
-  {
-    date: "2026-04-10",
-    headline: "The Download: an exclusive Jeff VanderMeer story and AI models too scary to release",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
-  },
-  {
-    date: "2026-04-09",
-    headline: "The Download: AstroTurf wars and exponential AI growth",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/09/1135514/the-download-astroturf-wars-exponential-ai-growth-desalination-numbers/",
-  },
-  {
-    date: "2026-04-10",
-    headline: "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-15",
+    headline: "Anthropic&#8217;s rise is giving some OpenAI investors second thoughts",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+  },
+  {
+    date: "2026-04-14",
+    headline: "Anthropic co-founder confirms the company briefed the Trump administration on Mythos",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/",
+  },
+  {
+    date: "2026-04-14",
+    headline: "Max Hodak’s Science Corp. is preparing to place its first sensor in a human brain",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/",
+  },
+  {
+    date: "2026-04-14",
+    headline: "Google adds AI Skills to Chrome to help you save favorite workflows",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
+  },
+  {
+    date: "2026-04-14",
+    headline: "Google brings its Gemini Personal Intelligence feature to India",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
+  },
+  {
     date: "2026-04-14",
     headline: "OpenAI has bought AI personal finance startup Hiro",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "From LLMs to hallucinations, here&#8217;s a simple guide to common AI terms",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-  },
-  {
-    date: "2026-04-12",
-    headline: "At the HumanX conference, everyone was talking about Claude",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
-  },
-  {
-    date: "2026-04-11",
-    headline: "Your article about AI doesn’t need AI art",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
-  },
-  {
-    date: "2026-04-10",
-    headline: "The Iranian Lego AI video creators credit their virality to &#8216;heart&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/909948/explosive-media-lego-iran-war-trump-netanyahu",
-  },
-  {
-    date: "2026-04-10",
-    headline: "Fear and loathing at OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast",
-  },
-  {
-    date: "2026-04-10",
-    headline: "Gen Z’s love-hate relationship with AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup",
   },
 ];
 

@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-04-15",
+    headline: "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+  },
+  {
+    date: "2026-04-15",
+    headline: "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+  },
+  {
+    date: "2026-04-15",
+    headline: "LinkedIn data shows AI isn&#8217;t to blame for hiring decline&#8230; yet",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/",
+  },
+  {
+    date: "2026-04-15",
+    headline: "AI learning app Gizmo levels up with 13M users and a $22M investment",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+  },
+  {
+    date: "2026-04-15",
+    headline: "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
+  },
+  {
+    date: "2026-04-15",
     headline: "Anthropic&#8217;s rise is giving some OpenAI investors second thoughts",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Stanford report highlights growing disconnect between AI insiders and everyone else",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
-  },
-  {
-    date: "2026-04-13",
-    headline: "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
-  },
-  {
-    date: "2026-04-13",
-    headline: "Why opinion on AI is so divided",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/13/1135720/why-opinion-on-ai-is-so-divided/",
-  },
-  {
-    date: "2026-04-13",
-    headline: "Want to understand the current state of AI? Check out these charts.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
-  },
-  {
-    date: "2026-04-12",
-    headline: "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
-  },
-  {
-    date: "2026-04-12",
-    headline: "From LLMs to hallucinations, here&#8217;s a simple guide to common AI terms",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
   },
 ];
 

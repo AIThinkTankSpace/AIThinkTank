@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-16",
+    headline: "Factory hits $1.5B valuation to build AI coding for enterprises",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+  },
+  {
+    date: "2026-04-16",
+    headline: "Luma launches AI-powered production studio with faith-focused Wonder Project",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
+  },
+  {
+    date: "2026-04-16",
+    headline: "Upscale AI in talks to raise at $2B valuation, says report",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
+  },
+  {
+    date: "2026-04-16",
+    headline: "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+  },
+  {
+    date: "2026-04-16",
+    headline: "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+  },
+  {
     date: "2026-04-15",
     headline: "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic co-founder confirms the company briefed the Trump administration on Mythos",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/",
-  },
-  {
-    date: "2026-04-14",
-    headline: "Max Hodak’s Science Corp. is preparing to place its first sensor in a human brain",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/",
-  },
-  {
-    date: "2026-04-14",
-    headline: "Google adds AI Skills to Chrome to help you save favorite workflows",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
-  },
-  {
-    date: "2026-04-14",
-    headline: "Google brings its Gemini Personal Intelligence feature to India",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
-  },
-  {
-    date: "2026-04-14",
-    headline: "OpenAI has bought AI personal finance startup Hiro",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
-  },
-  {
-    date: "2026-04-13",
-    headline: "Stanford report highlights growing disconnect between AI insiders and everyone else",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
   },
 ];
 

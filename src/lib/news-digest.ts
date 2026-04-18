@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-17",
+    headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+  },
+  {
+    date: "2026-04-17",
+    headline: "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+  },
+  {
+    date: "2026-04-17",
+    headline: "Tokenmaxxing, OpenAI&#8217;s shopping spree, and the AI Anxiety Gap",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
+  },
+  {
+    date: "2026-04-17",
+    headline: "Anthropic launches Claude Design, a new product for creating quick visuals",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+  },
+  {
+    date: "2026-04-17",
+    headline: "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
+  },
+  {
     date: "2026-04-16",
     headline: "Factory hits $1.5B valuation to build AI coding for enterprises",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
-  },
-  {
-    date: "2026-04-15",
-    headline: "LinkedIn data shows AI isn&#8217;t to blame for hiring decline&#8230; yet",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/",
-  },
-  {
-    date: "2026-04-15",
-    headline: "AI learning app Gizmo levels up with 13M users and a $22M investment",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
-  },
-  {
-    date: "2026-04-15",
-    headline: "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
-  },
-  {
-    date: "2026-04-15",
-    headline: "Anthropic&#8217;s rise is giving some OpenAI investors second thoughts",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
-  },
-  {
-    date: "2026-04-14",
-    headline: "Anthropic co-founder confirms the company briefed the Trump administration on Mythos",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/",
   },
 ];
 

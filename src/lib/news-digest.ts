@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-18",
+    headline: "Tesla brings its robotaxi service to Dallas and Houston",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+  },
+  {
+    date: "2026-04-18",
+    headline: "AI chip startup Cerebras files for IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+  },
+  {
+    date: "2026-04-18",
+    headline: "Anthropic’s relationship with the Trump administration seems to be thawing",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
+  },
+  {
+    date: "2026-04-18",
+    headline: "The App Store is booming again, and AI may be why",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
+  },
+  {
+    date: "2026-04-17",
+    headline: "How robots learn: A brief, contemporary history",
+    audiences: ["ai-for-teens"],
+    link: "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
+  },
+  {
     date: "2026-04-17",
     headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Luma launches AI-powered production studio with faith-focused Wonder Project",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
-  },
-  {
-    date: "2026-04-16",
-    headline: "Upscale AI in talks to raise at $2B valuation, says report",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
-  },
-  {
-    date: "2026-04-16",
-    headline: "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
-  },
-  {
-    date: "2026-04-16",
-    headline: "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
-  },
-  {
-    date: "2026-04-15",
-    headline: "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-  },
-  {
-    date: "2026-04-15",
-    headline: "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
   },
 ];
 

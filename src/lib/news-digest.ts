@@ -15,6 +15,18 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-19",
+    headline: "OpenAI’s existential questions",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+  },
+  {
+    date: "2026-04-19",
+    headline: "This charming gadget writes bad AI poetry",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
+  },
+  {
     date: "2026-04-18",
     headline: "Tesla brings its robotaxi service to Dallas and Houston",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -73,18 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
-  },
-  {
-    date: "2026-04-16",
-    headline: "Factory hits $1.5B valuation to build AI coding for enterprises",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
-  },
-  {
-    date: "2026-04-16",
-    headline: "Luma launches AI-powered production studio with faith-focused Wonder Project",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
   },
 ];
 

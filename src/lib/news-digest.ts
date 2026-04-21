@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-20",
+    headline: "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+  },
+  {
+    date: "2026-04-20",
+    headline: "Google rolls out Gemini in Chrome in 7 new countries",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+  },
+  {
+    date: "2026-04-20",
+    headline: "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
+  },
+  {
+    date: "2026-04-20",
+    headline: "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
+  },
+  {
+    date: "2026-04-20",
+    headline: "The Download: murderous &#8216;mirror&#8217; bacteria, and Chinese workers fighting AI doubles",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
+  },
+  {
     date: "2026-04-19",
     headline: "OpenAI’s existential questions",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "How robots learn: A brief, contemporary history",
     audiences: ["ai-for-teens"],
     link: "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
-  },
-  {
-    date: "2026-04-17",
-    headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
-  },
-  {
-    date: "2026-04-17",
-    headline: "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
-  },
-  {
-    date: "2026-04-17",
-    headline: "Tokenmaxxing, OpenAI&#8217;s shopping spree, and the AI Anxiety Gap",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
-  },
-  {
-    date: "2026-04-17",
-    headline: "Anthropic launches Claude Design, a new product for creating quick visuals",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
-  },
-  {
-    date: "2026-04-17",
-    headline: "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-21",
+    headline: "Meta will record employees&#8217; keystrokes and use it to train its AI models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
+  },
+  {
+    date: "2026-04-21",
+    headline: "Unauthorized group has gained access to Anthropic&#8217;s exclusive cyber tool Mythos, report claims",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+  },
+  {
+    date: "2026-04-21",
+    headline: "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+  },
+  {
+    date: "2026-04-21",
+    headline: "ChatGPT&#8217;s new Images 2.0 model is surprisingly good at generating text",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+  },
+  {
+    date: "2026-04-21",
+    headline: "Sam Altman throws shade at Anthropic&#8217;s cyber model, Mythos: &#8216;fear-based marketing&#8217;",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
+  },
+  {
     date: "2026-04-20",
     headline: "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "This charming gadget writes bad AI poetry",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
-  },
-  {
-    date: "2026-04-18",
-    headline: "Tesla brings its robotaxi service to Dallas and Houston",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
-  },
-  {
-    date: "2026-04-18",
-    headline: "AI chip startup Cerebras files for IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-  },
-  {
-    date: "2026-04-18",
-    headline: "Anthropic’s relationship with the Trump administration seems to be thawing",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
-  },
-  {
-    date: "2026-04-18",
-    headline: "The App Store is booming again, and AI may be why",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
-  },
-  {
-    date: "2026-04-17",
-    headline: "How robots learn: A brief, contemporary history",
-    audiences: ["ai-for-teens"],
-    link: "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
   },
 ];
 

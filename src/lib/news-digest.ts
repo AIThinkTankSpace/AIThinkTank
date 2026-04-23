@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-23",
+    headline: "India&#8217;s app market is booming — but global platforms are capturing most of the gains",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/",
+  },
+  {
+    date: "2026-04-22",
+    headline: "Google updates Workspace to make AI your new office intern",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+  },
+  {
+    date: "2026-04-22",
+    headline: "Hands on with X&#8217;s new AI-powered custom feeds",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
+  },
+  {
+    date: "2026-04-22",
+    headline: "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+  },
+  {
+    date: "2026-04-22",
+    headline: "Google Cloud launches two new AI chips to compete with Nvidia",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
+  },
+  {
     date: "2026-04-21",
     headline: "Meta will record employees&#8217; keystrokes and use it to train its AI models",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google rolls out Gemini in Chrome in 7 new countries",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
-  },
-  {
-    date: "2026-04-20",
-    headline: "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
-  },
-  {
-    date: "2026-04-20",
-    headline: "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
-  },
-  {
-    date: "2026-04-20",
-    headline: "The Download: murderous &#8216;mirror&#8217; bacteria, and Chinese workers fighting AI doubles",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
-  },
-  {
-    date: "2026-04-19",
-    headline: "OpenAI’s existential questions",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-  },
-  {
-    date: "2026-04-19",
-    headline: "This charming gadget writes bad AI poetry",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-24",
+    headline: "Meta&#8217;s loss is Thinking Machines&#8217; gain",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+  },
+  {
+    date: "2026-04-24",
+    headline: "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+  },
+  {
+    date: "2026-04-24",
+    headline: "Google to invest up to $40B in Anthropic in cash and compute",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+  },
+  {
+    date: "2026-04-24",
+    headline: "Marked-up Mac minis flood eBay amid shortages driven by AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+  },
+  {
+    date: "2026-04-24",
+    headline: "Nothing introduces an AI-powered dictation tool",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+  },
+  {
     date: "2026-04-23",
     headline: "Bret Taylor&#8217;s Sierra buys YC-backed AI startup Fragment",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google updates Workspace to make AI your new office intern",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
-  },
-  {
-    date: "2026-04-22",
-    headline: "Hands on with X&#8217;s new AI-powered custom feeds",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
-  },
-  {
-    date: "2026-04-22",
-    headline: "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
-  },
-  {
-    date: "2026-04-22",
-    headline: "Google Cloud launches two new AI chips to compete with Nvidia",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
-  },
-  {
-    date: "2026-04-21",
-    headline: "Meta will record employees&#8217; keystrokes and use it to train its AI models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
-  },
-  {
-    date: "2026-04-21",
-    headline: "Unauthorized group has gained access to Anthropic&#8217;s exclusive cyber tool Mythos, report claims",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
   },
 ];
 

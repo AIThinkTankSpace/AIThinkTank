@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-25",
+    headline: "Anthropic created a test marketplace for agent-on-agent commerce",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+  },
+  {
+    date: "2026-04-25",
+    headline: "Maine&#8217;s governor vetoes data center moratorium",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+  },
+  {
+    date: "2026-04-25",
+    headline: "OpenAI CEO apologizes to Tumbler Ridge community",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+  },
+  {
+    date: "2026-04-24",
+    headline: "Three reasons why DeepSeek’s new model matters",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+  },
+  {
+    date: "2026-04-24",
+    headline: "The Download: supercharged scams and studying AI healthcare",
+    audiences: ["ai-for-teens"],
+    link: "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
+  },
+  {
     date: "2026-04-24",
     headline: "Meta&#8217;s loss is Thinking Machines&#8217; gain",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meet Noscroll, an AI bot that does your doomscrolling for you",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
-  },
-  {
-    date: "2026-04-23",
-    headline: "OpenAI releases GPT-5.5, bringing company one step closer to an AI &#8216;super app&#8217;",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-  },
-  {
-    date: "2026-04-23",
-    headline: "Era raises $11M to build a software platform for AI gadgets",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
-  },
-  {
-    date: "2026-04-23",
-    headline: "AI galaxy hunters are adding to the global GPU crunch",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
-  },
-  {
-    date: "2026-04-23",
-    headline: "India&#8217;s app market is booming — but global platforms are capturing most of the gains",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/",
-  },
-  {
-    date: "2026-04-22",
-    headline: "Google updates Workspace to make AI your new office intern",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
   },
 ];
 

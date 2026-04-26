@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import HubPage from "@/components/HubPage";
 
 export const metadata: Metadata = {
-  title: "AI for Teens — Your AI Advantage",
+  title: "AI for Teens: Study Smarter & Build AI Skills",
   description:
-    "The skills your school isn't teaching you yet. Free AI tools, study hacks, and career insights for the next generation of innovators. Boost your grades with AI.",
+    "17 free AI study guides + 8 interactive tools for teens 13–17. Exam prep, college essays, AI careers — built for students who'll out-skill the rest.",
   keywords: [
     "AI for teens",
     "AI study tools",
@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     "best AI tools for studying",
     "AI career guidance teens",
     "AI tools for JEE NEET",
+    "ChatGPT for homework",
+    "AI college essay help",
   ],
 };
 

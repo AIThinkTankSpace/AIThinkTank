@@ -8,11 +8,11 @@ import { WebsiteJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: {
-    default: "AI Think Tank | Learn AI for Kids, Teens & Professionals",
+    default: "AI Think Tank — Free AI Learning for Kids, Teens & Pros",
     template: "%s | AI Think Tank",
   },
   description:
-    "Free AI education for everyone. Explore AI through fun activities for kids, study tools for teens, and practical guides for professionals. No jargon, no signup wall.",
+    "51 free guides + 24 interactive tools to learn AI — for curious kids, ambitious teens, and busy professionals. No jargon, no signup wall. Updated daily.",
   keywords: [
     "AI for kids",
     "AI for teens",
@@ -27,18 +27,22 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.aithinktank.space",
     siteName: "AI Think Tank",
-    title: "AI Think Tank | Learn AI for Kids, Teens & Professionals",
+    title: "AI Think Tank — Free AI Learning for Kids, Teens & Pros",
     description:
-      "Free AI education for everyone. Fun activities for kids, study tools for teens, and practical guides for professionals.",
+      "51 free guides + 24 interactive tools to learn AI — for kids, teens, and professionals. No jargon, no signup wall. Updated daily.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Think Tank",
-    description: "Free AI education for kids, teens, and professionals.",
+    title: "AI Think Tank — Free AI Learning",
+    description:
+      "51 free guides + 24 interactive tools. AI for kids, teens, and professionals. No jargon, no signup wall.",
   },
   robots: {
     index: true,
     follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
   },
   alternates: {
     canonical: "https://www.aithinktank.space",

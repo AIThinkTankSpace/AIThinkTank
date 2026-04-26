@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import HubPage from "@/components/HubPage";
 
 export const metadata: Metadata = {
-  title: "AI for Corporates — AI, Without the Jargon",
+  title: "AI for Business: Strategy, ROI & Use Cases",
   description:
-    "Understand AI in plain English. Practical AI guidance for non-technical professionals and business leaders. Real frameworks, case studies, and ROI-focused strategies.",
+    "Why 80% of AI agents fail, real ROI frameworks, and 17 leader-tested guides on AI strategy, governance, and HR. No jargon. No vendor pitch. Free.",
   keywords: [
     "AI for business",
     "AI for professionals",
@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     "AI adoption business",
     "AI ROI",
     "AI without jargon",
+    "enterprise AI use cases",
+    "AI governance framework",
   ],
 };
 

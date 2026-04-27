@@ -15,6 +15,12 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-26",
+    headline: "To buy this Bay Area home, you’ll need Anthropic equity",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+  },
+  {
     date: "2026-04-25",
     headline: "Anthropic created a test marketplace for agent-on-agent commerce",
     audiences: ["ai-for-corporates"],
@@ -79,12 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Bret Taylor&#8217;s Sierra buys YC-backed AI startup Fragment",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-  },
-  {
-    date: "2026-04-23",
-    headline: "Meet Noscroll, an AI bot that does your doomscrolling for you",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
   },
 ];
 

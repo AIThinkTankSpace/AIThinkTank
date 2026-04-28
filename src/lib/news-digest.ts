@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-27",
+    headline: "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+  },
+  {
+    date: "2026-04-27",
+    headline: "DeepMind&#8217;s David Silver just raised $1.1B to build an AI that learns without human data",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+  },
+  {
+    date: "2026-04-27",
+    headline: "Investors back Skye’s AI home screen app for iPhone ahead of launch",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+  },
+  {
+    date: "2026-04-27",
+    headline: "OpenAI could be making a phone with AI agents replacing apps",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+  },
+  {
+    date: "2026-04-27",
+    headline: "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+  },
+  {
     date: "2026-04-26",
     headline: "To buy this Bay Area home, you’ll need Anthropic equity",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meta&#8217;s loss is Thinking Machines&#8217; gain",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "Google to invest up to $40B in Anthropic in cash and compute",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "Marked-up Mac minis flood eBay amid shortages driven by AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "Nothing introduces an AI-powered dictation tool",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-  },
-  {
-    date: "2026-04-23",
-    headline: "Bret Taylor&#8217;s Sierra buys YC-backed AI startup Fragment",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-29",
+    headline: "At his OpenAI trial, Musk relitigates an old friendship",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+  },
+  {
+    date: "2026-04-28",
+    headline: "Amazon is already offering new OpenAI products on AWS",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+  },
+  {
+    date: "2026-04-28",
+    headline: "Amazon launches an AI-powered audio Q&#038;A experience on product pages",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+  },
+  {
+    date: "2026-04-28",
+    headline: "Google expands Pentagon&#8217;s access to its AI after Anthropic&#8217;s refusal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+  },
+  {
+    date: "2026-04-28",
+    headline: "YouTube is testing an AI-powered search feature that shows guided answers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+  },
+  {
     date: "2026-04-27",
     headline: "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic created a test marketplace for agent-on-agent commerce",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-  },
-  {
-    date: "2026-04-25",
-    headline: "Maine&#8217;s governor vetoes data center moratorium",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
-  },
-  {
-    date: "2026-04-25",
-    headline: "OpenAI CEO apologizes to Tumbler Ridge community",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "Three reasons why DeepSeek’s new model matters",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "The Download: supercharged scams and studying AI healthcare",
-    audiences: ["ai-for-teens"],
-    link: "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
-  },
-  {
-    date: "2026-04-24",
-    headline: "Meta&#8217;s loss is Thinking Machines&#8217; gain",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
   },
 ];
 

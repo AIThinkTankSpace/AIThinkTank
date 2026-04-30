@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-04-30",
+    headline: "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+  },
+  {
+    date: "2026-04-30",
+    headline: "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+  },
+  {
+    date: "2026-04-29",
+    headline: "Satya Nadella says he&#8217;s ready to &#8216;exploit&#8217; the new OpenAI deal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+  },
+  {
+    date: "2026-04-29",
+    headline: "Microsoft says it has over 20M paid Copilot users, and they really are using it",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
+  },
+  {
+    date: "2026-04-29",
+    headline: "Google Cloud surpasses $20B, but says growth was capacity-constrained",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
+  },
+  {
     date: "2026-04-29",
     headline: "At his OpenAI trial, Musk relitigates an old friendship",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "DeepMind&#8217;s David Silver just raised $1.1B to build an AI that learns without human data",
     audiences: ["ai-for-teens"],
     link: "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
-  },
-  {
-    date: "2026-04-27",
-    headline: "Investors back Skye’s AI home screen app for iPhone ahead of launch",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
-  },
-  {
-    date: "2026-04-27",
-    headline: "OpenAI could be making a phone with AI agents replacing apps",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-  },
-  {
-    date: "2026-04-27",
-    headline: "Elon Musk and Sam Altman are going to court over OpenAI’s future",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
-  },
-  {
-    date: "2026-04-26",
-    headline: "To buy this Bay Area home, you’ll need Anthropic equity",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
-  },
-  {
-    date: "2026-04-25",
-    headline: "Anthropic created a test marketplace for agent-on-agent commerce",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
   },
 ];
 

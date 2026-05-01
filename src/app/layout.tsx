@@ -30,12 +30,21 @@ export const metadata: Metadata = {
     title: "AI Think Tank — Free AI Learning for Kids, Teens & Pros",
     description:
       "51 free guides + 24 interactive tools to learn AI — for kids, teens, and professionals. No jargon, no signup wall. Updated daily.",
+    images: [
+      {
+        url: "/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "AI Think Tank — Free AI learning for kids, teens, and professionals. 51 guides, 24 tools.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Think Tank — Free AI Learning",
     description:
       "51 free guides + 24 interactive tools. AI for kids, teens, and professionals. No jargon, no signup wall.",
+    images: ["/og-default.png"],
   },
   robots: {
     index: true,

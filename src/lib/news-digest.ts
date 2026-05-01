@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-01",
+    headline: "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+  },
+  {
+    date: "2026-04-30",
+    headline: "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+  },
+  {
+    date: "2026-04-30",
+    headline: "Apple was surprised by AI-driven demand for Macs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+  },
+  {
+    date: "2026-04-30",
+    headline: "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+  },
+  {
+    date: "2026-04-30",
+    headline: "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+  },
+  {
     date: "2026-04-30",
     headline: "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Amazon is already offering new OpenAI products on AWS",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
-  },
-  {
-    date: "2026-04-28",
-    headline: "Amazon launches an AI-powered audio Q&#038;A experience on product pages",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
-  },
-  {
-    date: "2026-04-28",
-    headline: "Google expands Pentagon&#8217;s access to its AI after Anthropic&#8217;s refusal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
-  },
-  {
-    date: "2026-04-28",
-    headline: "YouTube is testing an AI-powered search feature that shows guided answers",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
-  },
-  {
-    date: "2026-04-27",
-    headline: "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-  },
-  {
-    date: "2026-04-27",
-    headline: "DeepMind&#8217;s David Silver just raised $1.1B to build an AI that learns without human data",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
   },
 ];
 

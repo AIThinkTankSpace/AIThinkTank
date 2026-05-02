@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-05-01",
+    headline: "Meta buys robotics startup to bolster its humanoid AI ambitions",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that…",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "Cyber-Insecurity in the AI Era",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "Operationalizing AI for Scale and Sovereignty",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+  },
+  {
+    date: "2026-05-01",
     headline: "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-  },
-  {
-    date: "2026-04-29",
-    headline: "Satya Nadella says he&#8217;s ready to &#8216;exploit&#8217; the new OpenAI deal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
-  },
-  {
-    date: "2026-04-29",
-    headline: "Microsoft says it has over 20M paid Copilot users, and they really are using it",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
-  },
-  {
-    date: "2026-04-29",
-    headline: "Google Cloud surpasses $20B, but says growth was capacity-constrained",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
-  },
-  {
-    date: "2026-04-29",
-    headline: "At his OpenAI trial, Musk relitigates an old friendship",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
-  },
-  {
-    date: "2026-04-28",
-    headline: "Amazon is already offering new OpenAI products on AWS",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
   },
 ];
 

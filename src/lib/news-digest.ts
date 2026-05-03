@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-02",
+    headline: "AI-generated actors and scripts are now ineligible for Oscars",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+  },
+  {
+    date: "2026-05-02",
+    headline: "The best AI dictation apps, tested and ranked",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "The Download: a new Christian phone network, and debugging LLMs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "A new US phone network for Christians aims to block porn and gender-related content",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
+  },
+  {
+    date: "2026-05-01",
+    headline: "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+  },
+  {
     date: "2026-05-01",
     headline: "Meta buys robotics startup to bolster its humanoid AI ambitions",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
-  },
-  {
-    date: "2026-04-30",
-    headline: "Apple was surprised by AI-driven demand for Macs",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
-  },
-  {
-    date: "2026-04-30",
-    headline: "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
-  },
-  {
-    date: "2026-04-30",
-    headline: "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
-  },
-  {
-    date: "2026-04-30",
-    headline: "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
-  },
-  {
-    date: "2026-04-30",
-    headline: "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
   },
 ];
 

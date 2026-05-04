@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-03",
+    headline: "‘This is fine’ creator says AI startup stole his art",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+  },
+  {
+    date: "2026-05-03",
+    headline: "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+  },
+  {
+    date: "2026-05-03",
+    headline: "AI music is flooding streaming services — but who wants it?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
+  },
+  {
+    date: "2026-05-02",
+    headline: "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+  },
+  {
     date: "2026-05-02",
     headline: "AI-generated actors and scripts are now ineligible for Oscars",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that…",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "Cyber-Insecurity in the AI Era",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "Operationalizing AI for Scale and Sovereignty",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
-  },
-  {
-    date: "2026-04-30",
-    headline: "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-05",
+    headline: "As workers worry about AI, Nvidia&#8217;s Jensen Huang says AI is &#8216;creating an enormous…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+  },
+  {
+    date: "2026-05-04",
+    headline: "OpenAI&#8217;s cozy partner Cerebras is on track for a blockbuster IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+  },
+  {
+    date: "2026-05-04",
+    headline: "Image AI models now drive app growth, beating chatbot upgrades",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+  },
+  {
+    date: "2026-05-04",
+    headline: "Elon Musk&#8217;s only AI expert witness at the OpenAI trial fears an AGI arms race",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+  },
+  {
+    date: "2026-05-04",
+    headline: "Sierra raises $950M as the race to own enterprise AI gets serious",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+  },
+  {
     date: "2026-05-03",
     headline: "‘This is fine’ creator says AI startup stole his art",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: a new Christian phone network, and debugging LLMs",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "A new US phone network for Christians aims to block porn and gender-related content",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
-  },
-  {
-    date: "2026-05-01",
-    headline: "Meta buys robotics startup to bolster its humanoid AI ambitions",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that…",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
   },
 ];
 

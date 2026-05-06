@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-06",
+    headline: "Marc Lore says that AI will soon enable anyone open a restaurant",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
+  },
+  {
+    date: "2026-05-05",
+    headline: "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+  },
+  {
+    date: "2026-05-05",
+    headline: "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+  },
+  {
+    date: "2026-05-05",
+    headline: "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+  },
+  {
+    date: "2026-05-05",
+    headline: "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+  },
+  {
     date: "2026-05-05",
     headline: "As workers worry about AI, Nvidia&#8217;s Jensen Huang says AI is &#8216;creating an enormous…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
     audiences: ["ai-for-teens"],
     link: "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
-  },
-  {
-    date: "2026-05-03",
-    headline: "AI music is flooding streaming services — but who wants it?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
-  },
-  {
-    date: "2026-05-02",
-    headline: "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-  },
-  {
-    date: "2026-05-02",
-    headline: "AI-generated actors and scripts are now ineligible for Oscars",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
-  },
-  {
-    date: "2026-05-02",
-    headline: "The best AI dictation apps, tested and ranked",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-  },
-  {
-    date: "2026-05-01",
-    headline: "The Download: a new Christian phone network, and debugging LLMs",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
   },
 ];
 

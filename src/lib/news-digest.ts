@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-07",
+    headline: "Five architects of the AI economy explain where the wheels are coming off",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
+  },
+  {
+    date: "2026-05-06",
+    headline: "Is xAI a neocloud now?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+  },
+  {
+    date: "2026-05-06",
+    headline: "How Elon Musk left OpenAI, according to Greg Brockman",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
+  },
+  {
+    date: "2026-05-06",
+    headline: "Google updates AI search to include quotes from Reddit and other sources",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+  },
+  {
+    date: "2026-05-06",
+    headline: "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+  },
+  {
     date: "2026-05-06",
     headline: "Marc Lore says that AI will soon enable anyone open a restaurant",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI&#8217;s cozy partner Cerebras is on track for a blockbuster IPO",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
-  },
-  {
-    date: "2026-05-04",
-    headline: "Image AI models now drive app growth, beating chatbot upgrades",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
-  },
-  {
-    date: "2026-05-04",
-    headline: "Elon Musk&#8217;s only AI expert witness at the OpenAI trial fears an AGI arms race",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
-  },
-  {
-    date: "2026-05-04",
-    headline: "Sierra raises $950M as the race to own enterprise AI gets serious",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-  },
-  {
-    date: "2026-05-03",
-    headline: "‘This is fine’ creator says AI startup stole his art",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
-  },
-  {
-    date: "2026-05-03",
-    headline: "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
   },
 ];
 

@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-05-07",
+    headline: "OpenAI launches new voice intelligence features in its API",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+  },
+  {
+    date: "2026-05-07",
+    headline: "Voi founders&#8217; new AI startup Pit has become the latest rising star out of Stockholm",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
+  },
+  {
+    date: "2026-05-07",
+    headline: "OpenAI introduces new &#8216;Trusted Contact&#8217; safeguard for cases of possible self-harm",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+  },
+  {
+    date: "2026-05-07",
+    headline: "Perplexity&#8217;s Personal Computer is now available to everyone on Mac",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+  },
+  {
+    date: "2026-05-07",
+    headline: "Elon Musk&#8217;s lawsuit is putting OpenAI&#8217;s safety record under the microscope",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+  },
+  {
+    date: "2026-05-07",
     headline: "Five architects of the AI economy explain where the wheels are coming off",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
-  },
-  {
-    date: "2026-05-05",
-    headline: "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
-  },
-  {
-    date: "2026-05-05",
-    headline: "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
-  },
-  {
-    date: "2026-05-05",
-    headline: "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-  },
-  {
-    date: "2026-05-05",
-    headline: "As workers worry about AI, Nvidia&#8217;s Jensen Huang says AI is &#8216;creating an enormous…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
-  },
-  {
-    date: "2026-05-04",
-    headline: "OpenAI&#8217;s cozy partner Cerebras is on track for a blockbuster IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
   },
 ];
 

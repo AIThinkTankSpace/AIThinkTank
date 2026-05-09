@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-08",
+    headline: "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+  },
+  {
+    date: "2026-05-08",
+    headline: "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+  },
+  {
+    date: "2026-05-08",
+    headline: "The “people’s airline” and the enterprise AI gold rush",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+  },
+  {
+    date: "2026-05-08",
+    headline: "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam…",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+  },
+  {
+    date: "2026-05-08",
+    headline: "The Download: AI malaise and babymaking tech",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
+  },
+  {
     date: "2026-05-07",
     headline: "OpenAI launches new voice intelligence features in its API",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Is xAI a neocloud now?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-  },
-  {
-    date: "2026-05-06",
-    headline: "How Elon Musk left OpenAI, according to Greg Brockman",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
-  },
-  {
-    date: "2026-05-06",
-    headline: "Google updates AI search to include quotes from Reddit and other sources",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
-  },
-  {
-    date: "2026-05-06",
-    headline: "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
-  },
-  {
-    date: "2026-05-06",
-    headline: "Marc Lore says that AI will soon enable anyone open a restaurant",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
-  },
-  {
-    date: "2026-05-05",
-    headline: "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
   },
 ];
 

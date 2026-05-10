@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-10",
+    headline: "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+  },
+  {
+    date: "2026-05-09",
+    headline: "So you&#8217;ve heard these AI terms and nodded along; let&#8217;s fix that",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+  },
+  {
+    date: "2026-05-09",
+    headline: "Nvidia has already committed $40B to equity AI deals this year",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+  },
+  {
+    date: "2026-05-08",
+    headline: "All the latest updates on AI data centers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+  },
+  {
+    date: "2026-05-08",
+    headline: "PlayStation sees AI as a ‘powerful tool’ to help make games",
+    audiences: ["ai-for-kids"],
+    link: "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
+  },
+  {
     date: "2026-05-08",
     headline: "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Voi founders&#8217; new AI startup Pit has become the latest rising star out of Stockholm",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-  },
-  {
-    date: "2026-05-07",
-    headline: "OpenAI introduces new &#8216;Trusted Contact&#8217; safeguard for cases of possible self-harm",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-  },
-  {
-    date: "2026-05-07",
-    headline: "Perplexity&#8217;s Personal Computer is now available to everyone on Mac",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-  },
-  {
-    date: "2026-05-07",
-    headline: "Elon Musk&#8217;s lawsuit is putting OpenAI&#8217;s safety record under the microscope",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-  },
-  {
-    date: "2026-05-07",
-    headline: "Five architects of the AI economy explain where the wheels are coming off",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
-  },
-  {
-    date: "2026-05-06",
-    headline: "Is xAI a neocloud now?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
   },
 ];
 

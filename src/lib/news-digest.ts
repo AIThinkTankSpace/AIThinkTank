@@ -16,6 +16,24 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-05-10",
+    headline: "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+  },
+  {
+    date: "2026-05-10",
+    headline: "We’re feeling cynical about xAI’s big deal with Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+  },
+  {
+    date: "2026-05-09",
+    headline: "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+  },
+  {
+    date: "2026-05-10",
     headline: "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam…",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-  },
-  {
-    date: "2026-05-08",
-    headline: "The Download: AI malaise and babymaking tech",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
-  },
-  {
-    date: "2026-05-07",
-    headline: "OpenAI launches new voice intelligence features in its API",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-  },
-  {
-    date: "2026-05-07",
-    headline: "Voi founders&#8217; new AI startup Pit has become the latest rising star out of Stockholm",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
   },
 ];
 

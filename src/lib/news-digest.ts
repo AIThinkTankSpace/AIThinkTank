@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-12",
+    headline: "Thinking Machines wants to build an AI that actually listens while it talks",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+  },
+  {
+    date: "2026-05-12",
+    headline: "Riding an AI rally, Robinhood preps second retail venture IPO",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+  },
+  {
+    date: "2026-05-11",
+    headline: "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+  },
+  {
+    date: "2026-05-11",
+    headline: "Digg tries again, this time as an AI news aggregator",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+  },
+  {
+    date: "2026-05-11",
+    headline: "There aren&#8217;t enough rockets for space data centers — Cowboy Space raised $275M to build them",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+  },
+  {
     date: "2026-05-10",
     headline: "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "All the latest updates on AI data centers",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-  },
-  {
-    date: "2026-05-08",
-    headline: "PlayStation sees AI as a ‘powerful tool’ to help make games",
-    audiences: ["ai-for-kids"],
-    link: "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
-  },
-  {
-    date: "2026-05-08",
-    headline: "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-  },
-  {
-    date: "2026-05-08",
-    headline: "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-  },
-  {
-    date: "2026-05-08",
-    headline: "The “people’s airline” and the enterprise AI gold rush",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-  },
-  {
-    date: "2026-05-08",
-    headline: "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam…",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-13",
+    headline: "Medicare&#8217;s new payment model is built for AI, and most of the tech world has no idea",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+  },
+  {
+    date: "2026-05-12",
+    headline: "Musk mulled handing OpenAI to his children, Altman testifies",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+  },
+  {
+    date: "2026-05-12",
+    headline: "Anthropic warns investors against secondary platforms offering access to its shares",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+  },
+  {
+    date: "2026-05-12",
+    headline: "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+  },
+  {
+    date: "2026-05-12",
+    headline: "The AI legal services industry is heating up — Anthropic is getting in on the action",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+  },
+  {
     date: "2026-05-12",
     headline: "Thinking Machines wants to build an AI that actually listens while it talks",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "We’re feeling cynical about xAI’s big deal with Anthropic",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-  },
-  {
-    date: "2026-05-09",
-    headline: "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-  },
-  {
-    date: "2026-05-10",
-    headline: "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-  },
-  {
-    date: "2026-05-09",
-    headline: "So you&#8217;ve heard these AI terms and nodded along; let&#8217;s fix that",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-  },
-  {
-    date: "2026-05-09",
-    headline: "Nvidia has already committed $40B to equity AI deals this year",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-  },
-  {
-    date: "2026-05-08",
-    headline: "All the latest updates on AI data centers",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
   },
 ];
 

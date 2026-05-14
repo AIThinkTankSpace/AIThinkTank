@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-14",
+    headline: "Who decides what AI tells you? Campbell Brown, once Meta&#8217;s news chief, has thoughts",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
+  },
+  {
+    date: "2026-05-14",
+    headline: "Clio&#8217;s $500M milestone arrives just as Anthropic ups the ante",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
+  },
+  {
+    date: "2026-05-13",
+    headline: "Notion just turned its workspace into a hub for AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+  },
+  {
+    date: "2026-05-13",
+    headline: "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+  },
+  {
+    date: "2026-05-13",
+    headline: "Anthropic&#8217;s Cat Wu says that, in the future, AI will anticipate your needs before you know…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
+  },
+  {
     date: "2026-05-13",
     headline: "Medicare&#8217;s new payment model is built for AI, and most of the tech world has no idea",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Riding an AI rally, Robinhood preps second retail venture IPO",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
-  },
-  {
-    date: "2026-05-11",
-    headline: "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-  },
-  {
-    date: "2026-05-11",
-    headline: "Digg tries again, this time as an AI news aggregator",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-  },
-  {
-    date: "2026-05-11",
-    headline: "There aren&#8217;t enough rockets for space data centers — Cowboy Space raised $275M to build them",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-  },
-  {
-    date: "2026-05-10",
-    headline: "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-  },
-  {
-    date: "2026-05-10",
-    headline: "We’re feeling cynical about xAI’s big deal with Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
   },
 ];
 

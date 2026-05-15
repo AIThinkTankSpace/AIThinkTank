@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-05-14",
+    headline: "Elon Musk&#8217;s SpaceXAI has been bleeding staff since its merger",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+  },
+  {
+    date: "2026-05-14",
+    headline: "OpenAI says Codex is coming to your phone",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+  },
+  {
+    date: "2026-05-14",
+    headline: "What happens when AI starts building itself?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+  },
+  {
+    date: "2026-05-14",
+    headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+  },
+  {
+    date: "2026-05-14",
+    headline: "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+  },
+  {
+    date: "2026-05-14",
     headline: "Who decides what AI tells you? Campbell Brown, once Meta&#8217;s news chief, has thoughts",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Musk mulled handing OpenAI to his children, Altman testifies",
     audiences: ["ai-for-kids", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
-  },
-  {
-    date: "2026-05-12",
-    headline: "Anthropic warns investors against secondary platforms offering access to its shares",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-  },
-  {
-    date: "2026-05-12",
-    headline: "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
-  },
-  {
-    date: "2026-05-12",
-    headline: "The AI legal services industry is heating up — Anthropic is getting in on the action",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
-  },
-  {
-    date: "2026-05-12",
-    headline: "Thinking Machines wants to build an AI that actually listens while it talks",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-  },
-  {
-    date: "2026-05-12",
-    headline: "Riding an AI rally, Robinhood preps second retail venture IPO",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
   },
 ];
 

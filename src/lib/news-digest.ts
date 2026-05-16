@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-15",
+    headline: "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+  },
+  {
+    date: "2026-05-15",
+    headline: "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
+  },
+  {
+    date: "2026-05-15",
+    headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+  },
+  {
+    date: "2026-05-15",
+    headline: "Runway started by helping filmmakers — now it wants to beat Google at AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+  },
+  {
+    date: "2026-05-15",
+    headline: "Osaurus brings both local and cloud AI models to your Mac",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+  },
+  {
     date: "2026-05-14",
     headline: "Elon Musk&#8217;s SpaceXAI has been bleeding staff since its merger",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Clio&#8217;s $500M milestone arrives just as Anthropic ups the ante",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
-  },
-  {
-    date: "2026-05-13",
-    headline: "Notion just turned its workspace into a hub for AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-  },
-  {
-    date: "2026-05-13",
-    headline: "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
-  },
-  {
-    date: "2026-05-13",
-    headline: "Anthropic&#8217;s Cat Wu says that, in the future, AI will anticipate your needs before you know…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
-  },
-  {
-    date: "2026-05-13",
-    headline: "Medicare&#8217;s new payment model is built for AI, and most of the tech world has no idea",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
-  },
-  {
-    date: "2026-05-12",
-    headline: "Musk mulled handing OpenAI to his children, Altman testifies",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-16",
+    headline: "The haves and have nots of the AI gold rush",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+  },
+  {
+    date: "2026-05-16",
+    headline: "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+  },
+  {
+    date: "2026-05-16",
+    headline: "OpenAI co-founder Greg Brockman takes charge of product strategy",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+  },
+  {
+    date: "2026-05-15",
+    headline: "The Download: China’s AI drama factory and the WHO’s missing health targets",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/",
+  },
+  {
+    date: "2026-05-15",
+    headline: "How Chinese short dramas became AI content machines",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
+  },
+  {
     date: "2026-05-15",
     headline: "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI says Codex is coming to your phone",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "What happens when AI starts building itself?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "Who decides what AI tells you? Campbell Brown, once Meta&#8217;s news chief, has thoughts",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "Clio&#8217;s $500M milestone arrives just as Anthropic ups the ante",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-17",
+    headline: "Why trust is a big question at the Elon Musk-OpenAI trial",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+  },
+  {
+    date: "2026-05-17",
+    headline: "If you’re giving a commencement speech in 2026, maybe don’t mention AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
+  },
+  {
+    date: "2026-05-17",
+    headline: "TechCrunch Mobility: The AI skills arms race is coming for automotive",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+  },
+  {
+    date: "2026-05-17",
+    headline: "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+  },
+  {
+    date: "2026-05-18",
+    headline: "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+  },
+  {
     date: "2026-05-16",
     headline: "The haves and have nots of the AI gold rush",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "Runway started by helping filmmakers — now it wants to beat Google at AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "Osaurus brings both local and cloud AI models to your Mac",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "Elon Musk&#8217;s SpaceXAI has been bleeding staff since its merger",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-  },
-  {
-    date: "2026-05-14",
-    headline: "OpenAI says Codex is coming to your phone",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
   },
 ];
 

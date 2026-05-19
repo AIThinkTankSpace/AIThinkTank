@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-18",
+    headline: "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+  },
+  {
+    date: "2026-05-18",
+    headline: "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+  },
+  {
+    date: "2026-05-18",
+    headline: "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+  },
+  {
+    date: "2026-05-18",
+    headline: "South Korea&#8217;s LetinAR is building optics behind AI glasses",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+  },
+  {
+    date: "2026-05-19",
+    headline: "Here’s why Elon Musk lost his suit against OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+  },
+  {
     date: "2026-05-17",
     headline: "Why trust is a big question at the Elon Musk-OpenAI trial",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Research repository ArXiv will ban authors for a year if they let AI do all the work",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-  },
-  {
-    date: "2026-05-16",
-    headline: "OpenAI co-founder Greg Brockman takes charge of product strategy",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "The Download: China’s AI drama factory and the WHO’s missing health targets",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "How Chinese short dramas became AI content machines",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-  },
-  {
-    date: "2026-05-15",
-    headline: "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
   },
 ];
 

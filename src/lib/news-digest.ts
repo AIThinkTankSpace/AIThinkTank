@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-21",
+    headline: "Jensen Huang says he&#8217;s found a &#8216;brand new&#8217; $200B market for Nvidia",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+  },
+  {
+    date: "2026-05-21",
+    headline: "Anthropic says it&#8217;s about to have its first profitable quarter",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+  },
+  {
+    date: "2026-05-20",
+    headline: "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+  },
+  {
+    date: "2026-05-20",
+    headline: "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+  },
+  {
+    date: "2026-05-20",
+    headline: "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
+  },
+  {
     date: "2026-05-19",
     headline: "Google just declared itself a contender in AI design at IO 2026",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-  },
-  {
-    date: "2026-05-18",
-    headline: "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-  },
-  {
-    date: "2026-05-18",
-    headline: "South Korea&#8217;s LetinAR is building optics behind AI glasses",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-  },
-  {
-    date: "2026-05-19",
-    headline: "Here’s why Elon Musk lost his suit against OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
-  },
-  {
-    date: "2026-05-17",
-    headline: "Why trust is a big question at the Elon Musk-OpenAI trial",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-  },
-  {
-    date: "2026-05-17",
-    headline: "If you’re giving a commencement speech in 2026, maybe don’t mention AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
   },
 ];
 

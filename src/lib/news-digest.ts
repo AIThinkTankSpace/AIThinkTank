@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-22",
+    headline: "AI is being used to resurrect the voices of dead pilots",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "How VCs and founders use inflated ‘ARR’ to crown AI startups",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "We tried Google’s AI glasses and they’re almost there",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "SpaceX files to go public, and the math requires a little faith",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
+    audiences: ["ai-for-teens"],
+    link: "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
+  },
+  {
     date: "2026-05-21",
     headline: "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic says it&#8217;s about to have its first profitable quarter",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
-  },
-  {
-    date: "2026-05-20",
-    headline: "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
-  },
-  {
-    date: "2026-05-20",
-    headline: "Nvidia posts another record quarter, reveals $43B of holdings in startups",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
-  },
-  {
-    date: "2026-05-20",
-    headline: "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
-  },
-  {
-    date: "2026-05-19",
-    headline: "Google just declared itself a contender in AI design at IO 2026",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
-  },
-  {
-    date: "2026-05-19",
-    headline: "You can now talk to your Gmail inbox, as seen at Google IO 2026",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
   },
 ];
 

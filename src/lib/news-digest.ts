@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-23",
+    headline: "Ferrari is using IBM&#8217;s AI to create F1 superfans",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "Google I/O showed how the path for AI-driven science is shifting",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
+  },
+  {
+    date: "2026-05-22",
+    headline: "Google’s new anything-to-anything AI model is wild",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+  },
+  {
+    date: "2026-05-22",
+    headline: "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+  },
+  {
     date: "2026-05-22",
     headline: "AI is being used to resurrect the voices of dead pilots",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Trump delays AI security executive order, saying language &#8216;could have been a blocker&#8217;",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "Spotify adds AI-powered Q&#038;A and briefing generation features to podcasts",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "Hark raises $700M Series A for its secretive &#8216;universal&#8217; AI interface",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "Jensen Huang says he&#8217;s found a &#8216;brand new&#8217; $200B market for Nvidia",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "Anthropic says it&#8217;s about to have its first profitable quarter",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
   },
 ];
 

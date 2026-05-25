@@ -15,6 +15,12 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-24",
+    headline: "Everyone is navigating AI security in real time &#8212; even Google",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+  },
+  {
     date: "2026-05-23",
     headline: "Ferrari is using IBM&#8217;s AI to create F1 superfans",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -79,12 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "Trump delays AI security executive order, saying language &#8216;could have been a blocker&#8217;",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
   },
 ];
 

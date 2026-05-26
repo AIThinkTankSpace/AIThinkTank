@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-25",
+    headline: "The pope’s AI encyclical isn’t really about AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
+  },
+  {
+    date: "2026-05-26",
+    headline: "A reality check on the AI jobs hysteria",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
+  },
+  {
+    date: "2026-05-26",
+    headline: "Uber president says AI spending is getting ‘harder to justify’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
+  },
+  {
+    date: "2026-05-25",
+    headline: "Pope Leo calls for being ‘profoundly human’ in the age of AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+  },
+  {
     date: "2026-05-24",
     headline: "Everyone is navigating AI security in real time &#8212; even Google",
     audiences: ["ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "How VCs and founders use inflated ‘ARR’ to crown AI startups",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-  },
-  {
-    date: "2026-05-22",
-    headline: "We tried Google’s AI glasses and they’re almost there",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-  },
-  {
-    date: "2026-05-22",
-    headline: "SpaceX files to go public, and the math requires a little faith",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
-  },
-  {
-    date: "2026-05-22",
-    headline: "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
-    audiences: ["ai-for-teens"],
-    link: "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
-  },
-  {
-    date: "2026-05-21",
-    headline: "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-28",
+    headline: "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
+  },
+  {
+    date: "2026-05-28",
+    headline: "Why Google&#8217;s AI can&#8217;t spell Google (or anything else)",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
+  },
+  {
+    date: "2026-05-27",
+    headline: "In more good news for Amazon, Snowflake signs $6B deal with AWS for AI CPU chips",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
+  },
+  {
+    date: "2026-05-27",
+    headline: "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+  },
+  {
+    date: "2026-05-27",
+    headline: "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+  },
+  {
     date: "2026-05-26",
     headline: "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "A reality check on the AI jobs hysteria",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "Uber president says AI spending is getting ‘harder to justify’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
-  },
-  {
-    date: "2026-05-25",
-    headline: "Pope Leo calls for being ‘profoundly human’ in the age of AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
-  },
-  {
-    date: "2026-05-24",
-    headline: "Everyone is navigating AI security in real time &#8212; even Google",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
-  },
-  {
-    date: "2026-05-23",
-    headline: "Ferrari is using IBM&#8217;s AI to create F1 superfans",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
-  },
-  {
-    date: "2026-05-22",
-    headline: "Google I/O showed how the path for AI-driven science is shifting",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
   },
 ];
 

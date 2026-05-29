@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-29",
+    headline: "Glean&#8217;s top line crosses $300M as AI budget-cutting becomes its major selling point",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+  },
+  {
+    date: "2026-05-28",
+    headline: "Asana acquires no-code agent-builder StackAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+  },
+  {
+    date: "2026-05-28",
+    headline: "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+  },
+  {
+    date: "2026-05-28",
+    headline: "Just like gold and oil, we&#8217;ll soon be able to trade AI token futures",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+  },
+  {
+    date: "2026-05-28",
+    headline: "Anthropic releases Opus 4.8 with new &#8216;dynamic workflow&#8217; tool",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+  },
+  {
     date: "2026-05-28",
     headline: "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "This startup is betting India&#8217;s gig economy can train the world&#8217;s robots",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "Rethinking organizational design in the age of agentic AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "The Download: puncturing the AI jobs panic",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/",
-  },
-  {
-    date: "2026-05-25",
-    headline: "The pope’s AI encyclical isn’t really about AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "A reality check on the AI jobs hysteria",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
   },
 ];
 

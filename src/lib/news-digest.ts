@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-05-29",
+    headline: "Coders are refusing to work without AI — and that could come back to bite them",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+  },
+  {
+    date: "2026-05-29",
+    headline: "So you&#8217;ve heard these AI terms and nodded along; let&#8217;s fix that",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+  },
+  {
+    date: "2026-05-29",
+    headline: "What happens when companies become too AI-pilled?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+  },
+  {
+    date: "2026-05-29",
+    headline: "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+  },
+  {
+    date: "2026-05-29",
+    headline: "Cognition&#8217;s Scott Wu says AI coding agents shouldn&#8217;t replace humans",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+  },
+  {
+    date: "2026-05-29",
     headline: "Glean&#8217;s top line crosses $300M as AI budget-cutting becomes its major selling point",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Why Google&#8217;s AI can&#8217;t spell Google (or anything else)",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
-  },
-  {
-    date: "2026-05-27",
-    headline: "In more good news for Amazon, Snowflake signs $6B deal with AWS for AI CPU chips",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
-  },
-  {
-    date: "2026-05-27",
-    headline: "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
-  },
-  {
-    date: "2026-05-27",
-    headline: "AI coding startup Cognition raises $1B at $25B pre-money valuation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
-  },
-  {
-    date: "2026-05-26",
-    headline: "This startup is betting India&#8217;s gig economy can train the world&#8217;s robots",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
   },
 ];
 

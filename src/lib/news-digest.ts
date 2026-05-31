@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-30",
+    headline: "&#8216;What a joke&#8217;: Github Copilot&#8217;s new token-based billing spurs consternation…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+  },
+  {
+    date: "2026-05-30",
+    headline: "Meta is reportedly developing an AI pendant",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+  },
+  {
+    date: "2026-05-30",
+    headline: "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+  },
+  {
+    date: "2026-05-29",
+    headline: "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+  },
+  {
+    date: "2026-05-29",
+    headline: "AI grifters are creating fake Black people to sell Shein junk",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+  },
+  {
     date: "2026-05-29",
     headline: "Coders are refusing to work without AI — and that could come back to bite them",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Asana acquires no-code agent-builder StackAI",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
-  },
-  {
-    date: "2026-05-28",
-    headline: "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
-  },
-  {
-    date: "2026-05-28",
-    headline: "Just like gold and oil, we&#8217;ll soon be able to trade AI token futures",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
-  },
-  {
-    date: "2026-05-28",
-    headline: "Anthropic releases Opus 4.8 with new &#8216;dynamic workflow&#8217; tool",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
-  },
-  {
-    date: "2026-05-28",
-    headline: "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
-  },
-  {
-    date: "2026-05-28",
-    headline: "Why Google&#8217;s AI can&#8217;t spell Google (or anything else)",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
   },
 ];
 

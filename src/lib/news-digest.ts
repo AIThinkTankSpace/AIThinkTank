@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-05-31",
+    headline: "Erin Brockovich takes aim at data center secrecy",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+  },
+  {
+    date: "2026-05-31",
+    headline: "Making sense of the debate over AI psychosis",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+  },
+  {
+    date: "2026-06-01",
+    headline: "I went looking for the AI weed vape that gives you Bitcoin for smoking",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/933916/ai-powered-crypto-cannabis-vape",
+  },
+  {
     date: "2026-05-30",
     headline: "&#8216;What a joke&#8217;: Github Copilot&#8217;s new token-based billing spurs consternation…",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "Cognition&#8217;s Scott Wu says AI coding agents shouldn&#8217;t replace humans",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "Glean&#8217;s top line crosses $300M as AI budget-cutting becomes its major selling point",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
-  },
-  {
-    date: "2026-05-28",
-    headline: "Asana acquires no-code agent-builder StackAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
   },
 ];
 

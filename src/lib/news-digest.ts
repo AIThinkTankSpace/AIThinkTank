@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-01",
+    headline: "Alphabet plans to raise $80B to pay for AI buildout",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+  },
+  {
+    date: "2026-06-01",
+    headline: "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+  },
+  {
+    date: "2026-06-01",
+    headline: "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+  },
+  {
+    date: "2026-06-01",
+    headline: "Anthropic files to go public",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+  },
+  {
+    date: "2026-06-01",
+    headline: "This AI weather startup is out-forecasting government agencies",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+  },
+  {
     date: "2026-05-31",
     headline: "Erin Brockovich takes aim at data center secrecy",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "AI grifters are creating fake Black people to sell Shein junk",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
-  },
-  {
-    date: "2026-05-29",
-    headline: "Coders are refusing to work without AI — and that could come back to bite them",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "So you&#8217;ve heard these AI terms and nodded along; let&#8217;s fix that",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "What happens when companies become too AI-pilled?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
   },
 ];
 

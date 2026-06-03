@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-02",
+    headline: "Uber caps employee AI spending after blowing through budget in 4 months",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+  },
+  {
+    date: "2026-06-02",
+    headline: "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+  },
+  {
+    date: "2026-06-02",
+    headline: "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+  },
+  {
+    date: "2026-06-02",
+    headline: "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+  },
+  {
+    date: "2026-06-02",
+    headline: "Microsoft offers devs a better way to control AI agent behavior",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+  },
+  {
     date: "2026-06-01",
     headline: "Alphabet plans to raise $80B to pay for AI buildout",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Making sense of the debate over AI psychosis",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
-  },
-  {
-    date: "2026-06-01",
-    headline: "I went looking for the AI weed vape that gives you Bitcoin for smoking",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/933916/ai-powered-crypto-cannabis-vape",
-  },
-  {
-    date: "2026-05-30",
-    headline: "&#8216;What a joke&#8217;: Github Copilot&#8217;s new token-based billing spurs consternation…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
-  },
-  {
-    date: "2026-05-30",
-    headline: "Meta is reportedly developing an AI pendant",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
-  },
-  {
-    date: "2026-05-30",
-    headline: "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-  },
-  {
-    date: "2026-05-29",
-    headline: "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
   },
 ];
 

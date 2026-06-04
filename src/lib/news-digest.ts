@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-03",
+    headline: "Alphabet&#8217;s record-breaking $85B raise for Google&#8217;s AI business is a helluva good signal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+  },
+  {
+    date: "2026-06-03",
+    headline: "Google&#8217;s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+  },
+  {
+    date: "2026-06-03",
+    headline: "Amazon will show AI product images when you search for some reason",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+  },
+  {
+    date: "2026-06-03",
+    headline: "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
+  },
+  {
+    date: "2026-06-03",
+    headline: "Publishers will be able to opt out of AI Search, thanks to new regulation",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
+  },
+  {
     date: "2026-06-02",
     headline: "Uber caps employee AI spending after blowing through budget in 4 months",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-  },
-  {
-    date: "2026-06-01",
-    headline: "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
-  },
-  {
-    date: "2026-06-01",
-    headline: "Anthropic files to go public",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-  },
-  {
-    date: "2026-06-01",
-    headline: "This AI weather startup is out-forecasting government agencies",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
-  },
-  {
-    date: "2026-05-31",
-    headline: "Erin Brockovich takes aim at data center secrecy",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
-  },
-  {
-    date: "2026-05-31",
-    headline: "Making sense of the debate over AI psychosis",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
   },
 ];
 

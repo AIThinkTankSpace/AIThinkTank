@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-04",
+    headline: "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+  },
+  {
+    date: "2026-06-04",
+    headline: "Airbnb&#8217;s Brian Chesky plans to launch a new AI lab",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+  },
+  {
+    date: "2026-06-04",
+    headline: "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
+  },
+  {
+    date: "2026-06-04",
+    headline: "Apple approves Poke as the first AI agent on its Messages for Business platform",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+  },
+  {
+    date: "2026-06-04",
+    headline: "Meta rolls out a new AI creator assistant on Facebook",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+  },
+  {
     date: "2026-06-03",
     headline: "Alphabet&#8217;s record-breaking $85B raise for Google&#8217;s AI business is a helluva good signal",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
-  },
-  {
-    date: "2026-06-02",
-    headline: "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
-  },
-  {
-    date: "2026-06-02",
-    headline: "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
-  },
-  {
-    date: "2026-06-02",
-    headline: "Microsoft offers devs a better way to control AI agent behavior",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
-  },
-  {
-    date: "2026-06-01",
-    headline: "Alphabet plans to raise $80B to pay for AI buildout",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-  },
-  {
-    date: "2026-06-01",
-    headline: "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
   },
 ];
 

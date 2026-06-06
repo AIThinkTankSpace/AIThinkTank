@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-05",
+    headline: "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+  },
+  {
+    date: "2026-06-05",
+    headline: "AirTrunk commits $30B to build 5GW of AI data centers in India",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
+  },
+  {
+    date: "2026-06-05",
+    headline: "The Download: AI hacking beyond Mythos, and chatbots&#8217; impact on our brains",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
+  },
+  {
+    date: "2026-06-05",
+    headline: "Are AI chatbots making us lose control of our brains?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
+  },
+  {
+    date: "2026-06-05",
+    headline: "The Meta hack shows there’s more to AI security than Mythos",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+  },
+  {
     date: "2026-06-04",
     headline: "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google&#8217;s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
-  },
-  {
-    date: "2026-06-03",
-    headline: "Amazon will show AI product images when you search for some reason",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
-  },
-  {
-    date: "2026-06-03",
-    headline: "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
-  },
-  {
-    date: "2026-06-03",
-    headline: "Publishers will be able to opt out of AI Search, thanks to new regulation",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
-  },
-  {
-    date: "2026-06-02",
-    headline: "Uber caps employee AI spending after blowing through budget in 4 months",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
-  },
-  {
-    date: "2026-06-02",
-    headline: "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
   },
 ];
 

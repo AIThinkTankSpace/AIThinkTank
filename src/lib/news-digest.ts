@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-06",
+    headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+  },
+  {
+    date: "2026-06-06",
+    headline: "Sriram Krishnan is leaving his role as White House AI advisor",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+  },
+  {
+    date: "2026-06-06",
+    headline: "The Trump administration might take an equity stake in OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+  },
+  {
+    date: "2026-06-05",
+    headline: "Meta made its own AI-generated clickbait news feed",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+  },
+  {
+    date: "2026-06-05",
+    headline: "Here comes new Siri again",
+    audiences: ["ai-for-kids"],
+    link: "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+  },
+  {
     date: "2026-06-05",
     headline: "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Airbnb&#8217;s Brian Chesky plans to launch a new AI lab",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-  },
-  {
-    date: "2026-06-04",
-    headline: "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
-  },
-  {
-    date: "2026-06-04",
-    headline: "Apple approves Poke as the first AI agent on its Messages for Business platform",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
-  },
-  {
-    date: "2026-06-04",
-    headline: "Meta rolls out a new AI creator assistant on Facebook",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
-  },
-  {
-    date: "2026-06-03",
-    headline: "Alphabet&#8217;s record-breaking $85B raise for Google&#8217;s AI business is a helluva good signal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
-  },
-  {
-    date: "2026-06-03",
-    headline: "Google&#8217;s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
   },
 ];
 

@@ -15,6 +15,18 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-07",
+    headline: "Notion restores access to Anthropic after service disruption",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+  },
+  {
+    date: "2026-06-07",
+    headline: "OpenAI is still working on that ‘super app’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+  },
+  {
     date: "2026-06-06",
     headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
     audiences: ["ai-for-corporates"],
@@ -73,18 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Meta hack shows there’s more to AI security than Mythos",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-  },
-  {
-    date: "2026-06-04",
-    headline: "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-  },
-  {
-    date: "2026-06-04",
-    headline: "Airbnb&#8217;s Brian Chesky plans to launch a new AI lab",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
   },
 ];
 

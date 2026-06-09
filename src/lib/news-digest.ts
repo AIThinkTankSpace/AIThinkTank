@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-09",
+    headline: "Why Apple&#8217;s slow-and-steady AI bet is starting to look pretty smart",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+  },
+  {
+    date: "2026-06-08",
+    headline: "As OpenAI files for IPO, Sam Altman&#8217;s eye-scanning company is doing layoffs, report says",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+  },
+  {
+    date: "2026-06-08",
+    headline: "Apple&#8217;s WWDC AI demos looked more real after $250M false ad settlement",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+  },
+  {
+    date: "2026-06-08",
+    headline: "OpenAI files confidentially for IPO, following Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+  },
+  {
+    date: "2026-06-08",
+    headline: "Apple bets cheaper AI will woo small developers",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+  },
+  {
     date: "2026-06-07",
     headline: "Notion restores access to Anthropic after service disruption",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Here comes new Siri again",
     audiences: ["ai-for-kids"],
     link: "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
-  },
-  {
-    date: "2026-06-05",
-    headline: "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
-  },
-  {
-    date: "2026-06-05",
-    headline: "AirTrunk commits $30B to build 5GW of AI data centers in India",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
-  },
-  {
-    date: "2026-06-05",
-    headline: "The Download: AI hacking beyond Mythos, and chatbots&#8217; impact on our brains",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
-  },
-  {
-    date: "2026-06-05",
-    headline: "Are AI chatbots making us lose control of our brains?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
-  },
-  {
-    date: "2026-06-05",
-    headline: "The Meta hack shows there’s more to AI security than Mythos",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
   },
 ];
 

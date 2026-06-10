@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-10",
+    headline: "Meta signs first AI data center deal in India with Reliance",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+  },
+  {
+    date: "2026-06-10",
+    headline: "Google just fired a warning shot in the AI subscription price wars",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+  },
+  {
+    date: "2026-06-09",
+    headline: "Hey, Siri, here&#8217;s what I actually want from AI",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
+  },
+  {
+    date: "2026-06-09",
+    headline: "Anthropic&#8217;s Fable 5 can make weirdly fun video games with the click of a button",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+  },
+  {
+    date: "2026-06-09",
+    headline: "Can tech companies learn to love cheaper AI models?",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+  },
+  {
     date: "2026-06-09",
     headline: "Why Apple&#8217;s slow-and-steady AI bet is starting to look pretty smart",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI is still working on that ‘super app’",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-  },
-  {
-    date: "2026-06-06",
-    headline: "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-  },
-  {
-    date: "2026-06-06",
-    headline: "Sriram Krishnan is leaving his role as White House AI advisor",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
-  },
-  {
-    date: "2026-06-06",
-    headline: "The Trump administration might take an equity stake in OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-  },
-  {
-    date: "2026-06-05",
-    headline: "Meta made its own AI-generated clickbait news feed",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
-  },
-  {
-    date: "2026-06-05",
-    headline: "Here comes new Siri again",
-    audiences: ["ai-for-kids"],
-    link: "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
   },
 ];
 

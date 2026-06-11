@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-11",
+    headline: "Opendoor&#8217;s India exit is fueling a bigger conversation about AI and outsourcing",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+  },
+  {
+    date: "2026-06-11",
+    headline: "Anthropic&#8217;s Dario Amodei has just one direct report",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+  },
+  {
+    date: "2026-06-10",
+    headline: "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+  },
+  {
+    date: "2026-06-10",
+    headline: "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+  },
+  {
+    date: "2026-06-10",
+    headline: "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+  },
+  {
     date: "2026-06-10",
     headline: "Meta signs first AI data center deal in India with Reliance",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "As OpenAI files for IPO, Sam Altman&#8217;s eye-scanning company is doing layoffs, report says",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
-  },
-  {
-    date: "2026-06-08",
-    headline: "Apple&#8217;s WWDC AI demos looked more real after $250M false ad settlement",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
-  },
-  {
-    date: "2026-06-08",
-    headline: "OpenAI files confidentially for IPO, following Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-  },
-  {
-    date: "2026-06-08",
-    headline: "Apple bets cheaper AI will woo small developers",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
-  },
-  {
-    date: "2026-06-07",
-    headline: "Notion restores access to Anthropic after service disruption",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
-  },
-  {
-    date: "2026-06-07",
-    headline: "OpenAI is still working on that ‘super app’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
   },
 ];
 

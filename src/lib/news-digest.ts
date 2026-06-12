@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-12",
+    headline: "Cheaper, faster, and culturally aware, Avataar&#8217;s video AI is built for India&#8217;s scale",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+  },
+  {
+    date: "2026-06-12",
+    headline: "Theker just raised $85M to build the factory robot that doesn&#8217;t specialize in anything",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+  },
+  {
+    date: "2026-06-12",
+    headline: "Jeff Bezos&#8217;s Prometheus raises $12B to build an &#8216;artificial general engineer&#8217;…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+  },
+  {
+    date: "2026-06-11",
+    headline: "Deezer&#8217;s new tool can identify AI music from Spotify, Apple Music, and others",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+  },
+  {
+    date: "2026-06-11",
+    headline: "DoorDash&#8217;s new AI chatbot lets you order with prompts and photos",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+  },
+  {
     date: "2026-06-11",
     headline: "Opendoor&#8217;s India exit is fueling a bigger conversation about AI and outsourcing",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google just fired a warning shot in the AI subscription price wars",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
-  },
-  {
-    date: "2026-06-09",
-    headline: "Hey, Siri, here&#8217;s what I actually want from AI",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
-  },
-  {
-    date: "2026-06-09",
-    headline: "Anthropic&#8217;s Fable 5 can make weirdly fun video games with the click of a button",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
-  },
-  {
-    date: "2026-06-09",
-    headline: "Can tech companies learn to love cheaper AI models?",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
-  },
-  {
-    date: "2026-06-09",
-    headline: "Why Apple&#8217;s slow-and-steady AI bet is starting to look pretty smart",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
-  },
-  {
-    date: "2026-06-08",
-    headline: "As OpenAI files for IPO, Sam Altman&#8217;s eye-scanning company is doing layoffs, report says",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
   },
 ];
 

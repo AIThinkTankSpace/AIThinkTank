@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-13",
+    headline: "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+  },
+  {
+    date: "2026-06-12",
+    headline: "Meta&#8217;s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+  },
+  {
+    date: "2026-06-12",
+    headline: "Chinese cybercrime operation that used AI to scam &#8216;hundreds of thousands of victims&#8217;…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+  },
+  {
+    date: "2026-06-12",
+    headline: "Mistral is rumored to be raising €3B at €20B valuation",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+  },
+  {
+    date: "2026-06-12",
+    headline: "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+  },
+  {
     date: "2026-06-12",
     headline: "Cheaper, faster, and culturally aware, Avataar&#8217;s video AI is built for India&#8217;s scale",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic&#8217;s Dario Amodei has just one direct report",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
-  },
-  {
-    date: "2026-06-10",
-    headline: "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-  },
-  {
-    date: "2026-06-10",
-    headline: "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
-  },
-  {
-    date: "2026-06-10",
-    headline: "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
-  },
-  {
-    date: "2026-06-10",
-    headline: "Meta signs first AI data center deal in India with Reliance",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
-  },
-  {
-    date: "2026-06-10",
-    headline: "Google just fired a warning shot in the AI subscription price wars",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
   },
 ];
 

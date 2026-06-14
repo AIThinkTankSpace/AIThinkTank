@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-14",
+    headline: "As Anthropic suspends access to new models, India debates its AI future",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+  },
+  {
+    date: "2026-06-13",
+    headline: "KPMG pulls report on AI usage due to apparent hallucinations",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+  },
+  {
+    date: "2026-06-13",
+    headline: "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+  },
+  {
+    date: "2026-06-13",
+    headline: "OpenAI faces investigation from state attorneys general",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+  },
+  {
+    date: "2026-06-13",
+    headline: "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+  },
+  {
     date: "2026-06-13",
     headline: "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Theker just raised $85M to build the factory robot that doesn&#8217;t specialize in anything",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "Jeff Bezos&#8217;s Prometheus raises $12B to build an &#8216;artificial general engineer&#8217;…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
-  },
-  {
-    date: "2026-06-11",
-    headline: "Deezer&#8217;s new tool can identify AI music from Spotify, Apple Music, and others",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
-  },
-  {
-    date: "2026-06-11",
-    headline: "DoorDash&#8217;s new AI chatbot lets you order with prompts and photos",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
-  },
-  {
-    date: "2026-06-11",
-    headline: "Opendoor&#8217;s India exit is fueling a bigger conversation about AI and outsourcing",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
-  },
-  {
-    date: "2026-06-11",
-    headline: "Anthropic&#8217;s Dario Amodei has just one direct report",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
   },
 ];
 

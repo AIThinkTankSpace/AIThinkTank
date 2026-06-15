@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-15",
+    headline: "The AI layoff wave is becoming a powder keg",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+  },
+  {
+    date: "2026-06-14",
+    headline: "As AI companies race to go public, who else is along for the ride?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+  },
+  {
+    date: "2026-06-13",
+    headline: "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+  },
+  {
     date: "2026-06-14",
     headline: "As Anthropic suspends access to new models, India debates its AI future",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Mistral is rumored to be raising €3B at €20B valuation",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "Cheaper, faster, and culturally aware, Avataar&#8217;s video AI is built for India&#8217;s scale",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "Theker just raised $85M to build the factory robot that doesn&#8217;t specialize in anything",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
   },
 ];
 

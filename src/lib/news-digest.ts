@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-16",
+    headline: "Malaysia&#8217;s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+  },
+  {
+    date: "2026-06-15",
+    headline: "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google&#8217;s Israel,…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+  },
+  {
+    date: "2026-06-15",
+    headline: "The US government&#8217;s Anthropic models ban was never about an AI jailbreak",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+  },
+  {
+    date: "2026-06-15",
+    headline: "Meta&#8217;s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+  },
+  {
+    date: "2026-06-15",
+    headline: "Cybersecurity vets protest &#8216;dangerous&#8217; US government ban on Anthropic&#8217;s most…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+  },
+  {
     date: "2026-06-15",
     headline: "The AI layoff wave is becoming a powder keg",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI faces investigation from state attorneys general",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-  },
-  {
-    date: "2026-06-13",
-    headline: "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-  },
-  {
-    date: "2026-06-13",
-    headline: "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "Meta&#8217;s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "Chinese cybercrime operation that used AI to scam &#8216;hundreds of thousands of victims&#8217;…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-  },
-  {
-    date: "2026-06-12",
-    headline: "Mistral is rumored to be raising €3B at €20B valuation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
   },
 ];
 

@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-06-16",
+    headline: "Anthropic&#8217;s latest feud with the Trump admin may actually help it, sales data suggests",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+  },
+  {
+    date: "2026-06-16",
+    headline: "Android 17 launches with new multitasking tools as Google expands Gemini features",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+  },
+  {
+    date: "2026-06-16",
+    headline: "Sixty percent of US consumers say &#8216;AI&#8217; in brand messaging is a turnoff, survey finds",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+  },
+  {
+    date: "2026-06-16",
+    headline: "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+  },
+  {
+    date: "2026-06-16",
+    headline: "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+  },
+  {
+    date: "2026-06-16",
     headline: "Malaysia&#8217;s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "As AI companies race to go public, who else is along for the ride?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
-  },
-  {
-    date: "2026-06-13",
-    headline: "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
-  },
-  {
-    date: "2026-06-14",
-    headline: "As Anthropic suspends access to new models, India debates its AI future",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-  },
-  {
-    date: "2026-06-13",
-    headline: "KPMG pulls report on AI usage due to apparent hallucinations",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-  },
-  {
-    date: "2026-06-13",
-    headline: "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-  },
-  {
-    date: "2026-06-13",
-    headline: "OpenAI faces investigation from state attorneys general",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
   },
 ];
 

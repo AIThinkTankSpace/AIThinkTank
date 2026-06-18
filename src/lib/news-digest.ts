@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-18",
+    headline: "How to turn off AI in your Google Docs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
+  },
+  {
+    date: "2026-06-17",
+    headline: "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+  },
+  {
+    date: "2026-06-17",
+    headline: "World leaders want American AI. They just don&#8217;t want America to be able to turn it off.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+  },
+  {
+    date: "2026-06-17",
+    headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+  },
+  {
+    date: "2026-06-17",
+    headline: "NEA&#8217;s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
+  },
+  {
     date: "2026-06-16",
     headline: "Anthropic&#8217;s latest feud with the Trump admin may actually help it, sales data suggests",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google&#8217;s Israel,…",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
-  },
-  {
-    date: "2026-06-15",
-    headline: "The US government&#8217;s Anthropic models ban was never about an AI jailbreak",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
-  },
-  {
-    date: "2026-06-15",
-    headline: "Meta&#8217;s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
-  },
-  {
-    date: "2026-06-15",
-    headline: "Cybersecurity vets protest &#8216;dangerous&#8217; US government ban on Anthropic&#8217;s most…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-  },
-  {
-    date: "2026-06-15",
-    headline: "The AI layoff wave is becoming a powder keg",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
-  },
-  {
-    date: "2026-06-14",
-    headline: "As AI companies race to go public, who else is along for the ride?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
   },
 ];
 

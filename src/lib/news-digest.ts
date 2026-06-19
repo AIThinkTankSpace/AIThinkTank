@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-19",
+    headline: "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+  },
+  {
+    date: "2026-06-18",
+    headline: "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+  },
+  {
+    date: "2026-06-18",
+    headline: "Snap spins off AI video team into new company, Dotmo, due to costs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+  },
+  {
+    date: "2026-06-18",
+    headline: "OpenAI is bringing on some big guns in the lead-up to its IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+  },
+  {
+    date: "2026-06-18",
+    headline: "Almost half of US singles feel negatively about AI in dating, Match says",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+  },
+  {
     date: "2026-06-18",
     headline: "How to turn off AI in your Google Docs",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Android 17 launches with new multitasking tools as Google expands Gemini features",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
-  },
-  {
-    date: "2026-06-16",
-    headline: "Sixty percent of US consumers say &#8216;AI&#8217; in brand messaging is a turnoff, survey finds",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
-  },
-  {
-    date: "2026-06-16",
-    headline: "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
-  },
-  {
-    date: "2026-06-16",
-    headline: "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
-  },
-  {
-    date: "2026-06-16",
-    headline: "Malaysia&#8217;s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
-  },
-  {
-    date: "2026-06-15",
-    headline: "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google&#8217;s Israel,…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
   },
 ];
 

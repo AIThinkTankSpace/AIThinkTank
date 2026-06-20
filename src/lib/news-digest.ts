@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-06-19",
+    headline: "Is the US government&#8217;s Anthropic ban accidentally helping the brand?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+  },
+  {
+    date: "2026-06-19",
+    headline: "The US banned Anthropic&#8217;s Fable 5 release, but the numbers don&#8217;t seem to care",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+  },
+  {
+    date: "2026-06-19",
+    headline: "Billionaire Ambani wants AI in every call, app, and home",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+  },
+  {
+    date: "2026-06-19",
+    headline: "The CEO of Allbirds&#8217; new AI biz has a plan, but no team",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+  },
+  {
+    date: "2026-06-19",
+    headline: "The Download: AI bottleneck debates, and BCI trials take off",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+  },
+  {
+    date: "2026-06-19",
     headline: "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
-  },
-  {
-    date: "2026-06-17",
-    headline: "World leaders want American AI. They just don&#8217;t want America to be able to turn it off.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
-  },
-  {
-    date: "2026-06-17",
-    headline: "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
-  },
-  {
-    date: "2026-06-17",
-    headline: "NEA&#8217;s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
-  },
-  {
-    date: "2026-06-16",
-    headline: "Anthropic&#8217;s latest feud with the Trump admin may actually help it, sales data suggests",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
-  },
-  {
-    date: "2026-06-16",
-    headline: "Android 17 launches with new multitasking tools as Google expands Gemini features",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
   },
 ];
 

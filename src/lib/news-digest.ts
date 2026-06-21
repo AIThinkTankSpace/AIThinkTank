@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-20",
+    headline: "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+  },
+  {
+    date: "2026-06-20",
+    headline: "In the Weights is your new AI-centric vanity search",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+  },
+  {
+    date: "2026-06-20",
+    headline: "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+  },
+  {
+    date: "2026-06-19",
+    headline: "A startup claims it broke through a bottleneck that’s holding back LLMs",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+  },
+  {
+    date: "2026-06-19",
+    headline: "Brain-computer interface trials are taking off",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+  },
+  {
     date: "2026-06-19",
     headline: "Is the US government&#8217;s Anthropic ban accidentally helping the brand?",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
-  },
-  {
-    date: "2026-06-18",
-    headline: "Snap spins off AI video team into new company, Dotmo, due to costs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
-  },
-  {
-    date: "2026-06-18",
-    headline: "OpenAI is bringing on some big guns in the lead-up to its IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
-  },
-  {
-    date: "2026-06-18",
-    headline: "Almost half of US singles feel negatively about AI in dating, Match says",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
-  },
-  {
-    date: "2026-06-18",
-    headline: "How to turn off AI in your Google Docs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
-  },
-  {
-    date: "2026-06-17",
-    headline: "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
   },
 ];
 

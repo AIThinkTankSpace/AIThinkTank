@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-21",
+    headline: "When the Trump administration cracks down on Anthropic, who benefits?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+  },
+  {
+    date: "2026-06-21",
+    headline: "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+  },
+  {
+    date: "2026-06-22",
+    headline: "The Atlantic created a searchable database of the music used to train AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+  },
+  {
+    date: "2026-06-22",
+    headline: "Barret Zoph is out at OpenAI again after just five months",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+  },
+  {
     date: "2026-06-20",
     headline: "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Billionaire Ambani wants AI in every call, app, and home",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "The CEO of Allbirds&#8217; new AI biz has a plan, but no team",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "The Download: AI bottleneck debates, and BCI trials take off",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-  },
-  {
-    date: "2026-06-18",
-    headline: "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
   },
 ];
 

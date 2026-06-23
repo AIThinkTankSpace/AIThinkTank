@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-23",
+    headline: "The running list: major tech layoffs in 2026 where employers cited AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+  },
+  {
+    date: "2026-06-23",
+    headline: "OpenAI launches new initiative to help find and patch open source bugs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+  },
+  {
+    date: "2026-06-22",
+    headline: "The AI world is getting &#8216;loopy&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+  },
+  {
+    date: "2026-06-22",
+    headline: "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia&#8217;s $20B not-acqui-hire deal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+  },
+  {
+    date: "2026-06-22",
+    headline: "Nvidia wants to cut data center water use, but that&#8217;s not the same as fixing AI&#8217;s…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+  },
+  {
     date: "2026-06-21",
     headline: "When the Trump administration cracks down on Anthropic, who benefits?",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "A startup claims it broke through a bottleneck that’s holding back LLMs",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "Brain-computer interface trials are taking off",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "Is the US government&#8217;s Anthropic ban accidentally helping the brand?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "The US banned Anthropic&#8217;s Fable 5 release, but the numbers don&#8217;t seem to care",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-  },
-  {
-    date: "2026-06-19",
-    headline: "Billionaire Ambani wants AI in every call, app, and home",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
   },
 ];
 

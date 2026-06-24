@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-06-23",
+    headline: "India&#8217;s MoEngage bets that the future of marketing is millions of AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+  },
+  {
+    date: "2026-06-23",
+    headline: "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+  },
+  {
+    date: "2026-06-23",
+    headline: "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+  },
+  {
+    date: "2026-06-24",
+    headline: "This flying solar-powered platform could deliver better internet from the air",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
+  },
+  {
+    date: "2026-06-23",
+    headline: "Ultrasound imaging turns a robot hand into a skillful mimic",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
+  },
+  {
+    date: "2026-06-23",
     headline: "The running list: major tech layoffs in 2026 where employers cited AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
     audiences: ["ai-for-kids"],
     link: "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-  },
-  {
-    date: "2026-06-22",
-    headline: "The Atlantic created a searchable database of the music used to train AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
-  },
-  {
-    date: "2026-06-22",
-    headline: "Barret Zoph is out at OpenAI again after just five months",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
-  },
-  {
-    date: "2026-06-20",
-    headline: "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-  },
-  {
-    date: "2026-06-20",
-    headline: "In the Weights is your new AI-centric vanity search",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
-  },
-  {
-    date: "2026-06-20",
-    headline: "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
   },
 ];
 

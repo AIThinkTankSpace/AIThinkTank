@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-24",
+    headline: "AI was supposed to kill engineering jobs, but new data suggests they&#8217;re the most resilient",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+  },
+  {
+    date: "2026-06-24",
+    headline: "AI researchers continue to leave Google for its rivals",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+  },
+  {
+    date: "2026-06-24",
+    headline: "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+  },
+  {
+    date: "2026-06-24",
+    headline: "Facebook rolls out an AI companion app for creators",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+  },
+  {
+    date: "2026-06-24",
+    headline: "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+  },
+  {
     date: "2026-06-23",
     headline: "India&#8217;s MoEngage bets that the future of marketing is millions of AI agents",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI launches new initiative to help find and patch open source bugs",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
-  },
-  {
-    date: "2026-06-22",
-    headline: "The AI world is getting &#8216;loopy&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
-  },
-  {
-    date: "2026-06-22",
-    headline: "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia&#8217;s $20B not-acqui-hire deal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
-  },
-  {
-    date: "2026-06-22",
-    headline: "Nvidia wants to cut data center water use, but that&#8217;s not the same as fixing AI&#8217;s…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
-  },
-  {
-    date: "2026-06-21",
-    headline: "When the Trump administration cracks down on Anthropic, who benefits?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-  },
-  {
-    date: "2026-06-21",
-    headline: "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
   },
 ];
 

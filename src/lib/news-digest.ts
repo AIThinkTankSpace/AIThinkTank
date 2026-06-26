@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-25",
+    headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+  },
+  {
+    date: "2026-06-25",
+    headline: "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+  },
+  {
+    date: "2026-06-25",
+    headline: "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+  },
+  {
+    date: "2026-06-25",
+    headline: "General Intuition&#8217;s $2.3B bet that video games can train AI agents for the real world",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+  },
+  {
+    date: "2026-06-25",
+    headline: "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+  },
+  {
     date: "2026-06-24",
     headline: "AI was supposed to kill engineering jobs, but new data suggests they&#8217;re the most resilient",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
-  },
-  {
-    date: "2026-06-23",
-    headline: "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
-  },
-  {
-    date: "2026-06-24",
-    headline: "This flying solar-powered platform could deliver better internet from the air",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
-  },
-  {
-    date: "2026-06-23",
-    headline: "Ultrasound imaging turns a robot hand into a skillful mimic",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
-  },
-  {
-    date: "2026-06-23",
-    headline: "The running list: major tech layoffs in 2026 where employers cited AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-  },
-  {
-    date: "2026-06-23",
-    headline: "OpenAI launches new initiative to help find and patch open source bugs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
   },
 ];
 

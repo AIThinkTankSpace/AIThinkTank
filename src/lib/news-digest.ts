@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-27",
+    headline: "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+  },
+  {
+    date: "2026-06-26",
+    headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+  },
+  {
+    date: "2026-06-26",
+    headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+  },
+  {
+    date: "2026-06-26",
+    headline: "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+  },
+  {
+    date: "2026-06-26",
+    headline: "It&#8217;s not about Anthropic vs. OpenAI anymore",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+  },
+  {
     date: "2026-06-25",
     headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI researchers continue to leave Google for its rivals",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
-  },
-  {
-    date: "2026-06-24",
-    headline: "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
-  },
-  {
-    date: "2026-06-24",
-    headline: "Facebook rolls out an AI companion app for creators",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
-  },
-  {
-    date: "2026-06-24",
-    headline: "Agility Robotics plans to go public via SPAC in a $2.5B deal",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
-  },
-  {
-    date: "2026-06-23",
-    headline: "India&#8217;s MoEngage bets that the future of marketing is millions of AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
-  },
-  {
-    date: "2026-06-23",
-    headline: "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
   },
 ];
 

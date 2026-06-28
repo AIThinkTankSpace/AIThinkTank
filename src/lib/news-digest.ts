@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-06-27",
+    headline: "Apple Vision Pro exec is reportedly leaving for OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+  },
+  {
+    date: "2026-06-27",
+    headline: "The fittest founder in the room got cancer. Here&#8217;s how he used AI to fight back.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+  },
+  {
+    date: "2026-06-27",
+    headline: "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+  },
+  {
+    date: "2026-06-26",
+    headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+  },
+  {
+    date: "2026-06-26",
+    headline: "Heat waves mess with your brain. Scientists are trying to figure out why.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+  },
+  {
+    date: "2026-06-27",
     headline: "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-  },
-  {
-    date: "2026-06-25",
-    headline: "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-  },
-  {
-    date: "2026-06-25",
-    headline: "General Intuition&#8217;s $2.3B bet that video games can train AI agents for the real world",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-  },
-  {
-    date: "2026-06-25",
-    headline: "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
-  },
-  {
-    date: "2026-06-24",
-    headline: "AI was supposed to kill engineering jobs, but new data suggests they&#8217;re the most resilient",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
-  },
-  {
-    date: "2026-06-24",
-    headline: "AI researchers continue to leave Google for its rivals",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
   },
 ];
 

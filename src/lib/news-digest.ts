@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-28",
+    headline: "Ford rehires ‘gray beard’ engineers after AI falls short",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+  },
+  {
+    date: "2026-06-28",
+    headline: "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+  },
+  {
+    date: "2026-06-28",
+    headline: "China’s Z.ai claims it can match Mythos on cybersecurity",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+  },
+  {
+    date: "2026-06-28",
+    headline: "Suno launches Spark incubator program to feed independent artists to its AI machine",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+  },
+  {
+    date: "2026-06-28",
+    headline: "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+  },
+  {
     date: "2026-06-27",
     headline: "Apple Vision Pro exec is reportedly leaving for OpenAI",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-  },
-  {
-    date: "2026-06-26",
-    headline: "OpenAI poaches Uber India chief to lead its biggest market outside the US",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
-  },
-  {
-    date: "2026-06-26",
-    headline: "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-  },
-  {
-    date: "2026-06-26",
-    headline: "It&#8217;s not about Anthropic vs. OpenAI anymore",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-  },
-  {
-    date: "2026-06-25",
-    headline: "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-  },
-  {
-    date: "2026-06-25",
-    headline: "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
   },
 ];
 

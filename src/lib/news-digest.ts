@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-06-30",
+    headline: "Crypto exchange OKX wants AI agents to hire and pay each other",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+  },
+  {
+    date: "2026-06-30",
+    headline: "The AI jobs debate just got messier",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+  },
+  {
+    date: "2026-06-30",
+    headline: "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+  },
+  {
+    date: "2026-06-29",
+    headline: "Gemini&#8217;s personalized AI image generation is now free for US users",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+  },
+  {
+    date: "2026-06-29",
+    headline: "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+  },
+  {
     date: "2026-06-28",
     headline: "Ford rehires ‘gray beard’ engineers after AI falls short",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The fittest founder in the room got cancer. Here&#8217;s how he used AI to fight back.",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-  },
-  {
-    date: "2026-06-27",
-    headline: "Asian AI startups launch Mythos-like  models as Anthropic&#8217;s export ban drags on",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-  },
-  {
-    date: "2026-06-26",
-    headline: "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
-  },
-  {
-    date: "2026-06-26",
-    headline: "Heat waves mess with your brain. Scientists are trying to figure out why.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
-  },
-  {
-    date: "2026-06-27",
-    headline: "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
-  },
-  {
-    date: "2026-06-26",
-    headline: "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
   },
 ];
 

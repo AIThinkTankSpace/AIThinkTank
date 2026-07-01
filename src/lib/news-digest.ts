@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-01",
+    headline: "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+  },
+  {
+    date: "2026-06-30",
+    headline: "OpenClaw is finally available on Android and iOS",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+  },
+  {
+    date: "2026-06-30",
+    headline: "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+  },
+  {
+    date: "2026-06-30",
+    headline: "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+  },
+  {
+    date: "2026-06-30",
+    headline: "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+  },
+  {
     date: "2026-06-30",
     headline: "Crypto exchange OKX wants AI agents to hire and pay each other",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Why Wall Street thinks US memory maker Micron is the next Nvidia",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
-  },
-  {
-    date: "2026-06-28",
-    headline: "China’s Z.ai claims it can match Mythos on cybersecurity",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
-  },
-  {
-    date: "2026-06-28",
-    headline: "Suno launches Spark incubator program to feed independent artists to its AI machine",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
-  },
-  {
-    date: "2026-06-28",
-    headline: "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
-  },
-  {
-    date: "2026-06-27",
-    headline: "Apple Vision Pro exec is reportedly leaving for OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-  },
-  {
-    date: "2026-06-27",
-    headline: "The fittest founder in the room got cancer. Here&#8217;s how he used AI to fight back.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
   },
 ];
 

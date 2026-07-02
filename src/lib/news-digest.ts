@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-02",
+    headline: "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+  },
+  {
+    date: "2026-07-01",
+    headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+  },
+  {
+    date: "2026-07-01",
+    headline: "Cloudflare&#8217;s new policy pushes AI companies to pay for publishers&#8217; content",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+  },
+  {
+    date: "2026-07-01",
+    headline: "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+  },
+  {
+    date: "2026-07-01",
+    headline: "Gemini Spark, Google&#8217;s agentic assistant, is now available on Mac",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+  },
+  {
     date: "2026-07-01",
     headline: "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The AI jobs debate just got messier",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
-  },
-  {
-    date: "2026-06-29",
-    headline: "Gemini&#8217;s personalized AI image generation is now free for US users",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
-  },
-  {
-    date: "2026-06-29",
-    headline: "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-  },
-  {
-    date: "2026-06-28",
-    headline: "Ford rehires ‘gray beard’ engineers after AI falls short",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
-  },
-  {
-    date: "2026-06-28",
-    headline: "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
   },
 ];
 

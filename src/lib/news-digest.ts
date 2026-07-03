@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-07-02",
+    headline: "Mark Zuckerberg tells staff that AI agents haven&#8217;t progressed as quickly as he&#8217;d hoped",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "Jersey Mike&#8217;s IPO illustrates how bad the AI hype has become",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "Anthropic is discussing a new custom chip with Samsung",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+  },
+  {
+    date: "2026-07-02",
     headline: "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenClaw is finally available on Android and iOS",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "Crypto exchange OKX wants AI agents to hire and pay each other",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "The AI jobs debate just got messier",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
   },
 ];
 

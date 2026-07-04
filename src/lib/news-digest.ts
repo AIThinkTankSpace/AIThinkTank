@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-03",
+    headline: "The only AI glossary you&#8217;ll need this year",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "Achieving operational excellence with AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "Teaching AI to run with the turbines",
+    audiences: ["ai-for-kids"],
+    link: "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+  },
+  {
+    date: "2026-07-02",
+    headline: "The Download: a startup has a solution for AI’s groupthink problem",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+  },
+  {
+    date: "2026-07-03",
+    headline: "Anthropic wants to develop its own drugs",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+  },
+  {
     date: "2026-07-02",
     headline: "Mark Zuckerberg tells staff that AI agents haven&#8217;t progressed as quickly as he&#8217;d hoped",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-  },
-  {
-    date: "2026-07-01",
-    headline: "Cloudflare&#8217;s new policy pushes AI companies to pay for publishers&#8217; content",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-  },
-  {
-    date: "2026-07-01",
-    headline: "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
-  },
-  {
-    date: "2026-07-01",
-    headline: "Gemini Spark, Google&#8217;s agentic assistant, is now available on Mac",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
-  },
-  {
-    date: "2026-07-01",
-    headline: "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
-  },
-  {
-    date: "2026-06-30",
-    headline: "OpenClaw is finally available on Android and iOS",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
   },
 ];
 

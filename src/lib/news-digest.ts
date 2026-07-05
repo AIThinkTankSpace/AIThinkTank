@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-04",
+    headline: "New Google commercial imagines a Declaration of Independence written with help from AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+  },
+  {
+    date: "2026-07-04",
+    headline: "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+  },
+  {
+    date: "2026-07-04",
+    headline: "Alibaba reportedly bans employees from using Claude Code",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+  },
+  {
+    date: "2026-07-04",
+    headline: "What is Mistral AI? Everything to know about the OpenAI competitor",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+  },
+  {
+    date: "2026-07-03",
+    headline: "The fanfiction community is at war with AI — and itself",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+  },
+  {
     date: "2026-07-03",
     headline: "The only AI glossary you&#8217;ll need this year",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Jersey Mike&#8217;s IPO illustrates how bad the AI hype has become",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Anthropic is discussing a new custom chip with Samsung",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
-  },
-  {
-    date: "2026-07-01",
-    headline: "SpaceX has an AI device prototype, and it sure sounds phone-ish",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
   },
 ];
 

@@ -15,6 +15,18 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-06",
+    headline: "Some of the nation’s rich are letting AI teach their kids",
+    audiences: ["ai-for-kids"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+  },
+  {
+    date: "2026-07-06",
+    headline: "Infuriating Google commercial imagines the founding fathers embracing AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+  },
+  {
     date: "2026-07-04",
     headline: "New Google commercial imagines a Declaration of Independence written with help from AI",
     audiences: ["ai-for-corporates"],
@@ -73,18 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic wants to develop its own drugs",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Mark Zuckerberg tells staff that AI agents haven&#8217;t progressed as quickly as he&#8217;d hoped",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Jersey Mike&#8217;s IPO illustrates how bad the AI hype has become",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
   },
 ];
 

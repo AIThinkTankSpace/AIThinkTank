@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-07",
+    headline: "The first American autonomous ground vehicles are fighting in Ukraine",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+  },
+  {
+    date: "2026-07-06",
+    headline: "The &#8216;first&#8217; AI-run ransomware attack still needed a human",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+  },
+  {
+    date: "2026-07-06",
+    headline: "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+  },
+  {
+    date: "2026-07-06",
+    headline: "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+  },
+  {
+    date: "2026-07-06",
+    headline: "Every major tech layoff in 2026 that has name-checked AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+  },
+  {
     date: "2026-07-06",
     headline: "Some of the nation’s rich are letting AI teach their kids",
     audiences: ["ai-for-kids"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The fanfiction community is at war with AI — and itself",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-  },
-  {
-    date: "2026-07-03",
-    headline: "The only AI glossary you&#8217;ll need this year",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Achieving operational excellence with AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "Teaching AI to run with the turbines",
-    audiences: ["ai-for-kids"],
-    link: "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-  },
-  {
-    date: "2026-07-02",
-    headline: "The Download: a startup has a solution for AI’s groupthink problem",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-  },
-  {
-    date: "2026-07-03",
-    headline: "Anthropic wants to develop its own drugs",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
   },
 ];
 

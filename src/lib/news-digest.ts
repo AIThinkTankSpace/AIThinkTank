@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-08",
+    headline: "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+  },
+  {
+    date: "2026-07-08",
+    headline: "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+  },
+  {
+    date: "2026-07-07",
+    headline: "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+  },
+  {
+    date: "2026-07-07",
+    headline: "Why the rise of open source AI isn&#8217;t hurting Anthropic &#8230; yet",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+  },
+  {
+    date: "2026-07-07",
+    headline: "Microsoft joins AI cost-cutting trend by relying more on its own models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+  },
+  {
     date: "2026-07-07",
     headline: "The first American autonomous ground vehicles are fighting in Ukraine",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Infuriating Google commercial imagines the founding fathers embracing AI",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-  },
-  {
-    date: "2026-07-04",
-    headline: "New Google commercial imagines a Declaration of Independence written with help from AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-  },
-  {
-    date: "2026-07-04",
-    headline: "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-  },
-  {
-    date: "2026-07-04",
-    headline: "Alibaba reportedly bans employees from using Claude Code",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-  },
-  {
-    date: "2026-07-04",
-    headline: "What is Mistral AI? Everything to know about the OpenAI competitor",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-  },
-  {
-    date: "2026-07-03",
-    headline: "The fanfiction community is at war with AI — and itself",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
   },
 ];
 

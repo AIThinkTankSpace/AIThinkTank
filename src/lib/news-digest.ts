@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-07-08",
+    headline: "SpaceXAI releases Grok 4.5, which Elon describes as an &#8216;Opus-class model&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+  },
+  {
+    date: "2026-07-08",
+    headline: "This startup thinks robotics is about to have its ChatGPT moment",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+  },
+  {
+    date: "2026-07-08",
+    headline: "Google Photos adds a new AI &#8216;Video Remix&#8217; tool",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+  },
+  {
+    date: "2026-07-08",
+    headline: "Why this CEO thinks video games make better training data than the internet",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+  },
+  {
+    date: "2026-07-08",
+    headline: "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+  },
+  {
+    date: "2026-07-08",
     headline: "Hot French startup ZML releases free product to speed inference across lots of AI chips",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The &#8216;first&#8217; AI-run ransomware attack still needed a human",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-  },
-  {
-    date: "2026-07-06",
-    headline: "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
-  },
-  {
-    date: "2026-07-06",
-    headline: "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
-  },
-  {
-    date: "2026-07-06",
-    headline: "Every major tech layoff in 2026 that has name-checked AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-  },
-  {
-    date: "2026-07-06",
-    headline: "Some of the nation’s rich are letting AI teach their kids",
-    audiences: ["ai-for-kids"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
-  },
-  {
-    date: "2026-07-06",
-    headline: "Infuriating Google commercial imagines the founding fathers embracing AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
   },
 ];
 

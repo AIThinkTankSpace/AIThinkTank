@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-10",
+    headline: "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+  },
+  {
+    date: "2026-07-09",
+    headline: "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+  },
+  {
+    date: "2026-07-09",
+    headline: "OpenAI launches its new family of models with GPT-5.6",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+  },
+  {
+    date: "2026-07-09",
+    headline: "An AI agent startup just let its agent run its $100M fundraise",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+  },
+  {
+    date: "2026-07-09",
+    headline: "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+  },
+  {
     date: "2026-07-08",
     headline: "SpaceXAI releases Grok 4.5, which Elon describes as an &#8216;Opus-class model&#8217;",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
-  },
-  {
-    date: "2026-07-07",
-    headline: "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
-  },
-  {
-    date: "2026-07-07",
-    headline: "Why the rise of open source AI isn&#8217;t hurting Anthropic &#8230; yet",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-  },
-  {
-    date: "2026-07-07",
-    headline: "Microsoft joins AI cost-cutting trend by relying more on its own models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
-  },
-  {
-    date: "2026-07-07",
-    headline: "The first American autonomous ground vehicles are fighting in Ukraine",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
-  },
-  {
-    date: "2026-07-06",
-    headline: "The &#8216;first&#8217; AI-run ransomware attack still needed a human",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
   },
 ];
 

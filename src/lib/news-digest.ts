@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-07-10",
+    headline: "Meta removes controversial AI feature on Instagram after backlash",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+  },
+  {
+    date: "2026-07-10",
+    headline: "Apple sues OpenAI over alleged trade secret theft",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+  },
+  {
+    date: "2026-07-10",
+    headline: "Open source AI matters more than ever, according to Hugging Face&#8217;s Clem Delangue",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+  },
+  {
+    date: "2026-07-10",
+    headline: "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+  },
+  {
+    date: "2026-07-10",
+    headline: "Hugging Face&#8217;s CEO on why companies are done renting their AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+  },
+  {
+    date: "2026-07-10",
     headline: "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "This startup thinks robotics is about to have its ChatGPT moment",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "Google Photos adds a new AI &#8216;Video Remix&#8217; tool",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "Why this CEO thinks video games make better training data than the internet",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "Hot French startup ZML releases free product to speed inference across lots of AI chips",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
   },
 ];
 

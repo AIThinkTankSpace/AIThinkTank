@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-11",
+    headline: "OpenAI bets on families as ChatGPT goes deeper into households",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+  },
+  {
+    date: "2026-07-10",
+    headline: "The Download: Claude&#8217;s inner workings and OpenAI&#8217;s &#8220;super app&#8221;",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+  },
+  {
+    date: "2026-07-10",
+    headline: "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+  },
+  {
+    date: "2026-07-10",
+    headline: "Apple sues OpenAI for allegedly stealing hardware secrets",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+  },
+  {
+    date: "2026-07-10",
+    headline: "Instagram’s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+  },
+  {
     date: "2026-07-10",
     headline: "Meta removes controversial AI feature on Instagram after backlash",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-  },
-  {
-    date: "2026-07-09",
-    headline: "OpenAI launches its new family of models with GPT-5.6",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-  },
-  {
-    date: "2026-07-09",
-    headline: "An AI agent startup just let its agent run its $100M fundraise",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-  },
-  {
-    date: "2026-07-09",
-    headline: "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "SpaceXAI releases Grok 4.5, which Elon describes as an &#8216;Opus-class model&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
-  },
-  {
-    date: "2026-07-08",
-    headline: "This startup thinks robotics is about to have its ChatGPT moment",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
   },
 ];
 

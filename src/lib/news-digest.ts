@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-13",
+    headline: "Waze is getting a bunch of new AI-powered features",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+  },
+  {
+    date: "2026-07-13",
+    headline: "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+  },
+  {
+    date: "2026-07-13",
+    headline: "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+  },
+  {
     date: "2026-07-11",
     headline: "OpenAI bets on families as ChatGPT goes deeper into households",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
-  },
-  {
-    date: "2026-07-10",
-    headline: "Hugging Face&#8217;s CEO on why companies are done renting their AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
-  },
-  {
-    date: "2026-07-10",
-    headline: "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-  },
-  {
-    date: "2026-07-09",
-    headline: "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
   },
 ];
 

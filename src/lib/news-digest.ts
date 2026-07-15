@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-15",
+    headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+  },
+  {
+    date: "2026-07-14",
+    headline: "Lorde says AI glasses are &#8216;not sexy&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+  },
+  {
+    date: "2026-07-14",
+    headline: "OpenAI&#8217;s first hardware device is reportedly a screenless speaker that can move",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+  },
+  {
+    date: "2026-07-14",
+    headline: "OpenAI pushes back on Apple trade secret lawsuit",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+  },
+  {
+    date: "2026-07-14",
+    headline: "OpenAI&#8217;s new flagship model deletes files on its own, people keep warning",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+  },
+  {
     date: "2026-07-14",
     headline: "Already rich, already successful, why the last wave of tech winners is grinding again",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-  },
-  {
-    date: "2026-07-13",
-    headline: "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-  },
-  {
-    date: "2026-07-11",
-    headline: "OpenAI bets on families as ChatGPT goes deeper into households",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-  },
-  {
-    date: "2026-07-10",
-    headline: "The Download: Claude&#8217;s inner workings and OpenAI&#8217;s &#8220;super app&#8221;",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
-  },
-  {
-    date: "2026-07-10",
-    headline: "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-  },
-  {
-    date: "2026-07-10",
-    headline: "Apple sues OpenAI for allegedly stealing hardware secrets",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
   },
 ];
 

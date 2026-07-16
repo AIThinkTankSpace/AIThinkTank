@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-16",
+    headline: "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+  },
+  {
+    date: "2026-07-15",
+    headline: "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+  },
+  {
+    date: "2026-07-15",
+    headline: "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+  },
+  {
+    date: "2026-07-15",
+    headline: "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+  },
+  {
+    date: "2026-07-15",
+    headline: "Hack suggests AI music generator Suno scraped YouTube for training data",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+  },
+  {
     date: "2026-07-15",
     headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Uber&#8217;s product chief on hotels, robotaxis, and why the company doesn&#8217;t want to be…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-  },
-  {
-    date: "2026-07-13",
-    headline: "Satya Nadella has issued a shocking warning to companies using AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-  },
-  {
-    date: "2026-07-13",
-    headline: "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
-  },
-  {
-    date: "2026-07-13",
-    headline: "Waze is getting a bunch of new AI-powered features",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-  },
-  {
-    date: "2026-07-13",
-    headline: "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
   },
 ];
 

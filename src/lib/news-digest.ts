@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-07-16",
+    headline: "Google Vids now lets you star in your own AI videos",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+  },
+  {
+    date: "2026-07-16",
+    headline: "Roblox launches an AI-powered game-creation feature in its mobile app",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+  },
+  {
+    date: "2026-07-16",
+    headline: "Google&#8217;s AI Mode now lets you link and interact with select apps",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+  },
+  {
+    date: "2026-07-16",
+    headline: "Why is OpenAI selling a ChatGPT basketball?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+  },
+  {
+    date: "2026-07-16",
+    headline: "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+  },
+  {
+    date: "2026-07-16",
     headline: "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Lorde says AI glasses are &#8216;not sexy&#8217;",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "OpenAI&#8217;s first hardware device is reportedly a screenless speaker that can move",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "OpenAI pushes back on Apple trade secret lawsuit",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "OpenAI&#8217;s new flagship model deletes files on its own, people keep warning",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "Already rich, already successful, why the last wave of tech winners is grinding again",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "Uber&#8217;s product chief on hotels, robotaxis, and why the company doesn&#8217;t want to be…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
   },
 ];
 

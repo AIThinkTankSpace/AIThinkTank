@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-18",
+    headline: "Neil Rimer thinks the AI money is coming back out",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+  },
+  {
+    date: "2026-07-17",
+    headline: "Vertu wants executives to pay $6,880 for an AI agent — here&#8217;s how it actually performs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+  },
+  {
+    date: "2026-07-17",
+    headline: "Databricks hits $188B valuation, extending its run as AI&#8217;s favorite second act",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+  },
+  {
+    date: "2026-07-17",
+    headline: "Agility Robotics plants its flag in Tesla&#8217;s backyard",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+  },
+  {
+    date: "2026-07-17",
+    headline: "AI-driven memory crunch jolts India&#8217;s smartphone market",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+  },
+  {
     date: "2026-07-16",
     headline: "Google Vids now lets you star in your own AI videos",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-  },
-  {
-    date: "2026-07-15",
-    headline: "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-  },
-  {
-    date: "2026-07-15",
-    headline: "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-  },
-  {
-    date: "2026-07-15",
-    headline: "Hack suggests AI music generator Suno scraped YouTube for training data",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-  },
-  {
-    date: "2026-07-15",
-    headline: "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
-  },
-  {
-    date: "2026-07-14",
-    headline: "Lorde says AI glasses are &#8216;not sexy&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
   },
 ];
 

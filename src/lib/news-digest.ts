@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-17",
+    headline: "The Download: perimenopause misinformation and China&#8217;s latest AI leap",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
+  },
+  {
+    date: "2026-07-18",
+    headline: "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+  },
+  {
+    date: "2026-07-17",
+    headline: "TikTok is testing an AI likeness detection tool",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+  },
+  {
+    date: "2026-07-17",
+    headline: "Apple’s plot to crush OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+  },
+  {
     date: "2026-07-18",
     headline: "Neil Rimer thinks the AI money is coming back out",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google&#8217;s AI Mode now lets you link and interact with select apps",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-  },
-  {
-    date: "2026-07-16",
-    headline: "Why is OpenAI selling a ChatGPT basketball?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-  },
-  {
-    date: "2026-07-16",
-    headline: "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-  },
-  {
-    date: "2026-07-16",
-    headline: "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
-  },
-  {
-    date: "2026-07-15",
-    headline: "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
   },
 ];
 

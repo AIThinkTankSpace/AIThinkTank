@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-19",
+    headline: "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+  },
+  {
+    date: "2026-07-19",
+    headline: "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+  },
+  {
+    date: "2026-07-19",
+    headline: "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+  },
+  {
+    date: "2026-07-20",
+    headline: "AI is more likely than humans to form biases when hiring",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+  },
+  {
     date: "2026-07-17",
     headline: "The Download: perimenopause misinformation and China&#8217;s latest AI leap",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Agility Robotics plants its flag in Tesla&#8217;s backyard",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
-  },
-  {
-    date: "2026-07-17",
-    headline: "AI-driven memory crunch jolts India&#8217;s smartphone market",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-  },
-  {
-    date: "2026-07-16",
-    headline: "Google Vids now lets you star in your own AI videos",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-  },
-  {
-    date: "2026-07-16",
-    headline: "Roblox launches an AI-powered game-creation feature in its mobile app",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
-  },
-  {
-    date: "2026-07-16",
-    headline: "Google&#8217;s AI Mode now lets you link and interact with select apps",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
   },
 ];
 

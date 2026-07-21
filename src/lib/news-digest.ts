@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-21",
+    headline: "Anthropic&#8217;s landmark $1.5B copyright settlement is approved",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+  },
+  {
+    date: "2026-07-20",
+    headline: "Trump&#8217;s latest AI czar has already resigned",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+  },
+  {
+    date: "2026-07-20",
+    headline: "Google is working on a new AI chip designed to make Gemini more efficient",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+  },
+  {
+    date: "2026-07-20",
+    headline: "AI&#8217;s most important protocol is getting a little bit easier to use",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+  },
+  {
+    date: "2026-07-20",
+    headline: "OpenAI is scared of open-weight models. Should the US be?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+  },
+  {
     date: "2026-07-19",
     headline: "Can an Apple lawsuit derail OpenAI’s hardware plans?",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "TikTok is testing an AI likeness detection tool",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-  },
-  {
-    date: "2026-07-17",
-    headline: "Apple’s plot to crush OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-  },
-  {
-    date: "2026-07-18",
-    headline: "Neil Rimer thinks the AI money is coming back out",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-  },
-  {
-    date: "2026-07-17",
-    headline: "Vertu wants executives to pay $6,880 for an AI agent — here&#8217;s how it actually performs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
-  },
-  {
-    date: "2026-07-17",
-    headline: "Databricks hits $188B valuation, extending its run as AI&#8217;s favorite second act",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-  },
-  {
-    date: "2026-07-17",
-    headline: "Agility Robotics plants its flag in Tesla&#8217;s backyard",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
   },
 ];
 

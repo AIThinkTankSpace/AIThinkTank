@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-22",
+    headline: "Synthesia’s AI training platform is moving beyond videos into live coaching",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+  },
+  {
+    date: "2026-07-22",
+    headline: "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+  },
+  {
+    date: "2026-07-21",
+    headline: "Meta is testing an AI bedtime story app for people with no imagination",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+  },
+  {
+    date: "2026-07-21",
+    headline: "OpenAI says Hugging Face was breached by its pre-release models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
+  },
+  {
+    date: "2026-07-21",
+    headline: "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+  },
+  {
     date: "2026-07-21",
     headline: "Anthropic&#8217;s landmark $1.5B copyright settlement is approved",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
-  },
-  {
-    date: "2026-07-19",
-    headline: "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-  },
-  {
-    date: "2026-07-20",
-    headline: "AI is more likely than humans to form biases when hiring",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-  },
-  {
-    date: "2026-07-17",
-    headline: "The Download: perimenopause misinformation and China&#8217;s latest AI leap",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
-  },
-  {
-    date: "2026-07-18",
-    headline: "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-  },
-  {
-    date: "2026-07-17",
-    headline: "TikTok is testing an AI likeness detection tool",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
   },
 ];
 

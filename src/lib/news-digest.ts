@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-07-22",
+    headline: "After shocking quarter, IBM insists that AI isn&#8217;t killing the mainframe",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+  },
+  {
+    date: "2026-07-22",
+    headline: "Google justifies its massive AI spending with a booming cloud business",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+  },
+  {
+    date: "2026-07-22",
+    headline: "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic&#8217;s Fable",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+  },
+  {
+    date: "2026-07-22",
+    headline: "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+  },
+  {
+    date: "2026-07-22",
+    headline: "Travis Kalanick&#8217;s robotics company raises $1.7B, led by a16z",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+  },
+  {
+    date: "2026-07-22",
     headline: "Synthesia’s AI training platform is moving beyond videos into live coaching",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Trump&#8217;s latest AI czar has already resigned",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
-  },
-  {
-    date: "2026-07-20",
-    headline: "Google is working on a new AI chip designed to make Gemini more efficient",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
-  },
-  {
-    date: "2026-07-20",
-    headline: "AI&#8217;s most important protocol is getting a little bit easier to use",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
-  },
-  {
-    date: "2026-07-20",
-    headline: "OpenAI is scared of open-weight models. Should the US be?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
-  },
-  {
-    date: "2026-07-19",
-    headline: "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-  },
-  {
-    date: "2026-07-19",
-    headline: "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
   },
 ];
 

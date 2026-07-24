@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-24",
+    headline: "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+  },
+  {
+    date: "2026-07-23",
+    headline: "AMD takes on Nvidia with its Helios AI rack-scale system",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+  },
+  {
+    date: "2026-07-23",
+    headline: "Anthropic updates Claude voice mode with more capable models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+  },
+  {
+    date: "2026-07-23",
+    headline: "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+  },
+  {
+    date: "2026-07-23",
+    headline: "Runway launches AI model router as generative media gets crowded",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+  },
+  {
     date: "2026-07-22",
     headline: "After shocking quarter, IBM insists that AI isn&#8217;t killing the mainframe",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-  },
-  {
-    date: "2026-07-21",
-    headline: "Meta is testing an AI bedtime story app for people with no imagination",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-  },
-  {
-    date: "2026-07-21",
-    headline: "OpenAI says Hugging Face was breached by its pre-release models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-  },
-  {
-    date: "2026-07-21",
-    headline: "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
-  },
-  {
-    date: "2026-07-21",
-    headline: "Anthropic&#8217;s landmark $1.5B copyright settlement is approved",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
-  },
-  {
-    date: "2026-07-20",
-    headline: "Trump&#8217;s latest AI czar has already resigned",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
   },
 ];
 

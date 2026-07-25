@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-25",
+    headline: "I tried out OpenAI&#8217;s new AI keypad — which will be fun for some coders and slightly…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+  },
+  {
+    date: "2026-07-24",
+    headline: "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+  },
+  {
+    date: "2026-07-24",
+    headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+  },
+  {
+    date: "2026-07-24",
+    headline: "Anthropic launches Opus 5",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+  },
+  {
+    date: "2026-07-24",
+    headline: "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+  },
+  {
     date: "2026-07-24",
     headline: "How AI guardrails are impeding the work of offensive cybersecurity researchers",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google justifies its massive AI spending with a booming cloud business",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic&#8217;s Fable",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "Travis Kalanick&#8217;s robotics company raises $1.7B, led by a16z",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "Synthesia’s AI training platform is moving beyond videos into live coaching",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
   },
 ];
 

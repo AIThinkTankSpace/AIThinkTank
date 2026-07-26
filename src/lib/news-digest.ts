@@ -15,6 +15,30 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-26",
+    headline: "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+  },
+  {
+    date: "2026-07-25",
+    headline: "Librarians are hosting viral &#8216;Avoiding AI&#8217; workshops for people who are fed up with…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+  },
+  {
+    date: "2026-07-25",
+    headline: "One fallen power line exposed a growing AI data center problem. Here&#8217;s how to fix it.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+  },
+  {
+    date: "2026-07-24",
+    headline: "Meta is making its AI chatbot more like an assistant",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+  },
+  {
     date: "2026-07-25",
     headline: "I tried out OpenAI&#8217;s new AI keypad — which will be fun for some coders and slightly…",
     audiences: ["ai-for-corporates"],
@@ -61,30 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic updates Claude voice mode with more capable models",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-  },
-  {
-    date: "2026-07-23",
-    headline: "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-  },
-  {
-    date: "2026-07-23",
-    headline: "Runway launches AI model router as generative media gets crowded",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "After shocking quarter, IBM insists that AI isn&#8217;t killing the mainframe",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
-  },
-  {
-    date: "2026-07-22",
-    headline: "Google justifies its massive AI spending with a booming cloud business",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
   },
 ];
 

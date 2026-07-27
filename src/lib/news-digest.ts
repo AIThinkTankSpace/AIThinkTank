@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-27",
+    headline: "Are brain waves the next unlock for physical AI?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+  },
+  {
+    date: "2026-07-26",
+    headline: "Making sense of the panic over Chinese AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+  },
+  {
+    date: "2026-07-26",
+    headline: "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+  },
+  {
     date: "2026-07-26",
     headline: "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-  },
-  {
-    date: "2026-07-24",
-    headline: "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-  },
-  {
-    date: "2026-07-23",
-    headline: "AMD takes on Nvidia with its Helios AI rack-scale system",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-  },
-  {
-    date: "2026-07-23",
-    headline: "Anthropic updates Claude voice mode with more capable models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
   },
 ];
 

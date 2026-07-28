@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-28",
+    headline: "Anthropic&#8217;s Dario Amodei responds: doesn&#8217;t oppose open-weight models, but fears…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+  },
+  {
+    date: "2026-07-27",
+    headline: "Satya Nadella says companies that trust one AI for everything may not survive",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+  },
+  {
+    date: "2026-07-27",
+    headline: "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+  },
+  {
+    date: "2026-07-27",
+    headline: "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+  },
+  {
+    date: "2026-07-27",
+    headline: "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+  },
+  {
     date: "2026-07-27",
     headline: "Are brain waves the next unlock for physical AI?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meta is making its AI chatbot more like an assistant",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-  },
-  {
-    date: "2026-07-25",
-    headline: "I tried out OpenAI&#8217;s new AI keypad — which will be fun for some coders and slightly…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-  },
-  {
-    date: "2026-07-24",
-    headline: "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-  },
-  {
-    date: "2026-07-24",
-    headline: "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
-  },
-  {
-    date: "2026-07-24",
-    headline: "Anthropic launches Opus 5",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-  },
-  {
-    date: "2026-07-24",
-    headline: "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
   },
 ];
 

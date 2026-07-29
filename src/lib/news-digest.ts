@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-29",
+    headline: "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+  },
+  {
+    date: "2026-07-28",
+    headline: "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+  },
+  {
+    date: "2026-07-28",
+    headline: "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+  },
+  {
+    date: "2026-07-27",
+    headline: "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+  },
+  {
+    date: "2026-07-27",
+    headline: "Closing the data loop in AI-driven drug discovery",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+  },
+  {
     date: "2026-07-28",
     headline: "Anthropic&#8217;s Dario Amodei responds: doesn&#8217;t oppose open-weight models, but fears…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Making sense of the panic over Chinese AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
-  },
-  {
-    date: "2026-07-26",
-    headline: "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-  },
-  {
-    date: "2026-07-26",
-    headline: "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-  },
-  {
-    date: "2026-07-25",
-    headline: "Librarians are hosting viral &#8216;Avoiding AI&#8217; workshops for people who are fed up with…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-  },
-  {
-    date: "2026-07-25",
-    headline: "One fallen power line exposed a growing AI data center problem. Here&#8217;s how to fix it.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-  },
-  {
-    date: "2026-07-24",
-    headline: "Meta is making its AI chatbot more like an assistant",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
   },
 ];
 

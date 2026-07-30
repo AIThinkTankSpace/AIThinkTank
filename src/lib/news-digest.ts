@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-30",
+    headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+  },
+  {
+    date: "2026-07-29",
+    headline: "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+  },
+  {
+    date: "2026-07-29",
+    headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+  },
+  {
+    date: "2026-07-29",
+    headline: "Zuckerberg says Meta&#8217;s enterprise AI opportunity extends beyond agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+  },
+  {
+    date: "2026-07-29",
+    headline: "Discover what&#8217;s next for AI, from the SaaS reckoning to the agent security gap, at…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+  },
+  {
     date: "2026-07-29",
     headline: "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Satya Nadella says companies that trust one AI for everything may not survive",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "Are brain waves the next unlock for physical AI?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
-  },
-  {
-    date: "2026-07-26",
-    headline: "Making sense of the panic over Chinese AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
   },
 ];
 

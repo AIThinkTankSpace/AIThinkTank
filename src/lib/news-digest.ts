@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-07-31",
+    headline: "Anthropic says its own AI models breached three companies during security tests",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+  },
+  {
+    date: "2026-07-30",
+    headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+  },
+  {
+    date: "2026-07-30",
+    headline: "Reddit reports a solid quarter but shows signs of AI&#8217;s impact",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+  },
+  {
+    date: "2026-07-30",
+    headline: "Investors love AI, as long as you’re a cloud host",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+  },
+  {
+    date: "2026-07-30",
+    headline: "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+  },
+  {
     date: "2026-07-30",
     headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
-  },
-  {
-    date: "2026-07-28",
-    headline: "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "Closing the data loop in AI-driven drug discovery",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-  },
-  {
-    date: "2026-07-28",
-    headline: "Anthropic&#8217;s Dario Amodei responds: doesn&#8217;t oppose open-weight models, but fears…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-  },
-  {
-    date: "2026-07-27",
-    headline: "Satya Nadella says companies that trust one AI for everything may not survive",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
   },
 ];
 

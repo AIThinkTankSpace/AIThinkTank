@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-07-31",
+    headline: "OpenAI reportedly finds evidence that more of its agents ran amok",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+  },
+  {
+    date: "2026-07-31",
+    headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+  },
+  {
+    date: "2026-07-31",
+    headline: "Sam Altman isn&#8217;t the only one who wants to pump the brakes on AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+  },
+  {
+    date: "2026-07-31",
+    headline: "Snapchat no longer rewards fully AI-generated Spotlight content",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+  },
+  {
+    date: "2026-07-31",
+    headline: "Siri AI could come with a paywall for power users",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+  },
+  {
+    date: "2026-07-31",
     headline: "Anthropic says its own AI models breached three companies during security tests",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
-  },
-  {
-    date: "2026-07-29",
-    headline: "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
-  },
-  {
-    date: "2026-07-29",
-    headline: "Zuckerberg says Meta&#8217;s enterprise AI opportunity extends beyond agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
-  },
-  {
-    date: "2026-07-29",
-    headline: "Discover what&#8217;s next for AI, from the SaaS reckoning to the agent security gap, at…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
-  },
-  {
-    date: "2026-07-29",
-    headline: "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-  },
-  {
-    date: "2026-07-28",
-    headline: "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
   },
 ];
 

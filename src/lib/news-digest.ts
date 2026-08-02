@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-01",
+    headline: "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+  },
+  {
+    date: "2026-08-01",
+    headline: "YouTuber Hank Green says his AI usage is ‘not healthy’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+  },
+  {
+    date: "2026-08-01",
+    headline: "Sam Altman is still making the case for parenting via ChatGPT",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+  },
+  {
+    date: "2026-07-31",
+    headline: "Claude published malicious code to the Internet and attacked 3 real companies",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
+  },
+  {
+    date: "2026-08-01",
+    headline: "Is this Billboard Hot 100 hit AI slop?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+  },
+  {
     date: "2026-07-31",
     headline: "OpenAI reportedly finds evidence that more of its agents ran amok",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its…",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
-  },
-  {
-    date: "2026-07-30",
-    headline: "Reddit reports a solid quarter but shows signs of AI&#8217;s impact",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
-  },
-  {
-    date: "2026-07-30",
-    headline: "Investors love AI, as long as you’re a cloud host",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
-  },
-  {
-    date: "2026-07-30",
-    headline: "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
-  },
-  {
-    date: "2026-07-30",
-    headline: "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
-  },
-  {
-    date: "2026-07-29",
-    headline: "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
   },
 ];
 

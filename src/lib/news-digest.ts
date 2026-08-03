@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-02",
+    headline: "Sam Altman and AI’s decel debate",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+  },
+  {
+    date: "2026-08-03",
+    headline: "Here’s why AI agents lie and cheat to reach their goals",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+  },
+  {
+    date: "2026-08-02",
+    headline: "Fender’s CEO seems to think your bandmates are just analog AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+  },
+  {
     date: "2026-08-01",
     headline: "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Snapchat no longer rewards fully AI-generated Spotlight content",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-  },
-  {
-    date: "2026-07-31",
-    headline: "Siri AI could come with a paywall for power users",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-  },
-  {
-    date: "2026-07-31",
-    headline: "Anthropic says its own AI models breached three companies during security tests",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
-  },
-  {
-    date: "2026-07-30",
-    headline: "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-03",
+    headline: "After killer quarter, Palantir CEO Alex Karp calls AI industry &#8216;Marxist&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+  },
+  {
+    date: "2026-08-03",
+    headline: "Design Arena creators raise $7.9 million to bring taste to AI models",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+  },
+  {
+    date: "2026-08-03",
+    headline: "Influencers draw backlash for attending OpenAI&#8217;s first luxury trip",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+  },
+  {
+    date: "2026-08-03",
+    headline: "Congress&#8217; favorite AI tool? ChatGPT",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+  },
+  {
+    date: "2026-08-03",
+    headline: "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+  },
+  {
     date: "2026-08-02",
     headline: "Sam Altman and AI’s decel debate",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Claude published malicious code to the Internet and attacked 3 real companies",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-  },
-  {
-    date: "2026-08-01",
-    headline: "Is this Billboard Hot 100 hit AI slop?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-  },
-  {
-    date: "2026-07-31",
-    headline: "OpenAI reportedly finds evidence that more of its agents ran amok",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-  },
-  {
-    date: "2026-07-31",
-    headline: "Google nixes its Earth AI feature one day after launch, amid criticism it would spread…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-  },
-  {
-    date: "2026-07-31",
-    headline: "Sam Altman isn&#8217;t the only one who wants to pump the brakes on AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-  },
-  {
-    date: "2026-07-31",
-    headline: "Snapchat no longer rewards fully AI-generated Spotlight content",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-04",
+    headline: "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+  },
+  {
+    date: "2026-08-04",
+    headline: "Anthropic signs $10B deal with AI cloud startup Volta",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+  },
+  {
+    date: "2026-08-04",
+    headline: "Nvidia doesn&#8217;t mess around: A week after open AI industry group formed, it&#8217;s already…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+  },
+  {
+    date: "2026-08-04",
+    headline: "Spotify expands AI remix and covers project with Merlin partnership",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+  },
+  {
+    date: "2026-08-04",
+    headline: "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+  },
+  {
     date: "2026-08-03",
     headline: "After killer quarter, Palantir CEO Alex Karp calls AI industry &#8216;Marxist&#8217;",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Here’s why AI agents lie and cheat to reach their goals",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-  },
-  {
-    date: "2026-08-02",
-    headline: "Fender’s CEO seems to think your bandmates are just analog AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-  },
-  {
-    date: "2026-08-01",
-    headline: "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-  },
-  {
-    date: "2026-08-01",
-    headline: "YouTuber Hank Green says his AI usage is ‘not healthy’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-  },
-  {
-    date: "2026-08-01",
-    headline: "Sam Altman is still making the case for parenting via ChatGPT",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-  },
-  {
-    date: "2026-07-31",
-    headline: "Claude published malicious code to the Internet and attacked 3 real companies",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
   },
 ];
 

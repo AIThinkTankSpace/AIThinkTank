@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-05",
+    headline: "Meta launches Muse Code, an AI agent for large code bases",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+  },
+  {
+    date: "2026-08-05",
+    headline: "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+  },
+  {
+    date: "2026-08-05",
+    headline: "Shopify says AI search is driving more traffic and sales, not replacing Google",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+  },
+  {
+    date: "2026-08-05",
+    headline: "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+  },
+  {
+    date: "2026-08-05",
+    headline: "Anthropic is hiring an AI chip design team",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+  },
+  {
     date: "2026-08-04",
     headline: "Open-weight AI models are catching up to the frontier. The safety gap remains.",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Design Arena creators raise $7.9 million to bring taste to AI models",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-  },
-  {
-    date: "2026-08-03",
-    headline: "Influencers draw backlash for attending OpenAI&#8217;s first luxury trip",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-  },
-  {
-    date: "2026-08-03",
-    headline: "Congress&#8217; favorite AI tool? ChatGPT",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-  },
-  {
-    date: "2026-08-03",
-    headline: "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
-  },
-  {
-    date: "2026-08-02",
-    headline: "Sam Altman and AI’s decel debate",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-  },
-  {
-    date: "2026-08-03",
-    headline: "Here’s why AI agents lie and cheat to reach their goals",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
   },
 ];
 

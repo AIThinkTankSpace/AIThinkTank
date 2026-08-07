@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-06",
+    headline: "OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+  },
+  {
+    date: "2026-08-06",
+    headline: "ChatGPT brings unlimited text chats to free users",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+  },
+  {
+    date: "2026-08-06",
+    headline: "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+  },
+  {
+    date: "2026-08-06",
+    headline: "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+  },
+  {
+    date: "2026-08-06",
+    headline: "OpenAI says Apple’s own security practices undermine its trade secrets case",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+  },
+  {
     date: "2026-08-05",
     headline: "Meta launches Muse Code, an AI agent for large code bases",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic signs $10B deal with AI cloud startup Volta",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-  },
-  {
-    date: "2026-08-04",
-    headline: "Nvidia doesn&#8217;t mess around: A week after open AI industry group formed, it&#8217;s already…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-  },
-  {
-    date: "2026-08-04",
-    headline: "Spotify expands AI remix and covers project with Merlin partnership",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-  },
-  {
-    date: "2026-08-04",
-    headline: "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
-  },
-  {
-    date: "2026-08-03",
-    headline: "After killer quarter, Palantir CEO Alex Karp calls AI industry &#8216;Marxist&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-  },
-  {
-    date: "2026-08-03",
-    headline: "Design Arena creators raise $7.9 million to bring taste to AI models",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
   },
 ];
 

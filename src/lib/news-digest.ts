@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-07",
+    headline: "OpenAI says it slowed Astra model development over security concerns",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+  },
+  {
+    date: "2026-08-07",
+    headline: "After Rippling blew millions on AI in months, it built an employee ROI tool",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+  },
+  {
+    date: "2026-08-07",
+    headline: "Cloudflare launches Kitesurf, a browser built for AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+  },
+  {
+    date: "2026-08-07",
+    headline: "Airbnb says AI is helping it ship features faster as it tests a new search function",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+  },
+  {
+    date: "2026-08-07",
+    headline: "The Download: a censorship conspiracy theory and the first virus created by AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+  },
+  {
     date: "2026-08-06",
     headline: "OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-  },
-  {
-    date: "2026-08-05",
-    headline: "Shopify says AI search is driving more traffic and sales, not replacing Google",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
-  },
-  {
-    date: "2026-08-05",
-    headline: "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-  },
-  {
-    date: "2026-08-05",
-    headline: "Anthropic is hiring an AI chip design team",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
-  },
-  {
-    date: "2026-08-04",
-    headline: "Open-weight AI models are catching up to the frontier. The safety gap remains.",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
-  },
-  {
-    date: "2026-08-04",
-    headline: "Anthropic signs $10B deal with AI cloud startup Volta",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
   },
 ];
 

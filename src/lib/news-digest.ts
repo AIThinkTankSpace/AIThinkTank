@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-08",
+    headline: "OpenAI acquires presentation startup NextSlide",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+  },
+  {
+    date: "2026-08-07",
+    headline: "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+  },
+  {
+    date: "2026-08-07",
+    headline: "Watching Roku’s AI channel is like eating from a trough",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+  },
+  {
+    date: "2026-08-07",
+    headline: "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+  },
+  {
+    date: "2026-08-07",
+    headline: "What&#8217;s behind the Google AI shake-up",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+  },
+  {
     date: "2026-08-07",
     headline: "OpenAI says it slowed Astra model development over security concerns",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "ChatGPT brings unlimited text chats to free users",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-  },
-  {
-    date: "2026-08-06",
-    headline: "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-  },
-  {
-    date: "2026-08-06",
-    headline: "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
-  },
-  {
-    date: "2026-08-06",
-    headline: "OpenAI says Apple’s own security practices undermine its trade secrets case",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
-  },
-  {
-    date: "2026-08-05",
-    headline: "Meta launches Muse Code, an AI agent for large code bases",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
-  },
-  {
-    date: "2026-08-05",
-    headline: "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
   },
 ];
 

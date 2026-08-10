@@ -15,6 +15,18 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-09",
+    headline: "Anthropic is turning Claude Code’s auto mode on by default",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+  },
+  {
+    date: "2026-08-09",
+    headline: "The AI safety test is becoming a safety risk",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+  },
+  {
     date: "2026-08-08",
     headline: "OpenAI acquires presentation startup NextSlide",
     audiences: ["ai-for-corporates"],
@@ -73,18 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: a censorship conspiracy theory and the first virus created by AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
-  },
-  {
-    date: "2026-08-06",
-    headline: "OpenAI&#8217;s new AI smart speaker will reportedly sell for between $300 and $400",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-  },
-  {
-    date: "2026-08-06",
-    headline: "ChatGPT brings unlimited text chats to free users",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
   },
 ];
 

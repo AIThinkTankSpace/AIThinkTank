@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-11",
+    headline: "OpenAI reportedly completed a $7 billion employee tender offer",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+  },
+  {
+    date: "2026-08-10",
+    headline: "As AI-led attacks multiply, OpenAI launches a new cyber model",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+  },
+  {
+    date: "2026-08-10",
+    headline: "Mark Zuckerberg&#8217;s AI manifesto is exactly why people don&#8217;t like AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+  },
+  {
+    date: "2026-08-10",
+    headline: "Tech industry is buzzing after a Claude agent hacked into a gym",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+  },
+  {
+    date: "2026-08-10",
+    headline: "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+  },
+  {
     date: "2026-08-09",
     headline: "Anthropic is turning Claude Code’s auto mode on by default",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "What&#8217;s behind the Google AI shake-up",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-  },
-  {
-    date: "2026-08-07",
-    headline: "OpenAI says it slowed Astra model development over security concerns",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-  },
-  {
-    date: "2026-08-07",
-    headline: "After Rippling blew millions on AI in months, it built an employee ROI tool",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-  },
-  {
-    date: "2026-08-07",
-    headline: "Cloudflare launches Kitesurf, a browser built for AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-  },
-  {
-    date: "2026-08-07",
-    headline: "Airbnb says AI is helping it ship features faster as it tests a new search function",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-  },
-  {
-    date: "2026-08-07",
-    headline: "The Download: a censorship conspiracy theory and the first virus created by AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
   },
 ];
 

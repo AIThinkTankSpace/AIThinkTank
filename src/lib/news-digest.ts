@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-08-11",
+    headline: "OpenAI launches ChatGPT desktop app for Linux",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+  },
+  {
+    date: "2026-08-11",
+    headline: "Google’s Gemini app surges to 1 billion users",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+  },
+  {
+    date: "2026-08-11",
+    headline: "Brad Lightcap, OpenAI&#8217;s longtime COO, is leaving to &#8216;start something new&#8217;",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+  },
+  {
+    date: "2026-08-11",
+    headline: "General Catalyst leads $1.1B round into 2-month-old River AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+  },
+  {
+    date: "2026-08-11",
+    headline: "An unreleased Anthropic model made progress on one of math&#8217;s biggest unsolved problems",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+  },
+  {
+    date: "2026-08-11",
     headline: "OpenAI reportedly completed a $7 billion employee tender offer",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The AI safety test is becoming a safety risk",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-  },
-  {
-    date: "2026-08-08",
-    headline: "OpenAI acquires presentation startup NextSlide",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-  },
-  {
-    date: "2026-08-07",
-    headline: "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-  },
-  {
-    date: "2026-08-07",
-    headline: "Watching Roku’s AI channel is like eating from a trough",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
-  },
-  {
-    date: "2026-08-07",
-    headline: "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-  },
-  {
-    date: "2026-08-07",
-    headline: "What&#8217;s behind the Google AI shake-up",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
   },
 ];
 

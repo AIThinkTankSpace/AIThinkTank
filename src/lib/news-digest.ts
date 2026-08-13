@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-12",
+    headline: "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+  },
+  {
+    date: "2026-08-12",
+    headline: "Amazon will train on Twitch streamers&#8217; content by default, unless they opt out",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+  },
+  {
+    date: "2026-08-12",
+    headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+  },
+  {
+    date: "2026-08-12",
+    headline: "As AI safety concerns mount, three pioneers make the case for staying open",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+  },
+  {
+    date: "2026-08-12",
+    headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+  },
+  {
     date: "2026-08-11",
     headline: "OpenAI launches ChatGPT desktop app for Linux",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "As AI-led attacks multiply, OpenAI launches a new cyber model",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-  },
-  {
-    date: "2026-08-10",
-    headline: "Mark Zuckerberg&#8217;s AI manifesto is exactly why people don&#8217;t like AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
-  },
-  {
-    date: "2026-08-10",
-    headline: "Tech industry is buzzing after a Claude agent hacked into a gym",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
-  },
-  {
-    date: "2026-08-10",
-    headline: "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-  },
-  {
-    date: "2026-08-09",
-    headline: "Anthropic is turning Claude Code’s auto mode on by default",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-  },
-  {
-    date: "2026-08-09",
-    headline: "The AI safety test is becoming a safety risk",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-13",
+    headline: "Writer introduces new AI model and upgraded harness to contain token costs",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+  },
+  {
+    date: "2026-08-13",
+    headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+  },
+  {
+    date: "2026-08-13",
+    headline: "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+  },
+  {
+    date: "2026-08-13",
+    headline: "IBM partners with OpenAI to bolster enterprise AI push",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+  },
+  {
+    date: "2026-08-13",
+    headline: "Anthropic set AI agents loose on the same task. They started a turf war.",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+  },
+  {
     date: "2026-08-12",
     headline: "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google’s Gemini app surges to 1 billion users",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-  },
-  {
-    date: "2026-08-11",
-    headline: "Brad Lightcap, OpenAI&#8217;s longtime COO, is leaving to &#8216;start something new&#8217;",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
-  },
-  {
-    date: "2026-08-11",
-    headline: "General Catalyst leads $1.1B round into 2-month-old River AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-  },
-  {
-    date: "2026-08-11",
-    headline: "An unreleased Anthropic model made progress on one of math&#8217;s biggest unsolved problems",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
-  },
-  {
-    date: "2026-08-11",
-    headline: "OpenAI reportedly completed a $7 billion employee tender offer",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-  },
-  {
-    date: "2026-08-10",
-    headline: "As AI-led attacks multiply, OpenAI launches a new cyber model",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
   },
 ];
 

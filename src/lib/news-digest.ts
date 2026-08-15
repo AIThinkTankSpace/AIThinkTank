@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-14",
+    headline: "Google will now allow users to remove visible watermark from its AI generations",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+  },
+  {
+    date: "2026-08-14",
+    headline: "Does Mark Zuckerberg really believe AI is &#8216;for everyone&#8217;?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+  },
+  {
+    date: "2026-08-14",
+    headline: "Kog is going deeper to squeeze more inference out of GPUs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+  },
+  {
+    date: "2026-08-14",
+    headline: "Meta&#8217;s &#8216;open&#8217; AI, and a $250M deal gone very wrong",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+  },
+  {
+    date: "2026-08-13",
+    headline: "The Download: kids&#8217; thoughts on AI, and female clones of male mice",
+    audiences: ["ai-for-kids"],
+    link: "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+  },
+  {
     date: "2026-08-13",
     headline: "Writer introduces new AI model and upgraded harness to contain token costs",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Amazon will train on Twitch streamers&#8217; content by default, unless they opt out",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
-  },
-  {
-    date: "2026-08-12",
-    headline: "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-  },
-  {
-    date: "2026-08-12",
-    headline: "As AI safety concerns mount, three pioneers make the case for staying open",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
-  },
-  {
-    date: "2026-08-12",
-    headline: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-  },
-  {
-    date: "2026-08-11",
-    headline: "OpenAI launches ChatGPT desktop app for Linux",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-  },
-  {
-    date: "2026-08-11",
-    headline: "Google’s Gemini app surges to 1 billion users",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
   },
 ];
 

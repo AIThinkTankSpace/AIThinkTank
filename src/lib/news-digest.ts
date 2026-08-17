@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-16",
+    headline: "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+  },
+  {
+    date: "2026-08-16",
+    headline: "Why people aren&#8217;t buying Mark Zuckerberg’s AI future",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+  },
+  {
+    date: "2026-08-16",
+    headline: "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+  },
+  {
+    date: "2026-08-16",
+    headline: "OpenAI reportedly disbanded its preparedness team",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+  },
+  {
+    date: "2026-08-16",
+    headline: "ChatGPT’s Computer History tracks your clicks and keystrokes",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+  },
+  {
     date: "2026-08-15",
     headline: "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
     audiences: ["ai-for-kids"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Does Mark Zuckerberg really believe AI is &#8216;for everyone&#8217;?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-  },
-  {
-    date: "2026-08-14",
-    headline: "Kog is going deeper to squeeze more inference out of GPUs",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-  },
-  {
-    date: "2026-08-14",
-    headline: "Meta&#8217;s &#8216;open&#8217; AI, and a $250M deal gone very wrong",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
-  },
-  {
-    date: "2026-08-13",
-    headline: "The Download: kids&#8217; thoughts on AI, and female clones of male mice",
-    audiences: ["ai-for-kids"],
-    link: "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
-  },
-  {
-    date: "2026-08-13",
-    headline: "Writer introduces new AI model and upgraded harness to contain token costs",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-  },
-  {
-    date: "2026-08-13",
-    headline: "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
   },
 ];
 

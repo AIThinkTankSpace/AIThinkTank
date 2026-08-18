@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-17",
+    headline: "Anthropic&#8217;s annualized revenue surges to $65B",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+  },
+  {
+    date: "2026-08-17",
+    headline: "AI automation startup Relay shuts down, staff joins Google&#8217;s Chrome team",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+  },
+  {
+    date: "2026-08-17",
+    headline: "Amazon, which started off selling books, is destroying rare texts to train AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+  },
+  {
+    date: "2026-08-17",
+    headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+  },
+  {
+    date: "2026-08-17",
+    headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+  },
+  {
     date: "2026-08-16",
     headline: "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic shares more details about how Claude’s new watermarks will work",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-  },
-  {
-    date: "2026-08-14",
-    headline: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-  },
-  {
-    date: "2026-08-15",
-    headline: "Have a laugh at AI’s expense by roleplaying as a chatbot",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-  },
-  {
-    date: "2026-08-14",
-    headline: "You can now turn off Google Gemini&#8217;s visible watermarks",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
-  },
-  {
-    date: "2026-08-14",
-    headline: "Google will now allow users to remove visible watermark from its AI generations",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-  },
-  {
-    date: "2026-08-14",
-    headline: "Does Mark Zuckerberg really believe AI is &#8216;for everyone&#8217;?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
   },
 ];
 

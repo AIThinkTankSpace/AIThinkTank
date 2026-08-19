@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-18",
+    headline: "OpenAI institutes new safeguards after Hugging Face breach",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+  },
+  {
+    date: "2026-08-18",
+    headline: "Why Apple&#8217;s camera-equipped AirPods may not be the &#8216;pervert pods&#8217; consumers fear",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+  },
+  {
+    date: "2026-08-18",
+    headline: "Warp&#8217;s new system is an out-of-the-box software factory for AI development",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+  },
+  {
+    date: "2026-08-18",
+    headline: "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+  },
+  {
+    date: "2026-08-18",
+    headline: "Perplexity’s free AI offer left it with millions more users in India",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+  },
+  {
     date: "2026-08-17",
     headline: "Anthropic&#8217;s annualized revenue surges to $65B",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Why people aren&#8217;t buying Mark Zuckerberg’s AI future",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-  },
-  {
-    date: "2026-08-16",
-    headline: "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
-  },
-  {
-    date: "2026-08-16",
-    headline: "OpenAI reportedly disbanded its preparedness team",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-  },
-  {
-    date: "2026-08-16",
-    headline: "ChatGPT’s Computer History tracks your clicks and keystrokes",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
-  },
-  {
-    date: "2026-08-15",
-    headline: "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-  },
-  {
-    date: "2026-08-15",
-    headline: "Anthropic shares more details about how Claude’s new watermarks will work",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-19",
+    headline: "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+  },
+  {
+    date: "2026-08-19",
+    headline: "AI was supposed to win people over by now &#8212; it hasn&#8217;t",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+  },
+  {
+    date: "2026-08-19",
+    headline: "Google packs Search and Gemini with new AI study tools",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+  },
+  {
+    date: "2026-08-19",
+    headline: "Researchers say OpenAI revoked their access to limited cyber program",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+  },
+  {
+    date: "2026-08-19",
+    headline: "Meet the startup helping Wall Street put a price on AI compute",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+  },
+  {
     date: "2026-08-18",
     headline: "OpenAI institutes new safeguards after Hugging Face breach",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI automation startup Relay shuts down, staff joins Google&#8217;s Chrome team",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-  },
-  {
-    date: "2026-08-17",
-    headline: "Amazon, which started off selling books, is destroying rare texts to train AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-  },
-  {
-    date: "2026-08-17",
-    headline: "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-  },
-  {
-    date: "2026-08-17",
-    headline: "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-  },
-  {
-    date: "2026-08-16",
-    headline: "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-  },
-  {
-    date: "2026-08-16",
-    headline: "Why people aren&#8217;t buying Mark Zuckerberg’s AI future",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
   },
 ];
 

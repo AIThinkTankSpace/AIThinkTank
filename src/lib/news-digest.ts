@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-21",
+    headline: "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+  },
+  {
+    date: "2026-08-20",
+    headline: "OpenAI is gaining on Anthropic with business users, new data indicates",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+  },
+  {
+    date: "2026-08-20",
+    headline: "ChatGPT can now send texts for you with new Apple Messages plug-in",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+  },
+  {
+    date: "2026-08-20",
+    headline: "Google gives publishers a new way to fight AI-driven traffic losses",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+  },
+  {
+    date: "2026-08-20",
+    headline: "A third of web pages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+  },
+  {
     date: "2026-08-19",
     headline: "OpenAI seeks to one-up Anthropic with new customer privacy protections",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Why Apple&#8217;s camera-equipped AirPods may not be the &#8216;pervert pods&#8217; consumers fear",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
-  },
-  {
-    date: "2026-08-18",
-    headline: "Warp&#8217;s new system is an out-of-the-box software factory for AI development",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
-  },
-  {
-    date: "2026-08-18",
-    headline: "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
-  },
-  {
-    date: "2026-08-18",
-    headline: "Perplexity’s free AI offer left it with millions more users in India",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-  },
-  {
-    date: "2026-08-17",
-    headline: "Anthropic&#8217;s annualized revenue surges to $65B",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-  },
-  {
-    date: "2026-08-17",
-    headline: "AI automation startup Relay shuts down, staff joins Google&#8217;s Chrome team",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
   },
 ];
 

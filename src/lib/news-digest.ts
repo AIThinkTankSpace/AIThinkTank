@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-08-21",
+    headline: "Anthropic’s Opus 4.6 is a smut-machine",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+  },
+  {
+    date: "2026-08-21",
+    headline: "Nvidia partners with data center developer Cloverleaf",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+  },
+  {
+    date: "2026-08-21",
+    headline: "Nvidia just showed that the harness, not the AI model, is now the real hero",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+  },
+  {
+    date: "2026-08-21",
+    headline: "Starcloud raises $250 million for orbital data centers as launch options dry up",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+  },
+  {
+    date: "2026-08-21",
+    headline: "The Download: threats from space mirrors and credit for AI drugs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+  },
+  {
+    date: "2026-08-21",
     headline: "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI was supposed to win people over by now &#8212; it hasn&#8217;t",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-  },
-  {
-    date: "2026-08-19",
-    headline: "Google packs Search and Gemini with new AI study tools",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-  },
-  {
-    date: "2026-08-19",
-    headline: "Researchers say OpenAI revoked their access to limited cyber program",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
-  },
-  {
-    date: "2026-08-19",
-    headline: "Meet the startup helping Wall Street put a price on AI compute",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-  },
-  {
-    date: "2026-08-18",
-    headline: "OpenAI institutes new safeguards after Hugging Face breach",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-  },
-  {
-    date: "2026-08-18",
-    headline: "Why Apple&#8217;s camera-equipped AirPods may not be the &#8216;pervert pods&#8217; consumers fear",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
   },
 ];
 

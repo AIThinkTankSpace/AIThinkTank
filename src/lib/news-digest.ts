@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-22",
+    headline: "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+  },
+  {
+    date: "2026-08-22",
+    headline: "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+  },
+  {
+    date: "2026-08-22",
+    headline: "OpenAI says California should strengthen its AI safety bill",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+  },
+  {
+    date: "2026-08-22",
+    headline: "Frontier AI labs still won&#8217;t say how they&#8217;d contain a rogue model",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+  },
+  {
+    date: "2026-08-21",
+    headline: "When AI designs a drug, who gets the credit?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+  },
+  {
     date: "2026-08-21",
     headline: "Anthropic’s Opus 4.6 is a smut-machine",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI is gaining on Anthropic with business users, new data indicates",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-  },
-  {
-    date: "2026-08-20",
-    headline: "ChatGPT can now send texts for you with new Apple Messages plug-in",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
-  },
-  {
-    date: "2026-08-20",
-    headline: "Google gives publishers a new way to fight AI-driven traffic losses",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-  },
-  {
-    date: "2026-08-20",
-    headline: "A third of web pages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-  },
-  {
-    date: "2026-08-19",
-    headline: "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-  },
-  {
-    date: "2026-08-19",
-    headline: "AI was supposed to win people over by now &#8212; it hasn&#8217;t",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
   },
 ];
 

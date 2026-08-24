@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-23",
+    headline: "Who&#8217;s behind the new ‘stealth model’ Ox Alpha?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+  },
+  {
+    date: "2026-08-23",
+    headline: "Is it legal to train AI models on copyrighted books? It’s complicated",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+  },
+  {
+    date: "2026-08-22",
+    headline: "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+  },
+  {
     date: "2026-08-22",
     headline: "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Starcloud raises $250 million for orbital data centers as launch options dry up",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "The Download: threats from space mirrors and credit for AI drugs",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-  },
-  {
-    date: "2026-08-20",
-    headline: "OpenAI is gaining on Anthropic with business users, new data indicates",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
   },
 ];
 

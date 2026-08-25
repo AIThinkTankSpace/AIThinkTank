@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-25",
+    headline: "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+  },
+  {
+    date: "2026-08-24",
+    headline: "Instinct’s powerful AI assistant is raising privacy and security concerns",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+  },
+  {
+    date: "2026-08-24",
+    headline: "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+  },
+  {
+    date: "2026-08-24",
+    headline: "OpenAI is building AI agents for everything. Will everyone use them?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+  },
+  {
+    date: "2026-08-24",
+    headline: "How to encourage smarter AI use in the classroom",
+    audiences: ["ai-for-kids"],
+    link: "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+  },
+  {
     date: "2026-08-23",
     headline: "Who&#8217;s behind the new ‘stealth model’ Ox Alpha?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Frontier AI labs still won&#8217;t say how they&#8217;d contain a rogue model",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "When AI designs a drug, who gets the credit?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "Anthropic’s Opus 4.6 is a smut-machine",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "Nvidia partners with data center developer Cloverleaf",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "Nvidia just showed that the harness, not the AI model, is now the real hero",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-  },
-  {
-    date: "2026-08-21",
-    headline: "Starcloud raises $250 million for orbital data centers as launch options dry up",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
   },
 ];
 

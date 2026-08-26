@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-26",
+    headline: "India&#8217;s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+  },
+  {
+    date: "2026-08-26",
+    headline: "Robotics startup Generalist reaches $3B valuation, sources say",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+  },
+  {
+    date: "2026-08-26",
+    headline: "OpenAI loses a top data center exec as stream of high-profile departures continues",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+  },
+  {
+    date: "2026-08-25",
+    headline: "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+  },
+  {
+    date: "2026-08-25",
+    headline: "Claude Cowork finally remembers what you told the app in chat",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+  },
+  {
     date: "2026-08-25",
     headline: "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Is it legal to train AI models on copyrighted books? It’s complicated",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-  },
-  {
-    date: "2026-08-22",
-    headline: "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-  },
-  {
-    date: "2026-08-22",
-    headline: "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-  },
-  {
-    date: "2026-08-22",
-    headline: "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-  },
-  {
-    date: "2026-08-22",
-    headline: "OpenAI says California should strengthen its AI safety bill",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-  },
-  {
-    date: "2026-08-22",
-    headline: "Frontier AI labs still won&#8217;t say how they&#8217;d contain a rogue model",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
   },
 ];
 

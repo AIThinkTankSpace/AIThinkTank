@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-27",
+    headline: "Google&#8217;s AI Mode can now track flight prices, help book hotels, and more",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "AI&#8217;s memory crunch is coming for Android apps",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "Here’s all the times AI has gone rogue and hacked other companies",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "Plaud&#8217;s new earphones come with an eSIM-enabled case for talking to AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+  },
+  {
     date: "2026-08-26",
     headline: "India&#8217;s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Instinct’s powerful AI assistant is raising privacy and security concerns",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-  },
-  {
-    date: "2026-08-24",
-    headline: "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-  },
-  {
-    date: "2026-08-24",
-    headline: "OpenAI is building AI agents for everything. Will everyone use them?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-  },
-  {
-    date: "2026-08-24",
-    headline: "How to encourage smarter AI use in the classroom",
-    audiences: ["ai-for-kids"],
-    link: "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-  },
-  {
-    date: "2026-08-23",
-    headline: "Who&#8217;s behind the new ‘stealth model’ Ox Alpha?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-  },
-  {
-    date: "2026-08-23",
-    headline: "Is it legal to train AI models on copyrighted books? It’s complicated",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
   },
 ];
 

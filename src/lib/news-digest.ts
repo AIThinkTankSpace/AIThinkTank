@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-28",
+    headline: "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+  },
+  {
+    date: "2026-08-28",
+    headline: "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+  },
+  {
     date: "2026-08-27",
     headline: "Google&#8217;s AI Mode can now track flight prices, help book hotels, and more",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Robotics startup Generalist reaches $3B valuation, sources say",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-  },
-  {
-    date: "2026-08-26",
-    headline: "OpenAI loses a top data center exec as stream of high-profile departures continues",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-  },
-  {
-    date: "2026-08-25",
-    headline: "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
-  },
-  {
-    date: "2026-08-25",
-    headline: "Claude Cowork finally remembers what you told the app in chat",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-  },
-  {
-    date: "2026-08-25",
-    headline: "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-  },
-  {
-    date: "2026-08-24",
-    headline: "Instinct’s powerful AI assistant is raising privacy and security concerns",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
   },
 ];
 

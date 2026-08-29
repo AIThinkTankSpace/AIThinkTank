@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-08-28",
+    headline: "An Anthropic researcher just gave us a peek at self-improving AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+  },
+  {
+    date: "2026-08-28",
+    headline: "Open-weight AI companies are the Valley&#8217;s hottest acquisition targets",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "A startup claims it’s found a drug to make your blood young",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+  },
+  {
+    date: "2026-08-27",
+    headline: "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+  },
+  {
+    date: "2026-08-28",
     headline: "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Hugging Face is selling a cute $399 open source duck robot, Microduck",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "AI&#8217;s memory crunch is coming for Android apps",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Here’s all the times AI has gone rogue and hacked other companies",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Plaud&#8217;s new earphones come with an eSIM-enabled case for talking to AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
-  },
-  {
-    date: "2026-08-26",
-    headline: "India&#8217;s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-  },
-  {
-    date: "2026-08-26",
-    headline: "Robotics startup Generalist reaches $3B valuation, sources say",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
   },
 ];
 

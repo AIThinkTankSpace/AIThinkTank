@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-29",
+    headline: "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+  },
+  {
+    date: "2026-08-29",
+    headline: "Nvidia’s AI advantage is moving beyond the GPU",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+  },
+  {
+    date: "2026-08-29",
+    headline: "Sony Music and Warner Chappell are suing Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+  },
+  {
+    date: "2026-08-28",
+    headline: "Musicians-turned-detectives are hunting for AI grifters",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+  },
+  {
+    date: "2026-08-28",
+    headline: "Trump’s EPA wants to let data centers hide their air pollution",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+  },
+  {
     date: "2026-08-28",
     headline: "An Anthropic researcher just gave us a peek at self-improving AI",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Google&#8217;s AI Mode can now track flight prices, help book hotels, and more",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Hugging Face is selling a cute $399 open source duck robot, Microduck",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
   },
 ];
 

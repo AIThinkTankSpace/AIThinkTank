@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-08-31",
+    headline: "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+  },
+  {
+    date: "2026-08-30",
+    headline: "Caterpillar is bringing to AI deployment what it learned from automating mining",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+  },
+  {
+    date: "2026-08-30",
+    headline: "Inside Meta’s push to put robots to work in data centers",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+  },
+  {
     date: "2026-08-29",
     headline: "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual…",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-  },
-  {
-    date: "2026-08-28",
-    headline: "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-  },
-  {
-    date: "2026-08-28",
-    headline: "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
   },
 ];
 

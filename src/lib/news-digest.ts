@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-01",
+    headline: "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+  },
+  {
+    date: "2026-08-31",
+    headline: "The Pentagon now has its own version of ChatGPT and Grok",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+  },
+  {
+    date: "2026-08-31",
+    headline: "Instagram puts new limits on undisclosed AI profiles",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+  },
+  {
+    date: "2026-08-31",
+    headline: "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+  },
+  {
+    date: "2026-08-31",
+    headline: "Clipto uses AI to search terabytes of video and is now valued at $250M",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+  },
+  {
     date: "2026-08-31",
     headline: "The U.S. is building barriers around drones and robots, but China has scale to get around them",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Musicians-turned-detectives are hunting for AI grifters",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-  },
-  {
-    date: "2026-08-28",
-    headline: "Trump’s EPA wants to let data centers hide their air pollution",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-  },
-  {
-    date: "2026-08-28",
-    headline: "An Anthropic researcher just gave us a peek at self-improving AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-  },
-  {
-    date: "2026-08-28",
-    headline: "Open-weight AI companies are the Valley&#8217;s hottest acquisition targets",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "A startup claims it’s found a drug to make your blood young",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
-  },
-  {
-    date: "2026-08-27",
-    headline: "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
   },
 ];
 

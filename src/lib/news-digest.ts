@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-01",
+    headline: "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+  },
+  {
+    date: "2026-09-01",
+    headline: "Anthropic&#8217;s new Fable release is cheaper, less restrictive",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+  },
+  {
+    date: "2026-09-01",
+    headline: "Google&#8217;s answer to Canva is an AI tool where you prompt instead of design",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+  },
+  {
+    date: "2026-09-01",
+    headline: "ChatGPT Health adds Epic integration for clinicians to import patient data",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+  },
+  {
+    date: "2026-09-01",
+    headline: "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+  },
+  {
+    date: "2026-09-01",
     headline: "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Caterpillar is bringing to AI deployment what it learned from automating mining",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-  },
-  {
-    date: "2026-08-30",
-    headline: "Inside Meta’s push to put robots to work in data centers",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-  },
-  {
-    date: "2026-08-29",
-    headline: "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-  },
-  {
-    date: "2026-08-29",
-    headline: "Nvidia’s AI advantage is moving beyond the GPU",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-  },
-  {
-    date: "2026-08-29",
-    headline: "Sony Music and Warner Chappell are suing Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-  },
-  {
-    date: "2026-08-28",
-    headline: "Musicians-turned-detectives are hunting for AI grifters",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
   },
 ];
 

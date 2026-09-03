@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-02",
+    headline: "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+  },
+  {
+    date: "2026-09-02",
+    headline: "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+  },
+  {
+    date: "2026-09-02",
+    headline: "OpenAI’s new reasoning technique alarms AI safety experts",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+  },
+  {
+    date: "2026-09-02",
+    headline: "Pangram&#8217;s Max Spero on why AI detection is harder than &#8216;Real or Fake&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+  },
+  {
+    date: "2026-09-02",
+    headline: "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+  },
+  {
     date: "2026-09-01",
     headline: "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Pentagon now has its own version of ChatGPT and Grok",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-  },
-  {
-    date: "2026-08-31",
-    headline: "Instagram puts new limits on undisclosed AI profiles",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-  },
-  {
-    date: "2026-08-31",
-    headline: "Harvard Law dropout raises $6M for Blue Voice to build a &#8216;Harvey for police officers&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-  },
-  {
-    date: "2026-08-31",
-    headline: "Clipto uses AI to search terabytes of video and is now valued at $250M",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-  },
-  {
-    date: "2026-08-31",
-    headline: "The U.S. is building barriers around drones and robots, but China has scale to get around them",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-  },
-  {
-    date: "2026-08-30",
-    headline: "Caterpillar is bringing to AI deployment what it learned from automating mining",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
   },
 ];
 

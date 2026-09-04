@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-04",
+    headline: "The sameness problem behind those unappetizing AI-generated menus",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "Crusoe reportedly raises $3B at a  $30B valuation",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+  },
+  {
+    date: "2026-09-03",
+    headline: "Abliteration.ai is making a business out of removing AI guardrails",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+  },
+  {
+    date: "2026-09-03",
+    headline: "Meta is paying to peek at how you use their latest AI model",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+  },
+  {
+    date: "2026-09-03",
+    headline: "OpenAI launches Astra, its powerful (and controversial) new model",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+  },
+  {
     date: "2026-09-02",
     headline: "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic&#8217;s new Fable release is cheaper, less restrictive",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
-  },
-  {
-    date: "2026-09-01",
-    headline: "Google&#8217;s answer to Canva is an AI tool where you prompt instead of design",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
-  },
-  {
-    date: "2026-09-01",
-    headline: "ChatGPT Health adds Epic integration for clinicians to import patient data",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
-  },
-  {
-    date: "2026-09-01",
-    headline: "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-  },
-  {
-    date: "2026-09-01",
-    headline: "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-  },
-  {
-    date: "2026-08-31",
-    headline: "The Pentagon now has its own version of ChatGPT and Grok",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
   },
 ];
 

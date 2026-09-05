@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-04",
+    headline: "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "Apple&#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "Google&#8217;s Gemini Spark can now manage your Google Photos library",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+  },
+  {
+    date: "2026-09-04",
     headline: "The sameness problem behind those unappetizing AI-generated menus",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-  },
-  {
-    date: "2026-09-02",
-    headline: "OpenAI’s new reasoning technique alarms AI safety experts",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-  },
-  {
-    date: "2026-09-02",
-    headline: "Pangram&#8217;s Max Spero on why AI detection is harder than &#8216;Real or Fake&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-  },
-  {
-    date: "2026-09-02",
-    headline: "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-  },
-  {
-    date: "2026-09-01",
-    headline: "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-  },
-  {
-    date: "2026-09-01",
-    headline: "Anthropic&#8217;s new Fable release is cheaper, less restrictive",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
   },
 ];
 

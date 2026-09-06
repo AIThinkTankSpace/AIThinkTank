@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-05",
+    headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+  },
+  {
+    date: "2026-09-05",
+    headline: "Hikers rescued after using Google Gemini for planning",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+  },
+  {
+    date: "2026-09-05",
+    headline: "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "Architecting memory and storage in the AI era",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+  },
+  {
+    date: "2026-09-04",
+    headline: "The Download: selling battlefield drone data and AI reshaping language",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+  },
+  {
     date: "2026-09-04",
     headline: "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Crusoe reportedly raises $3B at a  $30B valuation",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-  },
-  {
-    date: "2026-09-03",
-    headline: "Abliteration.ai is making a business out of removing AI guardrails",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-  },
-  {
-    date: "2026-09-03",
-    headline: "Meta is paying to peek at how you use their latest AI model",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-  },
-  {
-    date: "2026-09-03",
-    headline: "OpenAI launches Astra, its powerful (and controversial) new model",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-  },
-  {
-    date: "2026-09-02",
-    headline: "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-  },
-  {
-    date: "2026-09-02",
-    headline: "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
   },
 ];
 

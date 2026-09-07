@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-06",
+    headline: "Authors push back as publishers and agents make claims on Anthropic settlement",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+  },
+  {
+    date: "2026-09-06",
+    headline: "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+  },
+  {
+    date: "2026-09-05",
+    headline: "OpenAI admits to German wiki ‘incident’",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+  },
+  {
     date: "2026-09-05",
     headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Apple&#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "Google&#8217;s Gemini Spark can now manage your Google Photos library",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "The sameness problem behind those unappetizing AI-generated menus",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "Crusoe reportedly raises $3B at a  $30B valuation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
   },
 ];
 

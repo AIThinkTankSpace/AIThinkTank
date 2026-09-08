@@ -15,6 +15,18 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-07",
+    headline: "Opaque recurrence, and other AI terms that you should probably know",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+  },
+  {
+    date: "2026-09-07",
+    headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+  },
+  {
     date: "2026-09-06",
     headline: "Authors push back as publishers and agents make claims on Anthropic settlement",
     audiences: ["ai-for-corporates"],
@@ -73,18 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "Apple&#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
   },
 ];
 

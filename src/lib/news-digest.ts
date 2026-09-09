@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-08",
+    headline: "Hackers are stealing Claude tokens from subscribers",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+  },
+  {
+    date: "2026-09-08",
+    headline: "Cognition hits $48B valuation, signaling investors believe AI coding is far from a…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+  },
+  {
+    date: "2026-09-08",
+    headline: "Meta debuts its Muse AI agent. Will consumers trust it?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+  },
+  {
+    date: "2026-09-08",
+    headline: "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+  },
+  {
+    date: "2026-09-08",
+    headline: "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+  },
+  {
     date: "2026-09-07",
     headline: "Opaque recurrence, and other AI terms that you should probably know",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Hikers rescued after using Google Gemini for planning",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-  },
-  {
-    date: "2026-09-05",
-    headline: "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "Architecting memory and storage in the AI era",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "The Download: selling battlefield drone data and AI reshaping language",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-  },
-  {
-    date: "2026-09-04",
-    headline: "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
   },
 ];
 

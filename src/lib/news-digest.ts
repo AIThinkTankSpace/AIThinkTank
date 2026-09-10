@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-10",
+    headline: "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+  },
+  {
+    date: "2026-09-09",
+    headline: "OpenAI adds a prominent AI doomer to its board of directors",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+  },
+  {
+    date: "2026-09-09",
+    headline: "Apple Watch&#8217;s new AI features are normalizing the idea that technology is always listening",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+  },
+  {
+    date: "2026-09-09",
+    headline: "The hinge for Apple&#8217;s new foldable phone was built with AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+  },
+  {
+    date: "2026-09-09",
+    headline: "Apple has a new way to prove your iPhone photos aren’t AI slop",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+  },
+  {
     date: "2026-09-08",
     headline: "Hackers are stealing Claude tokens from subscribers",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
-  },
-  {
-    date: "2026-09-06",
-    headline: "Authors push back as publishers and agents make claims on Anthropic settlement",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-  },
-  {
-    date: "2026-09-06",
-    headline: "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-  },
-  {
-    date: "2026-09-05",
-    headline: "OpenAI admits to German wiki ‘incident’",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-  },
-  {
-    date: "2026-09-05",
-    headline: "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-  },
-  {
-    date: "2026-09-05",
-    headline: "Hikers rescued after using Google Gemini for planning",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
   },
 ];
 

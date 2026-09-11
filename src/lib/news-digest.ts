@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-10",
+    headline: "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+  },
+  {
+    date: "2026-09-10",
+    headline: "OpenAI puts Pro subscriptions on hold due to Astra demand",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+  },
+  {
+    date: "2026-09-10",
+    headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+  },
+  {
+    date: "2026-09-10",
+    headline: "Meta&#8217;s AI agent Muse is now the No. 2 app in the US",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+  },
+  {
+    date: "2026-09-10",
+    headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+  },
+  {
+    date: "2026-09-10",
     headline: "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Cognition hits $48B valuation, signaling investors believe AI coding is far from a…",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-  },
-  {
-    date: "2026-09-08",
-    headline: "Meta debuts its Muse AI agent. Will consumers trust it?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-  },
-  {
-    date: "2026-09-08",
-    headline: "OpenAI fought dirty on career-making math problem, says NYU mathematician",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
-  },
-  {
-    date: "2026-09-08",
-    headline: "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
-  },
-  {
-    date: "2026-09-07",
-    headline: "Opaque recurrence, and other AI terms that you should probably know",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-  },
-  {
-    date: "2026-09-07",
-    headline: "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
   },
 ];
 

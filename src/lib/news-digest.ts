@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-11",
+    headline: "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+  },
+  {
+    date: "2026-09-11",
+    headline: "Y Combinator&#8217;s Garry Tan wants US open-weight AI labs to &#8216;distill&#8217; frontier…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+  },
+  {
+    date: "2026-09-11",
+    headline: "OpenAI&#8217;s feud with mathematicians is only escalating",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+  },
+  {
+    date: "2026-09-11",
+    headline: "Kimi-maker Moonshot AI targets $2B in annual revenue",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+  },
+  {
+    date: "2026-09-11",
+    headline: "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+  },
+  {
     date: "2026-09-10",
     headline: "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI adds a prominent AI doomer to its board of directors",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
-  },
-  {
-    date: "2026-09-09",
-    headline: "Apple Watch&#8217;s new AI features are normalizing the idea that technology is always listening",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
-  },
-  {
-    date: "2026-09-09",
-    headline: "The hinge for Apple&#8217;s new foldable phone was built with AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
-  },
-  {
-    date: "2026-09-09",
-    headline: "Apple has a new way to prove your iPhone photos aren’t AI slop",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
-  },
-  {
-    date: "2026-09-08",
-    headline: "Hackers are stealing Claude tokens from subscribers",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
-  },
-  {
-    date: "2026-09-08",
-    headline: "Cognition hits $48B valuation, signaling investors believe AI coding is far from a…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
   },
 ];
 

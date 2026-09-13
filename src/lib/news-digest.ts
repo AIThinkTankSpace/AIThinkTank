@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-12",
+    headline: "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+  },
+  {
+    date: "2026-09-12",
+    headline: "Anthropic CEO outlines plan to slow AI development",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+  },
+  {
+    date: "2026-09-11",
+    headline: "Roundtables: Could AI really kill us all?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+  },
+  {
+    date: "2026-09-12",
+    headline: "OpenAI’s rogue AI tried to hack another company in May",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+  },
+  {
+    date: "2026-09-12",
+    headline: "Anthropic CEO says it’s time to pump the brakes on AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+  },
+  {
     date: "2026-09-11",
     headline: "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI puts Pro subscriptions on hold due to Astra demand",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-  },
-  {
-    date: "2026-09-10",
-    headline: "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-  },
-  {
-    date: "2026-09-10",
-    headline: "Meta&#8217;s AI agent Muse is now the No. 2 app in the US",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-  },
-  {
-    date: "2026-09-10",
-    headline: "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
-  },
-  {
-    date: "2026-09-10",
-    headline: "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-  },
-  {
-    date: "2026-09-09",
-    headline: "OpenAI adds a prominent AI doomer to its board of directors",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
   },
 ];
 

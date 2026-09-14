@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-13",
+    headline: "What&#8217;s behind the AI industry’s latest warnings of doom?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+  },
+  {
+    date: "2026-09-13",
+    headline: "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+  },
+  {
+    date: "2026-09-13",
+    headline: "Trump and Mike Johnson think the AI industry is overreacting",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+  },
+  {
     date: "2026-09-12",
     headline: "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Kimi-maker Moonshot AI targets $2B in annual revenue",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
-  },
-  {
-    date: "2026-09-11",
-    headline: "An Anthropic researcher’s doomsday warning comes at a very interesting time",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
-  },
-  {
-    date: "2026-09-10",
-    headline: "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-  },
-  {
-    date: "2026-09-10",
-    headline: "OpenAI puts Pro subscriptions on hold due to Astra demand",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
   },
 ];
 

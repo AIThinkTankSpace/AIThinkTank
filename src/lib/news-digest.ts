@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-14",
+    headline: "Nvidia CEO Jensen Huang tells Trump &#8216;we&#8217;re not going to let [an AI slowdown]…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+  },
+  {
+    date: "2026-09-14",
+    headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+  },
+  {
+    date: "2026-09-14",
+    headline: "With iOS 27, I&#8217;m actually using Siri again",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+  },
+  {
+    date: "2026-09-14",
+    headline: "Microsoft&#8217;s new AI &#8216;code of conduct&#8217; tells models not to hack systems or trick…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+  },
+  {
+    date: "2026-09-14",
+    headline: "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+  },
+  {
     date: "2026-09-13",
     headline: "What&#8217;s behind the AI industry’s latest warnings of doom?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI’s rogue AI tried to hack another company in May",
     audiences: ["ai-for-corporates"],
     link: "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
-  },
-  {
-    date: "2026-09-12",
-    headline: "Anthropic CEO says it’s time to pump the brakes on AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
-  },
-  {
-    date: "2026-09-11",
-    headline: "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-  },
-  {
-    date: "2026-09-11",
-    headline: "Y Combinator&#8217;s Garry Tan wants US open-weight AI labs to &#8216;distill&#8217; frontier…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-  },
-  {
-    date: "2026-09-11",
-    headline: "OpenAI&#8217;s feud with mathematicians is only escalating",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-  },
-  {
-    date: "2026-09-11",
-    headline: "Kimi-maker Moonshot AI targets $2B in annual revenue",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
   },
 ];
 

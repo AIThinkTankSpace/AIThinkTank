@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-16",
+    headline: "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+  },
+  {
+    date: "2026-09-15",
+    headline: "The AI data center boom is colliding with cities scarred by big industry",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+  },
+  {
+    date: "2026-09-15",
+    headline: "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+  },
+  {
+    date: "2026-09-15",
+    headline: "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+  },
+  {
+    date: "2026-09-15",
+    headline: "AI agents now have a place to snitch",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+  },
+  {
     date: "2026-09-14",
     headline: "Nvidia CEO Jensen Huang tells Trump &#8216;we&#8217;re not going to let [an AI slowdown]…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-  },
-  {
-    date: "2026-09-13",
-    headline: "Trump and Mike Johnson think the AI industry is overreacting",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
-  },
-  {
-    date: "2026-09-12",
-    headline: "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-  },
-  {
-    date: "2026-09-12",
-    headline: "Anthropic CEO outlines plan to slow AI development",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-  },
-  {
-    date: "2026-09-11",
-    headline: "Roundtables: Could AI really kill us all?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
-  },
-  {
-    date: "2026-09-12",
-    headline: "OpenAI’s rogue AI tried to hack another company in May",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
   },
 ];
 

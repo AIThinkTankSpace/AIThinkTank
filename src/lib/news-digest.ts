@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-17",
+    headline: "Iceland-based Treble raises $18 million for its voice simulation platform",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+  },
+  {
+    date: "2026-09-17",
+    headline: "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+  },
+  {
+    date: "2026-09-17",
+    headline: "Snap tries to make the case again for its $2,200 smart glasses",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+  },
+  {
+    date: "2026-09-16",
+    headline: "Al Gore says the real AI risk isn&#8217;t data centers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+  },
+  {
+    date: "2026-09-16",
+    headline: "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+  },
+  {
     date: "2026-09-16",
     headline: "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
-  },
-  {
-    date: "2026-09-14",
-    headline: "With iOS 27, I&#8217;m actually using Siri again",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
-  },
-  {
-    date: "2026-09-14",
-    headline: "Microsoft&#8217;s new AI &#8216;code of conduct&#8217; tells models not to hack systems or trick…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
-  },
-  {
-    date: "2026-09-14",
-    headline: "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
-  },
-  {
-    date: "2026-09-13",
-    headline: "What&#8217;s behind the AI industry’s latest warnings of doom?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-  },
-  {
-    date: "2026-09-13",
-    headline: "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
   },
 ];
 

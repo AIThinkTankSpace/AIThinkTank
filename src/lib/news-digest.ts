@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-17",
+    headline: "Crusoe raises $3.9B to build massive data centers and small modular &#8216;AI factories&#8217;",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+  },
+  {
+    date: "2026-09-17",
+    headline: "PrismML hopes its tiny LLM will change how we all use AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+  },
+  {
+    date: "2026-09-17",
+    headline: "The FAA&#8217;s plan to fix air traffic? $875M worth of AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+  },
+  {
+    date: "2026-09-17",
+    headline: "The fix for rogue AI agents could be more AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+  },
+  {
+    date: "2026-09-17",
+    headline: "OpenAI caught its models leaving notes to successors to hide bad behavior",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+  },
+  {
+    date: "2026-09-17",
     headline: "Iceland-based Treble raises $18 million for its voice simulation platform",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The AI data center boom is colliding with cities scarred by big industry",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-  },
-  {
-    date: "2026-09-15",
-    headline: "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-  },
-  {
-    date: "2026-09-15",
-    headline: "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-  },
-  {
-    date: "2026-09-15",
-    headline: "AI agents now have a place to snitch",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
-  },
-  {
-    date: "2026-09-14",
-    headline: "Nvidia CEO Jensen Huang tells Trump &#8216;we&#8217;re not going to let [an AI slowdown]…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
-  },
-  {
-    date: "2026-09-14",
-    headline: "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
   },
 ];
 

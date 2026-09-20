@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-19",
+    headline: "Trump says it&#8217;s time to rebrand AI with a new name — and he&#8217;s also creating an AI Force",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+  },
+  {
+    date: "2026-09-19",
+    headline: "Google’s Gemini is the latest AI model to hack other companies",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+  },
+  {
+    date: "2026-09-19",
+    headline: "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+  },
+  {
+    date: "2026-09-19",
+    headline: "AI safety conversations have gotten unbelievable",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+  },
+  {
+    date: "2026-09-19",
+    headline: "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+  },
+  {
+    date: "2026-09-19",
     headline: "Tilly Norwood&#8217;s press tour is going about as well as you&#8217;d expect for an AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "PrismML hopes its tiny LLM will change how we all use AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "The FAA&#8217;s plan to fix air traffic? $875M worth of AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "The fix for rogue AI agents could be more AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "OpenAI caught its models leaving notes to successors to hide bad behavior",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "Iceland-based Treble raises $18 million for its voice simulation platform",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
   },
 ];
 

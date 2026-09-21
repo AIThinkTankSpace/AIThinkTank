@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-20",
+    headline: "World model companies are keeping a lot of secrets",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+  },
+  {
+    date: "2026-09-20",
+    headline: "Is the AI industry really ready to slow down?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+  },
+  {
+    date: "2026-09-20",
+    headline: "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+  },
+  {
+    date: "2026-09-21",
+    headline: "UN says AI safeguards can’t wait for certainty",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+  },
+  {
+    date: "2026-09-21",
+    headline: "Amazon doesn’t trust Meta’s Muse AI agent",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+  },
+  {
     date: "2026-09-19",
     headline: "Trump says it&#8217;s time to rebrand AI with a new name — and he&#8217;s also creating an AI Force",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "A startup that builds other startups raised $100M and is all-in on physical AI",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-  },
-  {
-    date: "2026-09-18",
-    headline: "Anthropic is operating a lab that conducts biology experiments",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-  },
-  {
-    date: "2026-09-18",
-    headline: "AI hallucination nearly triggers US military operation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-  },
-  {
-    date: "2026-09-18",
-    headline: "Anthropic&#8217;s first embedded evaluator is … Accenture?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "Crusoe raises $3.9B to build massive data centers and small modular &#8216;AI factories&#8217;",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-  },
-  {
-    date: "2026-09-17",
-    headline: "PrismML hopes its tiny LLM will change how we all use AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
   },
 ];
 

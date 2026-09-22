@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-21",
+    headline: "The man who built Apple&#8217;s stores doesn&#8217;t buy Silicon Valley&#8217;s bet on AI shopping",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+  },
+  {
+    date: "2026-09-21",
+    headline: "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+  },
+  {
+    date: "2026-09-21",
+    headline: "Meta&#8217;s Muse is outpacing ChatGPT’s early mobile launch",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+  },
+  {
+    date: "2026-09-21",
+    headline: "Meta&#8217;s AI agent has been blocked from using Amazon.com",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+  },
+  {
+    date: "2026-09-21",
+    headline: "With Tabby, a former accountant is using AI to make accountants obsolete",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+  },
+  {
     date: "2026-09-20",
     headline: "World model companies are keeping a lot of secrets",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google’s Gemini is the latest AI model to hack other companies",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-  },
-  {
-    date: "2026-09-19",
-    headline: "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
-  },
-  {
-    date: "2026-09-19",
-    headline: "AI safety conversations have gotten unbelievable",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-  },
-  {
-    date: "2026-09-19",
-    headline: "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-  },
-  {
-    date: "2026-09-19",
-    headline: "Tilly Norwood&#8217;s press tour is going about as well as you&#8217;d expect for an AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
-  },
-  {
-    date: "2026-09-18",
-    headline: "A startup that builds other startups raised $100M and is all-in on physical AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
   },
 ];
 

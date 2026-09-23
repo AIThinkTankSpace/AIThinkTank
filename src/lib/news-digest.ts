@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-23",
+    headline: "&#8216;We&#8217;re already fighting yesterday&#8217;s battle&#8217;: Greece&#8217;s prime…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+  },
+  {
+    date: "2026-09-22",
+    headline: "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+  },
+  {
+    date: "2026-09-22",
+    headline: "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+  },
+  {
+    date: "2026-09-22",
+    headline: "Qualcomm launches two new smartphone chips with emphasis on AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+  },
+  {
+    date: "2026-09-22",
+    headline: "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+  },
+  {
     date: "2026-09-21",
     headline: "The man who built Apple&#8217;s stores doesn&#8217;t buy Silicon Valley&#8217;s bet on AI shopping",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Is the AI industry really ready to slow down?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
-  },
-  {
-    date: "2026-09-20",
-    headline: "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
-  },
-  {
-    date: "2026-09-21",
-    headline: "UN says AI safeguards can’t wait for certainty",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-  },
-  {
-    date: "2026-09-21",
-    headline: "Amazon doesn’t trust Meta’s Muse AI agent",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-  },
-  {
-    date: "2026-09-19",
-    headline: "Trump says it&#8217;s time to rebrand AI with a new name — and he&#8217;s also creating an AI Force",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-  },
-  {
-    date: "2026-09-19",
-    headline: "Google’s Gemini is the latest AI model to hack other companies",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
   },
 ];
 

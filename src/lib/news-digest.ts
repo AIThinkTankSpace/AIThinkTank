@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-24",
+    headline: "Everything new coming to Meta&#8217;s AI agent Muse",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+  },
+  {
+    date: "2026-09-24",
+    headline: "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+  },
+  {
+    date: "2026-09-23",
+    headline: "Meta introduces camera-free AI glasses",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+  },
+  {
+    date: "2026-09-23",
+    headline: "Anthropic says its biology lab has already found something big",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+  },
+  {
+    date: "2026-09-23",
+    headline: "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+  },
+  {
     date: "2026-09-23",
     headline: "&#8216;We&#8217;re already fighting yesterday&#8217;s battle&#8217;: Greece&#8217;s prime…",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-  },
-  {
-    date: "2026-09-21",
-    headline: "Meta&#8217;s Muse is outpacing ChatGPT’s early mobile launch",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-  },
-  {
-    date: "2026-09-21",
-    headline: "Meta&#8217;s AI agent has been blocked from using Amazon.com",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-  },
-  {
-    date: "2026-09-21",
-    headline: "With Tabby, a former accountant is using AI to make accountants obsolete",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
-  },
-  {
-    date: "2026-09-20",
-    headline: "World model companies are keeping a lot of secrets",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-  },
-  {
-    date: "2026-09-20",
-    headline: "Is the AI industry really ready to slow down?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
   },
 ];
 

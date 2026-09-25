@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-25",
+    headline: "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+  },
+  {
+    date: "2026-09-24",
+    headline: "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+  },
+  {
+    date: "2026-09-24",
+    headline: "Google Photos &#8216;Clueless&#8217;-inspired virtual closet is now available on Android and iOS",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
+  },
+  {
+    date: "2026-09-24",
+    headline: "Google tests letting Gemini call businesses for you",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+  },
+  {
+    date: "2026-09-24",
+    headline: "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
+  },
+  {
     date: "2026-09-24",
     headline: "Everything new coming to Meta&#8217;s AI agent Muse",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in…",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-  },
-  {
-    date: "2026-09-22",
-    headline: "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-  },
-  {
-    date: "2026-09-22",
-    headline: "Qualcomm launches two new smartphone chips with emphasis on AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-  },
-  {
-    date: "2026-09-22",
-    headline: "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-  },
-  {
-    date: "2026-09-21",
-    headline: "The man who built Apple&#8217;s stores doesn&#8217;t buy Silicon Valley&#8217;s bet on AI shopping",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
-  },
-  {
-    date: "2026-09-21",
-    headline: "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
   },
 ];
 

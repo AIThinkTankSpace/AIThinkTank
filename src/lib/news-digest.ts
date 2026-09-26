@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-25",
+    headline: "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+  },
+  {
+    date: "2026-09-25",
     headline: "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meta made a Tamagotchi-like wearable for its Muse AI agent",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-  },
-  {
-    date: "2026-09-23",
-    headline: "Meta introduces camera-free AI glasses",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
-  },
-  {
-    date: "2026-09-23",
-    headline: "Anthropic says its biology lab has already found something big",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-  },
-  {
-    date: "2026-09-23",
-    headline: "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
-  },
-  {
-    date: "2026-09-23",
-    headline: "&#8216;We&#8217;re already fighting yesterday&#8217;s battle&#8217;: Greece&#8217;s prime…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-  },
-  {
-    date: "2026-09-22",
-    headline: "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-27",
+    headline: "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+  },
+  {
+    date: "2026-09-26",
+    headline: "Insurers claim AI is already increasing healthcare costs",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+    audiences: ["ai-for-kids"],
+    link: "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "The Pentagon wants $30 million to build an AI-powered lie detector",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+  },
+  {
+    date: "2026-09-25",
+    headline: "Young organs may not be a fountain of youth for recipients",
+    audiences: ["ai-for-kids"],
+    link: "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
+  },
+  {
     date: "2026-09-25",
     headline: "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
-  },
-  {
-    date: "2026-09-24",
-    headline: "Google Photos &#8216;Clueless&#8217;-inspired virtual closet is now available on Android and iOS",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
-  },
-  {
-    date: "2026-09-24",
-    headline: "Google tests letting Gemini call businesses for you",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-  },
-  {
-    date: "2026-09-24",
-    headline: "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
-  },
-  {
-    date: "2026-09-24",
-    headline: "Everything new coming to Meta&#8217;s AI agent Muse",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-  },
-  {
-    date: "2026-09-24",
-    headline: "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
   },
 ];
 

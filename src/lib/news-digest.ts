@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-09-27",
+    headline: "Anthropic’s CEO is about to have dinner with President Trump",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+  },
+  {
+    date: "2026-09-27",
+    headline: "Anthropic&#8217;s Dario Amodei gets the SNL treatment",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "The Download: rogue agent liability and the AI Hype Index",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "Who’s liable when AI agents go rogue?",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "Engram is a sampler that turns broken AI hallucinations into music",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+  },
+  {
+    date: "2026-09-27",
     headline: "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
-  },
-  {
-    date: "2026-09-24",
-    headline: "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
   },
 ];
 

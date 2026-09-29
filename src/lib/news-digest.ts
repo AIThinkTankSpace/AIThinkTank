@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-29",
+    headline: "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "OpenAI reportedly ditches model over safety concerns",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "Shopify opens checkout to browser-based AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+  },
+  {
+    date: "2026-09-28",
+    headline: "The AI boom took over Climate Week and not everyone is happy about it",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+  },
+  {
     date: "2026-09-27",
     headline: "Anthropic’s CEO is about to have dinner with President Trump",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Insurers claim AI is already increasing healthcare costs",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-    audiences: ["ai-for-kids"],
-    link: "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "The Pentagon wants $30 million to build an AI-powered lie detector",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Young organs may not be a fountain of youth for recipients",
-    audiences: ["ai-for-kids"],
-    link: "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-  },
-  {
-    date: "2026-09-25",
-    headline: "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
   },
 ];
 

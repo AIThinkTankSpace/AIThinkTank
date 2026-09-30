@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-09-30",
+    headline: "Airbnb adds AI search, more social features",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+  },
+  {
+    date: "2026-09-29",
+    headline: "The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+  },
+  {
+    date: "2026-09-29",
+    headline: "OpenAI&#8217;s latest features take direct aim at the app store model",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+  },
+  {
+    date: "2026-09-29",
+    headline: "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+  },
+  {
+    date: "2026-09-29",
+    headline: "Here&#8217;s why OpenAI is absent from Nvidia&#8217;s industry-wide effort to end rogue AI agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+  },
+  {
     date: "2026-09-29",
     headline: "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic&#8217;s Dario Amodei gets the SNL treatment",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "The Download: rogue agent liability and the AI Hype Index",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "Who’s liable when AI agents go rogue?",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "Engram is a sampler that turns broken AI hallucinations into music",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-  },
-  {
-    date: "2026-09-27",
-    headline: "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-  },
-  {
-    date: "2026-09-26",
-    headline: "Insurers claim AI is already increasing healthcare costs",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
   },
 ];
 

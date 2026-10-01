@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-01",
+    headline: "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+  },
+  {
+    date: "2026-09-30",
+    headline: "Google releases Gemini 4 Argon, called its most powerful model yet",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+  },
+  {
+    date: "2026-09-30",
+    headline: "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+  },
+  {
+    date: "2026-09-30",
+    headline: "OpenAI&#8217;s Jev clone could help the frontier lab stop its swarming agents",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+  },
+  {
+    date: "2026-09-30",
+    headline: "AI voice startup ElevenLabs doubles valuation to $22B",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+  },
+  {
     date: "2026-09-30",
     headline: "Airbnb adds AI search, more social features",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI reportedly ditches model over safety concerns",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "Shopify opens checkout to browser-based AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "The AI boom took over Climate Week and not everyone is happy about it",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
-  },
-  {
-    date: "2026-09-27",
-    headline: "Anthropic’s CEO is about to have dinner with President Trump",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-  },
-  {
-    date: "2026-09-27",
-    headline: "Anthropic&#8217;s Dario Amodei gets the SNL treatment",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
   },
 ];
 

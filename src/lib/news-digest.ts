@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-01",
+    headline: "Musk&#8217;s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela&#8217;s president",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+  },
+  {
+    date: "2026-10-01",
+    headline: "ChatGPT can now virtually try on clothes for you",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+  },
+  {
+    date: "2026-10-01",
+    headline: "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+  },
+  {
+    date: "2026-10-01",
+    headline: "Opus 5.5 loves to tell you &#8216;this matters&#8217; (and other AI writing tells)",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+  },
+  {
+    date: "2026-10-01",
+    headline: "Amazon releases its own Jev clone as decision models flood the web",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+  },
+  {
+    date: "2026-10-01",
     headline: "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-  },
-  {
-    date: "2026-09-29",
-    headline: "OpenAI&#8217;s latest features take direct aim at the app store model",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-  },
-  {
-    date: "2026-09-29",
-    headline: "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-  },
-  {
-    date: "2026-09-29",
-    headline: "Here&#8217;s why OpenAI is absent from Nvidia&#8217;s industry-wide effort to end rogue AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
-  },
-  {
-    date: "2026-09-29",
-    headline: "Anthropic&#8217;s prospectus details losses, growth, and, yes, a warning that its AI could end…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-  },
-  {
-    date: "2026-09-28",
-    headline: "OpenAI reportedly ditches model over safety concerns",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
   },
 ];
 

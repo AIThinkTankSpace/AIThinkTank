@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-02",
+    headline: "Sean Parker is rebuilding Stability AI around music",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "Apple says it&#8217;s tightening macOS &#8216;Full Disk Access&#8217; controls due to new risks…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "It&#8217;s not AI anymore, it&#8217;s ‘super intelligence’ (according to the White House)",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+  },
+  {
     date: "2026-10-01",
     headline: "Musk&#8217;s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela&#8217;s president",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google releases Gemini 4 Argon, called its most powerful model yet",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-  },
-  {
-    date: "2026-09-30",
-    headline: "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
-  },
-  {
-    date: "2026-09-30",
-    headline: "OpenAI&#8217;s Jev clone could help the frontier lab stop its swarming agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-  },
-  {
-    date: "2026-09-30",
-    headline: "AI voice startup ElevenLabs doubles valuation to $22B",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-  },
-  {
-    date: "2026-09-30",
-    headline: "Airbnb adds AI search, more social features",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
-  },
-  {
-    date: "2026-09-29",
-    headline: "The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
   },
 ];
 

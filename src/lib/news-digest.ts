@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-03",
+    headline: "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+  },
+  {
+    date: "2026-10-03",
+    headline: "All the AI agents that can live in your text messages",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "Redefining enterprise intelligence with autonomous AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "The Download: a biological de-aging contest and why LLMs don&#8217;t reason",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
+  },
+  {
+    date: "2026-10-02",
+    headline: "A new contest pits competitors against each other in a race to biological youth",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/02/1145610/younger-contest-race-to-biological-youth/",
+  },
+  {
     date: "2026-10-02",
     headline: "Sean Parker is rebuilding Stability AI around music",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "ChatGPT can now virtually try on clothes for you",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-  },
-  {
-    date: "2026-10-01",
-    headline: "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-  },
-  {
-    date: "2026-10-01",
-    headline: "Opus 5.5 loves to tell you &#8216;this matters&#8217; (and other AI writing tells)",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
-  },
-  {
-    date: "2026-10-01",
-    headline: "Amazon releases its own Jev clone as decision models flood the web",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
-  },
-  {
-    date: "2026-10-01",
-    headline: "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-  },
-  {
-    date: "2026-09-30",
-    headline: "Google releases Gemini 4 Argon, called its most powerful model yet",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
   },
 ];
 

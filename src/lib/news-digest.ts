@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-05",
+    headline: "Can Safeworld convince people that GenAI robots won&#8217;t hurt them?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+  },
+  {
+    date: "2026-10-04",
+    headline: "Google froze its open source bug bounty program due to a &#8216;significant rise&#8217; in AI…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+  },
+  {
+    date: "2026-10-04",
+    headline: "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+  },
+  {
+    date: "2026-10-05",
+    headline: "The Download: AI’s popularity paradox and EmTech Future 2026",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+  },
+  {
+    date: "2026-10-05",
+    headline: "People really hate AI, so why can’t they get enough?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+  },
+  {
     date: "2026-10-03",
     headline: "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Apple says it&#8217;s tightening macOS &#8216;Full Disk Access&#8217; controls due to new risks…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "It&#8217;s not AI anymore, it&#8217;s ‘super intelligence’ (according to the White House)",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-  },
-  {
-    date: "2026-10-01",
-    headline: "Musk&#8217;s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela&#8217;s president",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-  },
-  {
-    date: "2026-10-01",
-    headline: "ChatGPT can now virtually try on clothes for you",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
   },
 ];
 

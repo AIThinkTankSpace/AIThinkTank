@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-05",
+    headline: "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+  },
+  {
+    date: "2026-10-05",
+    headline: "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+  },
+  {
+    date: "2026-10-05",
+    headline: "Instinct brings its AI agent to group chats, even for friends without an account",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+  },
+  {
+    date: "2026-10-05",
+    headline: "TikTok rolls out an AI shopping assistant and one-click checkout",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+  },
+  {
+    date: "2026-10-05",
+    headline: "Hot Girl Hotline is like &#8216;Dear Abby&#8217; for the AI era",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+  },
+  {
+    date: "2026-10-05",
     headline: "Can Safeworld convince people that GenAI robots won&#8217;t hurt them?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "All the AI agents that can live in your text messages",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "Redefining enterprise intelligence with autonomous AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "The Download: a biological de-aging contest and why LLMs don&#8217;t reason",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "A new contest pits competitors against each other in a race to biological youth",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/02/1145610/younger-contest-race-to-biological-youth/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "Sean Parker is rebuilding Stability AI around music",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-  },
-  {
-    date: "2026-10-02",
-    headline: "Apple says it&#8217;s tightening macOS &#8216;Full Disk Access&#8217; controls due to new risks…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-06",
+    headline: "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+  },
+  {
+    date: "2026-10-06",
+    headline: "How AI decision models could change content moderation",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+  },
+  {
+    date: "2026-10-06",
+    headline: "AI computing startup Lambda to raise $4B ahead of planned IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+  },
+  {
+    date: "2026-10-06",
+    headline: "The next hurdle for AI agents: getting websites to let them in",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+  },
+  {
+    date: "2026-10-06",
+    headline: "Hark releases an AI personal assistant with a focus on privacy",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+  },
+  {
     date: "2026-10-05",
     headline: "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google froze its open source bug bounty program due to a &#8216;significant rise&#8217; in AI…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
-  },
-  {
-    date: "2026-10-04",
-    headline: "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "The Download: AI’s popularity paradox and EmTech Future 2026",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "People really hate AI, so why can’t they get enough?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-  },
-  {
-    date: "2026-10-03",
-    headline: "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-  },
-  {
-    date: "2026-10-03",
-    headline: "All the AI agents that can live in your text messages",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
   },
 ];
 

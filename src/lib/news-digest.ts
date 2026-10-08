@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-07",
+    headline: "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+  },
+  {
+    date: "2026-10-07",
+    headline: "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+  },
+  {
+    date: "2026-10-07",
+    headline: "ChatGPT for Teens keeps teens talking, even during mental health crises",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+  },
+  {
+    date: "2026-10-07",
+    headline: "ChatGPT is getting a lot more visual, with the launch of a new interface",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+  },
+  {
+    date: "2026-10-07",
+    headline: "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+  },
+  {
     date: "2026-10-06",
     headline: "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "Instinct brings its AI agent to group chats, even for friends without an account",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "TikTok rolls out an AI shopping assistant and one-click checkout",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "Hot Girl Hotline is like &#8216;Dear Abby&#8217; for the AI era",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "Can Safeworld convince people that GenAI robots won&#8217;t hurt them?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
-  },
-  {
-    date: "2026-10-04",
-    headline: "Google froze its open source bug bounty program due to a &#8216;significant rise&#8217; in AI…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-08",
+    headline: "Pretend you&#8217;re sitting at Elizabeth Holmes&#8217; desk on this weirdly detailed website",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+  },
+  {
+    date: "2026-10-08",
+    headline: "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+  },
+  {
+    date: "2026-10-08",
+    headline: "Ben Affleck is an AI nerd, and the internet is impressed",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+  },
+  {
+    date: "2026-10-08",
+    headline: "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+  },
+  {
+    date: "2026-10-08",
+    headline: "OpenAI&#8217;s revenue is reportedly $20 billion less than previously projected",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+  },
+  {
     date: "2026-10-07",
     headline: "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "How AI decision models could change content moderation",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
-  },
-  {
-    date: "2026-10-06",
-    headline: "AI computing startup Lambda to raise $4B ahead of planned IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
-  },
-  {
-    date: "2026-10-06",
-    headline: "The next hurdle for AI agents: getting websites to let them in",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
-  },
-  {
-    date: "2026-10-06",
-    headline: "Hark releases an AI personal assistant with a focus on privacy",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-  },
-  {
-    date: "2026-10-05",
-    headline: "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
   },
 ];
 

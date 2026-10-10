@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-10",
+    headline: "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+  },
+  {
+    date: "2026-10-09",
+    headline: "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+  },
+  {
+    date: "2026-10-09",
+    headline: "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+  },
+  {
+    date: "2026-10-09",
+    headline: "Amazon drops data center NDAs, and AI agents want your credit card",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+  },
+  {
+    date: "2026-10-09",
+    headline: "Danu Robotics&#8217; fight to build a better recycling robot",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+  },
+  {
     date: "2026-10-08",
     headline: "Pretend you&#8217;re sitting at Elizabeth Holmes&#8217; desk on this weirdly detailed website",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-  },
-  {
-    date: "2026-10-07",
-    headline: "ChatGPT for Teens keeps teens talking, even during mental health crises",
-    audiences: ["ai-for-teens"],
-    link: "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-  },
-  {
-    date: "2026-10-07",
-    headline: "ChatGPT is getting a lot more visual, with the launch of a new interface",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-  },
-  {
-    date: "2026-10-07",
-    headline: "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-  },
-  {
-    date: "2026-10-06",
-    headline: "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
-  },
-  {
-    date: "2026-10-06",
-    headline: "How AI decision models could change content moderation",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
   },
 ];
 

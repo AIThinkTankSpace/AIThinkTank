@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-10",
+    headline: "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+  },
+  {
+    date: "2026-10-10",
+    headline: "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+  },
+  {
+    date: "2026-10-10",
+    headline: "Here are the top AI agents that can live in your text messages",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  },
+  {
+    date: "2026-10-09",
+    headline: "The Download: AI’s refusal problem and weight-loss drug side effects",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
+  },
+  {
+    date: "2026-10-09",
+    headline: "We’re putting too much faith in AI’s ability to say no",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+  },
+  {
+    date: "2026-10-10",
     headline: "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-  },
-  {
-    date: "2026-10-08",
-    headline: "Ben Affleck is an AI nerd, and the internet is impressed",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-  },
-  {
-    date: "2026-10-08",
-    headline: "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-  },
-  {
-    date: "2026-10-08",
-    headline: "OpenAI&#8217;s revenue is reportedly $20 billion less than previously projected",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-  },
-  {
-    date: "2026-10-07",
-    headline: "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-  },
-  {
-    date: "2026-10-07",
-    headline: "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
   },
 ];
 

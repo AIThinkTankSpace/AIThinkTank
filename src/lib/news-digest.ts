@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-12",
+    headline: "Former Plaud exec raises $26M for AI app that listens to you in the background",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+  },
+  {
+    date: "2026-10-11",
+    headline: "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+  },
+  {
+    date: "2026-10-11",
+    headline: "These execs think voice AI hasn&#8217;t reached its ChatGPT moment yet",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+  },
+  {
+    date: "2026-10-12",
+    headline: "The ecologist revealing the invisible networks that revive rainforests",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+  },
+  {
+    date: "2026-10-12",
+    headline: "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+  },
+  {
     date: "2026-10-10",
     headline: "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
     audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-  },
-  {
-    date: "2026-10-09",
-    headline: "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-  },
-  {
-    date: "2026-10-09",
-    headline: "Amazon drops data center NDAs, and AI agents want your credit card",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-  },
-  {
-    date: "2026-10-09",
-    headline: "Danu Robotics&#8217; fight to build a better recycling robot",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-  },
-  {
-    date: "2026-10-08",
-    headline: "Pretend you&#8217;re sitting at Elizabeth Holmes&#8217; desk on this weirdly detailed website",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
-  },
-  {
-    date: "2026-10-08",
-    headline: "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-13",
+    headline: "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+  },
+  {
+    date: "2026-10-13",
+    headline: "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+  },
+  {
+    date: "2026-10-12",
+    headline: "Meta releases its first frontier model, Muse Wonder",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+  },
+  {
+    date: "2026-10-12",
+    headline: "WindBorne wins a hefty US Air Force contract for its balloon data",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+  },
+  {
+    date: "2026-10-12",
+    headline: "Honeyjar offers AI tools to improve PR and comms at every company",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+  },
+  {
     date: "2026-10-12",
     headline: "Former Plaud exec raises $26M for AI app that listens to you in the background",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
-  },
-  {
-    date: "2026-10-10",
-    headline: "Here are the top AI agents that can live in your text messages",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-  },
-  {
-    date: "2026-10-09",
-    headline: "The Download: AI’s refusal problem and weight-loss drug side effects",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-  },
-  {
-    date: "2026-10-09",
-    headline: "We’re putting too much faith in AI’s ability to say no",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-  },
-  {
-    date: "2026-10-10",
-    headline: "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-  },
-  {
-    date: "2026-10-09",
-    headline: "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
   },
 ];
 

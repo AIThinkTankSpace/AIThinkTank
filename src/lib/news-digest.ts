@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-13",
+    headline: "Cerebras CEO says we&#8217;re nearing a future where everyone has a personal AI assistant at home",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+  },
+  {
+    date: "2026-10-13",
+    headline: "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+  },
+  {
+    date: "2026-10-13",
+    headline: "Cerebras CEO pushes back on AI doomsday warnings",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+  },
+  {
+    date: "2026-10-13",
+    headline: "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+  },
+  {
+    date: "2026-10-13",
+    headline: "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+  },
+  {
+    date: "2026-10-13",
     headline: "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Can the AI industry persuade data center opponents by getting rid of NDAs?",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-  },
-  {
-    date: "2026-10-11",
-    headline: "These execs think voice AI hasn&#8217;t reached its ChatGPT moment yet",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-  },
-  {
-    date: "2026-10-12",
-    headline: "The ecologist revealing the invisible networks that revive rainforests",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
-  },
-  {
-    date: "2026-10-12",
-    headline: "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-  },
-  {
-    date: "2026-10-10",
-    headline: "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-  },
-  {
-    date: "2026-10-10",
-    headline: "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
   },
 ];
 

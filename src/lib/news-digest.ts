@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-15",
+    headline: "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+  },
+  {
+    date: "2026-10-15",
+    headline: "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+  },
+  {
+    date: "2026-10-14",
+    headline: "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+  },
+  {
+    date: "2026-10-14",
+    headline: "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+  },
+  {
+    date: "2026-10-14",
+    headline: "Deezer will soon let you filter out AI-generated music",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+  },
+  {
     date: "2026-10-13",
     headline: "Cerebras CEO says we&#8217;re nearing a future where everyone has a personal AI assistant at home",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-  },
-  {
-    date: "2026-10-12",
-    headline: "Meta releases its first frontier model, Muse Wonder",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-  },
-  {
-    date: "2026-10-12",
-    headline: "WindBorne wins a hefty US Air Force contract for its balloon data",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-  },
-  {
-    date: "2026-10-12",
-    headline: "Honeyjar offers AI tools to improve PR and comms at every company",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
-  },
-  {
-    date: "2026-10-12",
-    headline: "Former Plaud exec raises $26M for AI app that listens to you in the background",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-  },
-  {
-    date: "2026-10-11",
-    headline: "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
   },
 ];
 

@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-15",
+    headline: "When it came to Cal AI&#8217;s viral success, a small army of influencers paid off",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+  },
+  {
+    date: "2026-10-15",
+    headline: "Meta launches an open-weight AI model that runs on Macs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+  },
+  {
+    date: "2026-10-15",
+    headline: "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+  },
+  {
+    date: "2026-10-15",
+    headline: "Anthropic is letting METR researchers look under the hood with employee-level access",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+  },
+  {
+    date: "2026-10-15",
+    headline: "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+    audiences: ["ai-for-kids"],
+    link: "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+  },
+  {
+    date: "2026-10-15",
     headline: "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Cerebras CEO pushes back on AI doomsday warnings",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
   },
 ];
 

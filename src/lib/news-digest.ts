@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-16",
+    headline: "Replit is no longer working with Anthropic, CEO says",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  },
+  {
+    date: "2026-10-16",
+    headline: "India becomes the latest country to report rogue AI agent activity",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+  },
+  {
+    date: "2026-10-16",
+    headline: "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+  },
+  {
+    date: "2026-10-16",
+    headline: "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+  },
+  {
+    date: "2026-10-16",
+    headline: "Elorian’s first AI model wants to reason with images, not just about them",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+  },
+  {
     date: "2026-10-15",
     headline: "When it came to Cal AI&#8217;s viral success, a small army of influencers paid off",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Gudea leverages AI to help organizations prevent social media crises before they erupt",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-  },
-  {
-    date: "2026-10-14",
-    headline: "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-  },
-  {
-    date: "2026-10-14",
-    headline: "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-  },
-  {
-    date: "2026-10-14",
-    headline: "Deezer will soon let you filter out AI-generated music",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Cerebras CEO says we&#8217;re nearing a future where everyone has a personal AI assistant at home",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-  },
-  {
-    date: "2026-10-13",
-    headline: "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
   },
 ];
 

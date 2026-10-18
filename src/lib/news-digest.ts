@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-17",
+    headline: "Meta removes language that raised scraping and AI training concerns",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+  },
+  {
+    date: "2026-10-17",
+    headline: "Anthropic says its workforce has become less junior and is spending more time in meetings",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+  },
+  {
+    date: "2026-10-17",
+    headline: "Replit makes OpenAI its default over Anthropic, CEO says",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  },
+  {
+    date: "2026-10-16",
+    headline: "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+  },
+  {
+    date: "2026-10-16",
+    headline: "The Download: failed social media bans, and extending pets&#8217; lives",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
+  },
+  {
     date: "2026-10-16",
     headline: "Replit is no longer working with Anthropic, CEO says",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Meta launches an open-weight AI model that runs on Macs",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "Anthropic is letting METR researchers look under the hood with employee-level access",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-    audiences: ["ai-for-kids"],
-    link: "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
   },
 ];
 

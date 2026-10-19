@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-18",
+    headline: "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+  },
+  {
+    date: "2026-10-18",
+    headline: "Disney agrees to hire the majority of Character.AI’s workforce",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+  },
+  {
+    date: "2026-10-19",
+    headline: "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+  },
+  {
+    date: "2026-10-18",
+    headline: "A woman was arrested in Philly for blocking a delivery robot",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+  },
+  {
+    date: "2026-10-17",
+    headline: "Meta’s new terms may allow it to train AI on news sites for free",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+  },
+  {
     date: "2026-10-17",
     headline: "Meta removes language that raised scraping and AI training concerns",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "India becomes the latest country to report rogue AI agent activity",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "Elorian’s first AI model wants to reason with images, not just about them",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "When it came to Cal AI&#8217;s viral success, a small army of influencers paid off",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-  },
-  {
-    date: "2026-10-15",
-    headline: "Meta launches an open-weight AI model that runs on Macs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-20",
+    headline: "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+  },
+  {
+    date: "2026-10-19",
+    headline: "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+  },
+  {
+    date: "2026-10-19",
+    headline: "Embedded AI evaluators won&#8217;t be an easy solution, Hugging Face&#8217;s policy chief says",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+  },
+  {
+    date: "2026-10-19",
+    headline: "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+  },
+  {
+    date: "2026-10-19",
+    headline: "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+  },
+  {
     date: "2026-10-18",
     headline: "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic says its workforce has become less junior and is spending more time in meetings",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-  },
-  {
-    date: "2026-10-17",
-    headline: "Replit makes OpenAI its default over Anthropic, CEO says",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "The Download: failed social media bans, and extending pets&#8217; lives",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "Replit is no longer working with Anthropic, CEO says",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-  },
-  {
-    date: "2026-10-16",
-    headline: "India becomes the latest country to report rogue AI agent activity",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
   },
 ];
 

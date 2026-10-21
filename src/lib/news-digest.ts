@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-20",
+    headline: "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+  },
+  {
+    date: "2026-10-20",
+    headline: "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+  },
+  {
+    date: "2026-10-20",
+    headline: "Anthropic’s cloud partnerships are getting messy",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+  },
+  {
+    date: "2026-10-20",
+    headline: "SpaceX&#8217;s AI business is beating expectations",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+  },
+  {
+    date: "2026-10-20",
+    headline: "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+  },
+  {
+    date: "2026-10-20",
     headline: "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Disney agrees to hire the majority of Character.AI’s workforce",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-  },
-  {
-    date: "2026-10-19",
-    headline: "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-  },
-  {
-    date: "2026-10-18",
-    headline: "A woman was arrested in Philly for blocking a delivery robot",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-  },
-  {
-    date: "2026-10-17",
-    headline: "Meta’s new terms may allow it to train AI on news sites for free",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-  },
-  {
-    date: "2026-10-17",
-    headline: "Meta removes language that raised scraping and AI training concerns",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-  },
-  {
-    date: "2026-10-17",
-    headline: "Anthropic says its workforce has become less junior and is spending more time in meetings",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
   },
 ];
 

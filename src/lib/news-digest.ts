@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-21",
+    headline: "Blackstone&#8217;s Jas Khaira says fears over AI-buildout debt are overblown",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+  },
+  {
+    date: "2026-10-21",
+    headline: "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+    audiences: ["ai-for-teens"],
+    link: "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+  },
+  {
+    date: "2026-10-21",
+    headline: "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+  },
+  {
+    date: "2026-10-21",
+    headline: "PHP Armageddon: OpenAI, Google&#8217;s Wiz find ancient holes, panicking the internet",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+  },
+  {
+    date: "2026-10-21",
+    headline: "AI promises productivity, but for managers, it&#8217;s mostly a headache for now",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+  },
+  {
     date: "2026-10-20",
     headline: "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-  },
-  {
-    date: "2026-10-19",
-    headline: "Embedded AI evaluators won&#8217;t be an easy solution, Hugging Face&#8217;s policy chief says",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-  },
-  {
-    date: "2026-10-19",
-    headline: "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-  },
-  {
-    date: "2026-10-19",
-    headline: "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-  },
-  {
-    date: "2026-10-18",
-    headline: "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-  },
-  {
-    date: "2026-10-18",
-    headline: "Disney agrees to hire the majority of Character.AI’s workforce",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
   },
 ];
 

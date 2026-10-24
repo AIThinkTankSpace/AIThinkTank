@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-23",
+    headline: "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+  },
+  {
+    date: "2026-10-23",
+    headline: "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+  },
+  {
+    date: "2026-10-22",
+    headline: "Designing an AI serving harness built to last",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+  },
+  {
+    date: "2026-10-22",
+    headline: "The Foundations of Scalable AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+  },
+  {
+    date: "2026-10-22",
+    headline: "Making the case for context-aware AI",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+  },
+  {
+    date: "2026-10-23",
     headline: "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Recursive launches Flint, a laptop coding model it says was largely built by AI",
     audiences: ["ai-for-teens"],
     link: "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-  },
-  {
-    date: "2026-10-21",
-    headline: "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-  },
-  {
-    date: "2026-10-21",
-    headline: "PHP Armageddon: OpenAI, Google&#8217;s Wiz find ancient holes, panicking the internet",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-  },
-  {
-    date: "2026-10-21",
-    headline: "AI promises productivity, but for managers, it&#8217;s mostly a headache for now",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-  },
-  {
-    date: "2026-10-20",
-    headline: "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-  },
-  {
-    date: "2026-10-20",
-    headline: "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
   },
 ];
 

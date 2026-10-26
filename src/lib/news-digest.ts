@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-25",
+    headline: "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+  },
+  {
+    date: "2026-10-25",
+    headline: "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+  },
+  {
+    date: "2026-10-25",
+    headline: "The hottest AI wearables and gadgets you should know about",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+  },
+  {
+    date: "2026-10-25",
+    headline: "r/opensource just banned AI, non-English speakers, and more",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+  },
+  {
+    date: "2026-10-24",
+    headline: "Pennsylvania will require labels on AI-generated ads",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+  },
+  {
     date: "2026-10-24",
     headline: "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
     audiences: ["ai-for-kids", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-  },
-  {
-    date: "2026-10-22",
-    headline: "Designing an AI serving harness built to last",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-  },
-  {
-    date: "2026-10-22",
-    headline: "The Foundations of Scalable AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-  },
-  {
-    date: "2026-10-22",
-    headline: "Making the case for context-aware AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-  },
-  {
-    date: "2026-10-23",
-    headline: "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-  },
-  {
-    date: "2026-10-23",
-    headline: "Left alone with nothing to do, AI agents started playing",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
   },
 ];
 

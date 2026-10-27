@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-27",
+    headline: "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+  },
+  {
+    date: "2026-10-27",
+    headline: "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+  },
+  {
+    date: "2026-10-27",
+    headline: "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+  },
+  {
+    date: "2026-10-26",
+    headline: "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+  },
+  {
+    date: "2026-10-26",
+    headline: "Anthropic officially files for its public debut",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+  },
+  {
     date: "2026-10-25",
     headline: "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Block&#8217;s new voice model sounds eerily human",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-  },
-  {
-    date: "2026-10-24",
-    headline: "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-  },
-  {
-    date: "2026-10-24",
-    headline: "Here are the top AI agents that can live in your text messages",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-  },
-  {
-    date: "2026-10-24",
-    headline: "Blue Planet III is keeping the rough edges in the age of AI",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-  },
-  {
-    date: "2026-10-23",
-    headline: "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-  },
-  {
-    date: "2026-10-23",
-    headline: "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
   },
 ];
 

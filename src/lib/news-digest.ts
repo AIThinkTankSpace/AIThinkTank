@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-28",
+    headline: "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+  },
+  {
+    date: "2026-10-27",
+    headline: "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+    audiences: ["ai-for-kids", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+  },
+  {
+    date: "2026-10-27",
+    headline: "Bank of America kindly asks that you don&#8217;t share your banking password with your AI assistant",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+  },
+  {
+    date: "2026-10-27",
+    headline: "Who&#8217;s really in charge at Anthropic after the IPO?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+  },
+  {
+    date: "2026-10-27",
+    headline: "Disruptive raises $10B fund to make big bets on at least 10 companies",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+  },
+  {
     date: "2026-10-27",
     headline: "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-  },
-  {
-    date: "2026-10-25",
-    headline: "The hottest AI wearables and gadgets you should know about",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-  },
-  {
-    date: "2026-10-25",
-    headline: "r/opensource just banned AI, non-English speakers, and more",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-  },
-  {
-    date: "2026-10-24",
-    headline: "Pennsylvania will require labels on AI-generated ads",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-  },
-  {
-    date: "2026-10-24",
-    headline: "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-  },
-  {
-    date: "2026-10-24",
-    headline: "Block&#8217;s new voice model sounds eerily human",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
   },
 ];
 

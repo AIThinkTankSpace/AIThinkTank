@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-28",
+    headline: "Google expands AI Search ads globally as core ad growth slows",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+  },
+  {
+    date: "2026-10-28",
+    headline: "Microsoft recorded $10 billion in revenue from OpenAI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+  },
+  {
+    date: "2026-10-28",
+    headline: "Anthropic just launched tools to show companies what their AI spending is buying",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+  },
+  {
+    date: "2026-10-28",
+    headline: "Chrome&#8217;s AI-powered Autofill can now dig through your Gmail to fill out forms",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+  },
+  {
+    date: "2026-10-28",
+    headline: "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+  },
+  {
+    date: "2026-10-28",
     headline: "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "How OpenAI turned its coding tools into dots, an always-on personal assistant",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-  },
-  {
-    date: "2026-10-26",
-    headline: "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-  },
-  {
-    date: "2026-10-26",
-    headline: "Anthropic officially files for its public debut",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-  },
-  {
-    date: "2026-10-25",
-    headline: "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-  },
-  {
-    date: "2026-10-25",
-    headline: "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
   },
 ];
 

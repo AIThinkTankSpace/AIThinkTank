@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-30",
+    headline: "You don&#8217;t need to believe in a god to get a religious exemption from using AI at work",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+  },
+  {
+    date: "2026-10-29",
+    headline: "Rivian expands joint venture with VW to include AI assistant",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+  },
+  {
+    date: "2026-10-29",
+    headline: "OpenAI-backed Thrive Holdings acquires ADT",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+  },
+  {
+    date: "2026-10-29",
+    headline: "Meta quietly launches an AI fashion app called Style Sketch",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+  },
+  {
+    date: "2026-10-29",
+    headline: "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+  },
+  {
     date: "2026-10-28",
     headline: "Google expands AI Search ads globally as core ad growth slows",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
     audiences: ["ai-for-kids", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "Bank of America kindly asks that you don&#8217;t share your banking password with your AI assistant",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "Who&#8217;s really in charge at Anthropic after the IPO?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "Disruptive raises $10B fund to make big bets on at least 10 companies",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
   },
 ];
 

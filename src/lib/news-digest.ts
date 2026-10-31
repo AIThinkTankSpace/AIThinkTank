@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-10-31",
+    headline: "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+  },
+  {
+    date: "2026-10-30",
+    headline: "Ollie, a privacy-focused AI assistant, is shutting down",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+  },
+  {
+    date: "2026-10-30",
+    headline: "Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencies following IPO,…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+  },
+  {
+    date: "2026-10-30",
+    headline: "Cracks are emerging in the AI spending boom",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+  },
+  {
+    date: "2026-10-30",
+    headline: "Zest&#8217;s new AI agent finds restaurants and books reservations over text",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+  },
+  {
     date: "2026-10-30",
     headline: "You don&#8217;t need to believe in a god to get a religious exemption from using AI at work",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Microsoft recorded $10 billion in revenue from OpenAI",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-  },
-  {
-    date: "2026-10-28",
-    headline: "Anthropic just launched tools to show companies what their AI spending is buying",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-  },
-  {
-    date: "2026-10-28",
-    headline: "Chrome&#8217;s AI-powered Autofill can now dig through your Gmail to fill out forms",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
-  },
-  {
-    date: "2026-10-28",
-    headline: "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-  },
-  {
-    date: "2026-10-28",
-    headline: "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-  },
-  {
-    date: "2026-10-27",
-    headline: "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-    audiences: ["ai-for-kids", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
   },
 ];
 

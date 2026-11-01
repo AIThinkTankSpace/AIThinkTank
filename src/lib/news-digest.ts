@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-10-31",
+    headline: "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+  },
+  {
+    date: "2026-10-31",
+    headline: "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+  },
+  {
+    date: "2026-10-31",
+    headline: "OpenAI reportedly lowers funding target for new round",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+  },
+  {
+    date: "2026-10-30",
+    headline: "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+  },
+  {
+    date: "2026-10-31",
+    headline: "I built an AI Tamagotchi before Meta could",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+  },
+  {
+    date: "2026-10-31",
     headline: "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Rivian expands joint venture with VW to include AI assistant",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-  },
-  {
-    date: "2026-10-29",
-    headline: "OpenAI-backed Thrive Holdings acquires ADT",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-  },
-  {
-    date: "2026-10-29",
-    headline: "Meta quietly launches an AI fashion app called Style Sketch",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-  },
-  {
-    date: "2026-10-29",
-    headline: "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-  },
-  {
-    date: "2026-10-28",
-    headline: "Google expands AI Search ads globally as core ad growth slows",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-  },
-  {
-    date: "2026-10-28",
-    headline: "Microsoft recorded $10 billion in revenue from OpenAI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
   },
 ];
 

@@ -15,6 +15,24 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-02",
+    headline: "OpenAI is finally merging ChatGPT&#8217;s chat and Work tabs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+  },
+  {
+    date: "2026-11-01",
+    headline: "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+  },
+  {
+    date: "2026-11-01",
+    headline: "AI can make tech CEOs’ lives easier. What about everyone else?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+  },
+  {
     date: "2026-10-31",
     headline: "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
     audiences: ["ai-for-corporates"],
@@ -67,24 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Cracks are emerging in the AI spending boom",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-  },
-  {
-    date: "2026-10-30",
-    headline: "Zest&#8217;s new AI agent finds restaurants and books reservations over text",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-  },
-  {
-    date: "2026-10-30",
-    headline: "You don&#8217;t need to believe in a god to get a religious exemption from using AI at work",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-  },
-  {
-    date: "2026-10-29",
-    headline: "Rivian expands joint venture with VW to include AI assistant",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
   },
 ];
 

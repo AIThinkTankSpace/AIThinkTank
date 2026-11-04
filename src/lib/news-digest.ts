@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-11-03",
+    headline: "Anthropic is working on a system to prove AI models&#8217; identity",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+  },
+  {
+    date: "2026-11-03",
+    headline: "Data centers are turning to old jet engines as the wait for power grows",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+  },
+  {
+    date: "2026-11-03",
+    headline: "Ted Schlein&#8217;s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+  },
+  {
+    date: "2026-11-03",
+    headline: "AI inference startup Fal doubles its valuation to $16B as demand surges",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+  },
+  {
+    date: "2026-11-03",
+    headline: "Netflix&#8217;s new AI Discover tab helps you find something to watch based on your mood",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+  },
+  {
+    date: "2026-11-03",
     headline: "Apple Watch&#8217;s AI features for rewinding and recapping conversations begin beta testing",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI might rebrand its data centers as ‘AI compute campuses’",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-  },
-  {
-    date: "2026-11-01",
-    headline: "AI can make tech CEOs’ lives easier. What about everyone else?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-  },
-  {
-    date: "2026-10-31",
-    headline: "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-  },
-  {
-    date: "2026-10-31",
-    headline: "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-  },
-  {
-    date: "2026-10-31",
-    headline: "OpenAI reportedly lowers funding target for new round",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-  },
-  {
-    date: "2026-10-30",
-    headline: "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
   },
 ];
 

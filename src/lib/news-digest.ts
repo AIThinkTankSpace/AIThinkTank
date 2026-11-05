@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-05",
+    headline: "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+  },
+  {
+    date: "2026-11-05",
+    headline: "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+  },
+  {
+    date: "2026-11-05",
+    headline: "Apple is reportedly cutting budgets for its internal AI usage",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+  },
+  {
+    date: "2026-11-04",
+    headline: "AI PACs spent millions trying to shape Congress — here&#8217;s how they fared",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+  },
+  {
+    date: "2026-11-04",
+    headline: "Nothing CEO says company&#8217;s mysterious AI-first device is dropping next month",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+  },
+  {
     date: "2026-11-03",
     headline: "Anthropic is working on a system to prove AI models&#8217; identity",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Apple may try to increase revenue by doing&#8230;something with third-party AI apps",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Y Combinator&#8217;s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-  },
-  {
-    date: "2026-11-02",
-    headline: "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-    audiences: ["ai-for-kids", "ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-  },
-  {
-    date: "2026-11-02",
-    headline: "OpenAI is finally merging ChatGPT&#8217;s chat and Work tabs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-  },
-  {
-    date: "2026-11-01",
-    headline: "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
   },
 ];
 

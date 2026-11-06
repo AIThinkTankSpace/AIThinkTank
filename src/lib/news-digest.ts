@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-06",
+    headline: "Underdog shows off a 32MB speech model in new demo",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "Physicl raises $10M to make the digital world real enough for robots",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+  },
+  {
+    date: "2026-11-05",
+    headline: "Airbnb says it&#8217;s launching an AI travel agent in the first half of 2027",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+  },
+  {
+    date: "2026-11-05",
+    headline: "Meta says US users can now video chat with their Muse AI avatar",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+  },
+  {
     date: "2026-11-05",
     headline: "A YC startup is putting $1M behind five unsolved materials science problems for AI",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Data centers are turning to old jet engines as the wait for power grows",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Ted Schlein&#8217;s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "AI inference startup Fal doubles its valuation to $16B as demand surges",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Netflix&#8217;s new AI Discover tab helps you find something to watch based on your mood",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Apple Watch&#8217;s AI features for rewinding and recapping conversations begin beta testing",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
   },
 ];
 

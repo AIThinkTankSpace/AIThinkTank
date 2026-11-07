@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-11-06",
+    headline: "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "How a Blue Wave midterm might reshape the AI industry",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "After the midterms, is the AI industry in for a rough two years?",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+  },
+  {
+    date: "2026-11-06",
     headline: "Underdog shows off a 32MB speech model in new demo",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
-  },
-  {
-    date: "2026-11-05",
-    headline: "Apple is reportedly cutting budgets for its internal AI usage",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-  },
-  {
-    date: "2026-11-04",
-    headline: "AI PACs spent millions trying to shape Congress — here&#8217;s how they fared",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-  },
-  {
-    date: "2026-11-04",
-    headline: "Nothing CEO says company&#8217;s mysterious AI-first device is dropping next month",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Anthropic is working on a system to prove AI models&#8217; identity",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-  },
-  {
-    date: "2026-11-03",
-    headline: "Data centers are turning to old jet engines as the wait for power grows",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
   },
 ];
 

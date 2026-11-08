@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-07",
+    headline: "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+  },
+  {
+    date: "2026-11-06",
+    headline: "Chainalysis says hackers stole credentials and tokens for all of its customers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+  },
+  {
+    date: "2026-11-07",
+    headline: "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+  },
+  {
     date: "2026-11-06",
     headline: "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Physicl raises $10M to make the digital world real enough for robots",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-  },
-  {
-    date: "2026-11-05",
-    headline: "Airbnb says it&#8217;s launching an AI travel agent in the first half of 2027",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-  },
-  {
-    date: "2026-11-05",
-    headline: "Meta says US users can now video chat with their Muse AI avatar",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-  },
-  {
-    date: "2026-11-05",
-    headline: "A YC startup is putting $1M behind five unsolved materials science problems for AI",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-  },
-  {
-    date: "2026-11-05",
-    headline: "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
   },
 ];
 

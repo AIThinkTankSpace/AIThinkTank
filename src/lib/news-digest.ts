@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-08",
+    headline: "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+  },
+  {
+    date: "2026-11-09",
+    headline: "The Download: empty AI climate claims, and an Nvidia investigation",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+  },
+  {
+    date: "2026-11-09",
+    headline: "Innovating with AI in the special chemicals industry",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+  },
+  {
+    date: "2026-11-09",
+    headline: "The climate case for AI has not been made",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+  },
+  {
+    date: "2026-11-08",
+    headline: "Here’s the full text of Jensen Huang’s memo to Nvidia",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+  },
+  {
     date: "2026-11-07",
     headline: "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Hundreds of Artex AI hacking tools found publicly exposed to the web",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "How a Blue Wave midterm might reshape the AI industry",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "After the midterms, is the AI industry in for a rough two years?",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "Underdog shows off a 32MB speech model in new demo",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "Physicl raises $10M to make the digital world real enough for robots",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
   },
 ];
 

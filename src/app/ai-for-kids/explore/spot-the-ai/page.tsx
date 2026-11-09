@@ -11,6 +11,7 @@ export const metadata: Metadata = {
       "Can you find all the items that use AI? Tap and discover which everyday things use artificial intelligence.",
     type: "website",
   },
+  robots: { index: false, follow: true },
 };
 
 export default function SpotTheAIPage() {

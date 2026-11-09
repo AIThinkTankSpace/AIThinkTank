@@ -4,6 +4,7 @@ import InfographicParentalControls from "@/components/interactives/InfographicPa
 export const metadata: Metadata = {
   title: "Parental Controls for AI Apps | Safety Guide for Parents",
   description: "Complete guide to parental controls on ChatGPT, Google, Alexa, and learning apps. Screen time limits and content filters.",
+  robots: { index: false, follow: true },
 };
 
 export default function ParentalControlsPage() {

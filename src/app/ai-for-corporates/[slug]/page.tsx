@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getArticleBySlug, getArticlesByCategory } from "@/lib/articles";
 import { hubConfigs } from "@/lib/hub-config";
+import { shouldNoindex } from "@/lib/noindex-slugs";
 import NewsletterCTA from "@/components/NewsletterCTA";
 import ShareButton from "@/components/ShareButton";
 import CrossPromoStrip from "@/components/CrossPromoStrip";
@@ -24,6 +25,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = await getArticleBySlug(CATEGORY, slug);
   if (!article) return {};
+  const noindex = shouldNoindex(CATEGORY, slug);
   return {
     title: article.title,
     description: article.description,
@@ -33,6 +35,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: article.date,
     },
+    ...(noindex && { robots: { index: false, follow: true } }),
   };
 }
 

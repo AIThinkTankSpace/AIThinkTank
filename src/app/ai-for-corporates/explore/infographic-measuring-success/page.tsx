@@ -11,6 +11,7 @@ export const metadata: Metadata = {
       "Three simple metrics—adoption, quality, business impact—that predict real AI success. No complex setup required.",
     type: "website",
   },
+  robots: { index: false, follow: true },
 };
 
 export default function InfographicMeasuringSuccessPage() {

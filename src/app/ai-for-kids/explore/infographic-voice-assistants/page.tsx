@@ -4,6 +4,7 @@ import InfographicVoiceAssistants from "@/components/interactives/InfographicVoi
 export const metadata: Metadata = {
   title: "Voice Assistants for Kids | Alexa, Google, Siri Safety Guide",
   description: "Is it safe for kids to use Alexa, Google Assistant, and Siri? Privacy concerns, benefits, and parental controls explained.",
+  robots: { index: false, follow: true },
 };
 
 export default function VoiceAssistantsPage() {

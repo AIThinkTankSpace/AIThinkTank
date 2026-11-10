@@ -38,6 +38,12 @@ export default function Navbar() {
               AI for Corporates
             </Link>
             <Link
+              href="/tools"
+              className="px-4 py-2 rounded-lg text-sm font-medium text-indigo-700 hover:text-indigo-900 hover:bg-indigo-50 transition-colors"
+            >
+              Tools
+            </Link>
+            <Link
               href="/about"
               className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors"
             >
@@ -73,6 +79,9 @@ export default function Navbar() {
               </Link>
               <Link href="/ai-for-corporates" className="px-4 py-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-teal-50 hover:text-teal-700" onClick={() => setMobileMenuOpen(false)}>
                 AI for Corporates
+              </Link>
+              <Link href="/tools" className="px-4 py-3 rounded-lg text-sm font-medium text-indigo-700 hover:bg-indigo-50 hover:text-indigo-900" onClick={() => setMobileMenuOpen(false)}>
+                Tools
               </Link>
               <Link href="/about" className="px-4 py-3 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50" onClick={() => setMobileMenuOpen(false)}>
                 About

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-10",
+    headline: "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "After challenging Google&#8217;s Android with Cyanogen, its co-founder takes aim at Windows for…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "Spotify&#8217;s AI DJ gets new voices, personalities, and an option for less chatter",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+  },
+  {
     date: "2026-11-08",
     headline: "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: a humanoid cleans house and Samsung builds for the AI boom",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "Chainalysis says hackers stole credentials and tokens for all of its customers",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-  },
-  {
-    date: "2026-11-07",
-    headline: "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-  },
-  {
-    date: "2026-11-06",
-    headline: "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
   },
 ];
 

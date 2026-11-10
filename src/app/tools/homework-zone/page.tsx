@@ -78,6 +78,32 @@ export default function HomeworkZonePage() {
 
       <HomeworkZoneAssessor />
 
+      {/* Printable download CTA */}
+      <section className="max-w-2xl mx-auto px-4 sm:px-6 pb-8">
+        <div className="rounded-xl border border-indigo-200 bg-gradient-to-br from-indigo-50 to-white p-6 sm:p-8">
+          <div className="flex flex-col sm:flex-row gap-5 items-start sm:items-center">
+            <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-indigo-600 text-white flex items-center justify-center text-2xl">
+              📄
+            </div>
+            <div className="flex-1">
+              <h3 className="text-lg font-bold text-gray-900 mb-1">
+                Print the 3-Zone Framework
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                A one-page study-desk poster with all three zones + 5 examples each. Free PDF. Pin it on your study desk or your classroom wall.
+              </p>
+            </div>
+            <a
+              href="/printables/homework-zone-framework.pdf"
+              download
+              className="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3 text-sm font-semibold rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white transition whitespace-nowrap"
+            >
+              Download PDF
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Related / further reading */}
       <section className="max-w-2xl mx-auto px-4 sm:px-6 pb-16">
         <div className="border-t border-gray-200 pt-8">

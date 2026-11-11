@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-11",
+    headline: "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "OpenAI acquires Odessia, travel startup created by Sonder founder",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "All 7 Anthropic founders will each cash out about $250M in IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+  },
+  {
+    date: "2026-11-10",
+    headline: "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+  },
+  {
     date: "2026-11-10",
     headline: "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "The Download: empty AI climate claims, and an Nvidia investigation",
     audiences: ["ai-for-corporates"],
     link: "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
-  },
-  {
-    date: "2026-11-09",
-    headline: "Innovating with AI in the special chemicals industry",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-  },
-  {
-    date: "2026-11-09",
-    headline: "The climate case for AI has not been made",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
-  },
-  {
-    date: "2026-11-08",
-    headline: "Here’s the full text of Jensen Huang’s memo to Nvidia",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-  },
-  {
-    date: "2026-11-07",
-    headline: "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-  },
-  {
-    date: "2026-11-06",
-    headline: "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
   },
 ];
 

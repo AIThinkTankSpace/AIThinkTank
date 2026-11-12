@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-11-11",
+    headline: "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+  },
+  {
+    date: "2026-11-11",
+    headline: "Jensen Huang accused of having another affair — with an Nvidia exec",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+  },
+  {
+    date: "2026-11-11",
+    headline: "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+  },
+  {
+    date: "2026-11-11",
+    headline: "With $720M round, Britain&#8217;s Fractile gets a leg up in the race for AI chips",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+  },
+  {
+    date: "2026-11-11",
+    headline: "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+  },
+  {
+    date: "2026-11-11",
     headline: "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "After challenging Google&#8217;s Android with Cyanogen, its co-founder takes aim at Windows for…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "Spotify&#8217;s AI DJ gets new voices, personalities, and an option for less chatter",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-  },
-  {
-    date: "2026-11-08",
-    headline: "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-  },
-  {
-    date: "2026-11-09",
-    headline: "The Download: empty AI climate claims, and an Nvidia investigation",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
   },
 ];
 

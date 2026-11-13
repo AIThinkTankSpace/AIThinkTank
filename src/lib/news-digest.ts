@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-13",
+    headline: "Israel&#8217;s VCs see opportunity for challengers in Nvidia&#8217;s turmoil",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+  },
+  {
+    date: "2026-11-12",
+    headline: "Democrats launch Nvidia investigation, write scathing letter on Huang&#8217;s…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+  },
+  {
+    date: "2026-11-12",
+    headline: "Jensen Huang was having a third affair, Reuters reports",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+  },
+  {
+    date: "2026-11-12",
+    headline: "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+  },
+  {
+    date: "2026-11-12",
+    headline: "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+  },
+  {
     date: "2026-11-11",
     headline: "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "OpenAI acquires Odessia, travel startup created by Sonder founder",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "All 7 Anthropic founders will each cash out about $250M in IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
   },
 ];
 

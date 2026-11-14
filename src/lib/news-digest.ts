@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-11-13",
+    headline: "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+  },
+  {
+    date: "2026-11-13",
+    headline: "AI agent startup LangChain hits $3B valuation",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+  },
+  {
+    date: "2026-11-13",
+    headline: "Export-banned Nvidia chips are behind China&#8217;s most powerful AI models — uh-oh, Jensen!",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+  },
+  {
+    date: "2026-11-13",
+    headline: "ChatGPT&#8217;s new Wallet lets AI agents shop and check out for you",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+  },
+  {
+    date: "2026-11-13",
+    headline: "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+  },
+  {
+    date: "2026-11-13",
     headline: "Israel&#8217;s VCs see opportunity for challengers in Nvidia&#8217;s turmoil",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Jensen Huang accused of having another affair — with an Nvidia exec",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-  },
-  {
-    date: "2026-11-11",
-    headline: "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-  },
-  {
-    date: "2026-11-11",
-    headline: "With $720M round, Britain&#8217;s Fractile gets a leg up in the race for AI chips",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-  },
-  {
-    date: "2026-11-11",
-    headline: "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
-  },
-  {
-    date: "2026-11-11",
-    headline: "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
-  },
-  {
-    date: "2026-11-10",
-    headline: "OpenAI acquires Odessia, travel startup created by Sonder founder",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
   },
 ];
 

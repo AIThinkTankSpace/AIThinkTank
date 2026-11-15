@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-15",
+    headline: "Where was Nvidia&#8217;s security team?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+  },
+  {
+    date: "2026-11-14",
+    headline: "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+  },
+  {
+    date: "2026-11-14",
+    headline: "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+  },
+  {
+    date: "2026-11-14",
+    headline: "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+  },
+  {
+    date: "2026-11-13",
+    headline: "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+  },
+  {
     date: "2026-11-13",
     headline: "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Democrats launch Nvidia investigation, write scathing letter on Huang&#8217;s…",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-  },
-  {
-    date: "2026-11-12",
-    headline: "Jensen Huang was having a third affair, Reuters reports",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-  },
-  {
-    date: "2026-11-12",
-    headline: "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-  },
-  {
-    date: "2026-11-12",
-    headline: "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-  },
-  {
-    date: "2026-11-11",
-    headline: "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-  },
-  {
-    date: "2026-11-11",
-    headline: "Jensen Huang accused of having another affair — with an Nvidia exec",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-17",
+    headline: "Voyage Labs raises $12 million for a specialized AI travel assistant",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+  },
+  {
+    date: "2026-11-17",
+    headline: "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+  },
+  {
+    date: "2026-11-17",
+    headline: "Science Corporation&#8217;s brain tech is worth $3.5 billion after new funding",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+  },
+  {
+    date: "2026-11-17",
+    headline: "Nvidia&#8217;s first big move after Jensen Huang&#8217;s exit targets national security",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+  },
+  {
+    date: "2026-11-17",
+    headline: "Spotify&#8217;s new tool aims to stop deepfakes from being attributed to real artists",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+  },
+  {
     date: "2026-11-16",
     headline: "Google Maps can now build trip itineraries with real-time details about each stop",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-  },
-  {
-    date: "2026-11-14",
-    headline: "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-  },
-  {
-    date: "2026-11-14",
-    headline: "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-  },
-  {
-    date: "2026-11-13",
-    headline: "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
-  },
-  {
-    date: "2026-11-13",
-    headline: "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-  },
-  {
-    date: "2026-11-13",
-    headline: "AI agent startup LangChain hits $3B valuation",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
   },
 ];
 

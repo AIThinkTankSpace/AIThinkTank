@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-19",
+    headline: "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boom to the test",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+  },
+  {
+    date: "2026-11-19",
+    headline: "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+  },
+  {
+    date: "2026-11-18",
+    headline: "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is…",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+  },
+  {
+    date: "2026-11-18",
+    headline: "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+  },
+  {
+    date: "2026-11-18",
+    headline: "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+  },
+  {
     date: "2026-11-18",
     headline: "Nvidia clarifies when it will — and won&#8217;t —keep financing neoclouds",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-  },
-  {
-    date: "2026-11-17",
-    headline: "Science Corporation&#8217;s brain tech is worth $3.5 billion after new funding",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-  },
-  {
-    date: "2026-11-17",
-    headline: "Nvidia&#8217;s first big move after Jensen Huang&#8217;s exit targets national security",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-  },
-  {
-    date: "2026-11-17",
-    headline: "Spotify&#8217;s new tool aims to stop deepfakes from being attributed to real artists",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-  },
-  {
-    date: "2026-11-16",
-    headline: "Google Maps can now build trip itineraries with real-time details about each stop",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-  },
-  {
-    date: "2026-11-16",
-    headline: "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
   },
 ];
 

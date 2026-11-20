@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-20",
+    headline: "The fallout from Nvidia’s Jensen Huang scandal continues",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+  },
+  {
+    date: "2026-11-20",
+    headline: "Six AI-powered gadgets that could make your home office smarter",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+  },
+  {
+    date: "2026-11-20",
+    headline: "Apple may be developing its own AI agent that runs your Mac",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+  },
+  {
+    date: "2026-11-20",
+    headline: "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+  },
+  {
+    date: "2026-11-19",
+    headline: "These tech outages are giving Y2K, AI agent style",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+  },
+  {
     date: "2026-11-19",
     headline: "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boom to the test",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Nvidia promises that revenue will keep soaring — for now",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-  },
-  {
-    date: "2026-11-17",
-    headline: "Voyage Labs raises $12 million for a specialized AI travel assistant",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-  },
-  {
-    date: "2026-11-17",
-    headline: "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
   },
 ];
 

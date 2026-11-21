@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-11-20",
+    headline: "Daniel Ek backs AI researcher&#8217;s fusion power startup. Here&#8217;s what they&#8217;re…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+  },
+  {
+    date: "2026-11-20",
+    headline: "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+  },
+  {
+    date: "2026-11-20",
+    headline: "The most misunderstood graph in AI just got a major update",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+  },
+  {
+    date: "2026-11-19",
+    headline: "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+    audiences: ["ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+  },
+  {
+    date: "2026-11-20",
+    headline: "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+    audiences: ["ai-for-corporates"],
+    link: "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+  },
+  {
+    date: "2026-11-20",
     headline: "The fallout from Nvidia’s Jensen Huang scandal continues",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is…",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Nvidia clarifies when it will — and won&#8217;t —keep financing neoclouds",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-  },
-  {
-    date: "2026-11-18",
-    headline: "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
   },
 ];
 

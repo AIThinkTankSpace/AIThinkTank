@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-21",
+    headline: "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+  },
+  {
+    date: "2026-11-21",
+    headline: "A tale of two Nvidias",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+  },
+  {
+    date: "2026-11-21",
+    headline: "Here are the top AI agents that can live in your text messages",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  },
+  {
+    date: "2026-11-21",
+    headline: "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+  },
+  {
+    date: "2026-11-21",
+    headline: "The UN fails to agree on rules regulating ‘killer robots’",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+  },
+  {
     date: "2026-11-20",
     headline: "Daniel Ek backs AI researcher&#8217;s fusion power startup. Here&#8217;s what they&#8217;re…",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Six AI-powered gadgets that could make your home office smarter",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "Apple may be developing its own AI agent that runs your Mac",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-  },
-  {
-    date: "2026-11-19",
-    headline: "These tech outages are giving Y2K, AI agent style",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-  },
-  {
-    date: "2026-11-19",
-    headline: "Anthropic&#8217;s IPO puts AI&#8217;s circular financing boom to the test",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-  },
-  {
-    date: "2026-11-19",
-    headline: "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
   },
 ];
 

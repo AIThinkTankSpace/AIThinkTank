@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-23",
+    headline: "Amazon snaps up Decart&#8217;s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+  },
+  {
+    date: "2026-11-23",
+    headline: "Trump reportedly called into Nvidia board meeting to advocate for Huang&#8217;s return",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+  },
+  {
+    date: "2026-11-23",
+    headline: "Trump endorses Jensen Huang&#8217;s return to Nvidia, says US has no evidence of wrongdoing",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+  },
+  {
+    date: "2026-11-23",
+    headline: "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+  },
+  {
+    date: "2026-11-23",
+    headline: "Nvidia reverses course and brings Jensen Huang back as CEO",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+  },
+  {
     date: "2026-11-21",
     headline: "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
     audiences: ["ai-for-teens", "ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "The most misunderstood graph in AI just got a major update",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-  },
-  {
-    date: "2026-11-19",
-    headline: "The Download: a living liver, a billion-dollar battery deal, and AI hype",
-    audiences: ["ai-for-corporates"],
-    link: "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-    audiences: ["ai-for-corporates"],
-    link: "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "The fallout from Nvidia’s Jensen Huang scandal continues",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "Six AI-powered gadgets that could make your home office smarter",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
   },
 ];
 

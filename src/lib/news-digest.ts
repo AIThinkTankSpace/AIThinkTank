@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-24",
+    headline: "Meta brings its Muse AI assistant directly into Instagram DMs",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+  },
+  {
+    date: "2026-11-24",
+    headline: "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+  },
+  {
+    date: "2026-11-24",
+    headline: "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+  },
+  {
+    date: "2026-11-24",
+    headline: "Pinterest will now let parents limit the AI-generated content their teens see",
+    audiences: ["ai-for-kids", "ai-for-teens"],
+    link: "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+  },
+  {
+    date: "2026-11-24",
+    headline: "Amazon&#8217;s Decart acquisition is a bet on using software to narrow the gap with Nvidia in…",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+  },
+  {
     date: "2026-11-23",
     headline: "Amazon snaps up Decart&#8217;s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "A tale of two Nvidias",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-  },
-  {
-    date: "2026-11-21",
-    headline: "Here are the top AI agents that can live in your text messages",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-  },
-  {
-    date: "2026-11-21",
-    headline: "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-  },
-  {
-    date: "2026-11-21",
-    headline: "The UN fails to agree on rules regulating ‘killer robots’",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-  },
-  {
-    date: "2026-11-20",
-    headline: "Daniel Ek backs AI researcher&#8217;s fusion power startup. Here&#8217;s what they&#8217;re…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-  },
-  {
-    date: "2026-11-20",
-    headline: "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
   },
 ];
 

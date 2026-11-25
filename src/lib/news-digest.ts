@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-25",
+    headline: "AI data centers are becoming harder to build, and neoclouds are feeling it",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "Yale&#8217;s Sonnenfeld: Nvidia is a &#8216;detriment&#8217; to US industrial might — not a champion",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+  },
+  {
+    date: "2026-11-24",
+    headline: "Even the best AI agents struggle with everyday life",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+  },
+  {
     date: "2026-11-24",
     headline: "Meta brings its Muse AI assistant directly into Instagram DMs",
     audiences: ["ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Trump reportedly called into Nvidia board meeting to advocate for Huang&#8217;s return",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-  },
-  {
-    date: "2026-11-23",
-    headline: "Trump endorses Jensen Huang&#8217;s return to Nvidia, says US has no evidence of wrongdoing",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-  },
-  {
-    date: "2026-11-23",
-    headline: "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-  },
-  {
-    date: "2026-11-23",
-    headline: "Nvidia reverses course and brings Jensen Huang back as CEO",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-  },
-  {
-    date: "2026-11-21",
-    headline: "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-  },
-  {
-    date: "2026-11-21",
-    headline: "A tale of two Nvidias",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
   },
 ];
 

@@ -15,6 +15,36 @@ export interface NewsItem {
  */
 export const newsItems: NewsItem[] = [
   {
+    date: "2026-11-26",
+    headline: "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn&#8217;t a virtue",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "S&#038;P considers Nvidia credit downgrade over governance and &#8216;key man&#8217; risks",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "Jensen Huang broke Nvidia&#8217;s code of conduct, and his employees may not forget it",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+  },
+  {
     date: "2026-11-25",
     headline: "AI data centers are becoming harder to build, and neoclouds are feeling it",
     audiences: ["ai-for-teens", "ai-for-corporates"],
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-  },
-  {
-    date: "2026-11-24",
-    headline: "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-    audiences: ["ai-for-teens", "ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-  },
-  {
-    date: "2026-11-24",
-    headline: "Pinterest will now let parents limit the AI-generated content their teens see",
-    audiences: ["ai-for-kids", "ai-for-teens"],
-    link: "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-  },
-  {
-    date: "2026-11-24",
-    headline: "Amazon&#8217;s Decart acquisition is a bet on using software to narrow the gap with Nvidia in…",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-  },
-  {
-    date: "2026-11-23",
-    headline: "Amazon snaps up Decart&#8217;s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-  },
-  {
-    date: "2026-11-23",
-    headline: "Trump reportedly called into Nvidia board meeting to advocate for Huang&#8217;s return",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
   },
 ];
 

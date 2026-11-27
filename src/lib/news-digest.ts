@@ -16,6 +16,36 @@ export interface NewsItem {
 export const newsItems: NewsItem[] = [
   {
     date: "2026-11-26",
+    headline: "Nvidia hits pause on chip shipments to Southeast Asia",
+    audiences: ["ai-for-corporates"],
+    link: "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+  },
+  {
+    date: "2026-11-26",
+    headline: "The Download: Better bionic hands and AI’s natural-gas boom",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "The Download: AI swamping open records, and firefighting for permafrost",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "AI is straining America’s open records systems",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+  },
+  {
+    date: "2026-11-25",
+    headline: "Backblaze explains why it's sharing customer information with advertisers",
+    audiences: ["ai-for-teens", "ai-for-corporates"],
+    link: "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+  },
+  {
+    date: "2026-11-26",
     headline: "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn&#8217;t a virtue",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
@@ -55,36 +85,6 @@ export const newsItems: NewsItem[] = [
     headline: "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
     audiences: ["ai-for-corporates"],
     link: "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-  },
-  {
-    date: "2026-11-25",
-    headline: "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-  },
-  {
-    date: "2026-11-25",
-    headline: "Yale&#8217;s Sonnenfeld: Nvidia is a &#8216;detriment&#8217; to US industrial might — not a champion",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-  },
-  {
-    date: "2026-11-24",
-    headline: "Even the best AI agents struggle with everyday life",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-  },
-  {
-    date: "2026-11-24",
-    headline: "Meta brings its Muse AI assistant directly into Instagram DMs",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-  },
-  {
-    date: "2026-11-24",
-    headline: "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-    audiences: ["ai-for-corporates"],
-    link: "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
   },
 ];
 
